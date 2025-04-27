@@ -1,5 +1,9 @@
 # NozzleClogFree
 
+<p align="center">
+  <img src="https://github.com/simonwan1980/NozzleClogFree/blob/main/icon/icon.png" width="128" height="128" alt="NozzleClogFree Icon">
+</p>
+
 **NozzleClogFree** is a small tool to help keep your inkjet printer in good condition by preventing nozzle clogging.
 
 Inkjet printer heads tend to clog if the printer isn’t used for a while. Built-in cleaning functions can clear the clogs, but they waste a lot of ink. Manual cleaning is even more inconvenient and error-prone.
