@@ -23,3 +23,10 @@ A simple and efficient solution is to print a small page at regular intervals â€
 - Customizable printing interval and page content
 - Wake-from-sleep support (if system is still on and printer is connected)
 - Minimal ink usage compared to built-in cleaning processes
+
+## Download
+
+You can download the latest version of **NozzleClogFree** from the link below:
+
+ðŸ‘‰ [NozzleClogFree (.dmg)](https://drive.google.com/drive/folders/1-ij5muH9olhYpp4Yt-EpFdSfe9a8F554?usp=sharing)
+
