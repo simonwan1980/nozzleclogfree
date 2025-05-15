@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  English localization
+*/
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree";
+"Select Printer:" = "Select Printer:";
+"Printer" = "Printer";
+"View Logs" = "View Logs";
+"Enable Auto Print" = "Enable Auto Print";
+"Disable Auto Print" = "Disable Auto Print";
+"(Enabled)" = "(Enabled)";
+"(Disabled)" = "(Disabled)";
+"Next Print Time: %@" = "Next Print Time: %@";
+"Print Test Page Now" = "Print Test Page Now";
+"Exit" = "Exit";
+"Configure Schedule" = "Configure Schedule";
+"Language" = "Language";
+"Select Language" = "Select Language";
+"Search" = "Search";
+"About" = "About";
+"About_Version" = "Version: %@";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configure Print Schedule";
+"Schedule Type" = "Schedule Type";
+"Daily" = "Daily";
+"Weekly" = "Weekly";
+"Monthly" = "Monthly";
+"Auto" = "Auto";
+"Time" = "Time";
+"Hour" = "Hour";
+"Minute" = "Minute";
+"Day of Week" = "Day of Week";
+"Day of Month" = "Day of Month";
+"Sunday" = "Sunday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Save" = "Save";
+"Schedule Summary" = "Schedule Summary";
+"Print test page every day at %@" = "Print test page every day at %@";
+"Print test page every %@ at %@" = "Print test page every %@ at %@";
+"Print test page on day %d of each month at %@" = "Print test page on day %d of each month at %@";
+
+// LogView
+"Print Logs" = "Print Logs";
+"Close" = "Close";
+"No logs yet" = "No logs yet";
+"Click the button to generate test data" = "Click the button to generate test data";
+"Total %d log entries" = "Total %d log entries";
+"Print #%d" = "Print #%d";
+"Printed on %@" = "Printed on %@";
+"printer_operation_success" = "Print succeeded";
+"printer_operation_failed_unknown" = "Unknown print error";
+"printer_error_no_printer_selected" = "No printer selected";
+"printer_error_pdf_load_failed" = "Failed to load test page PDF file";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Unable to cancel wake schedule: %@";
+"Wake schedule cancelled" = "Wake schedule cancelled";
+"Unable to create AppleScript" = "Unable to create AppleScript";
+"Unable to set wake schedule: %@" = "Unable to set wake schedule: %@";
+"Wake schedule set successfully" = "Wake schedule set successfully";
+
+// LogManager
+"Unable to create application directory: %@" = "Unable to create application directory: %@";
+"Read log data: %d bytes" = "Read log data: %d bytes";
+"Failed to load logs: %@" = "Failed to load logs: %@";
+"Failed to save logs: %@" = "Failed to save logs: %@";
+"Logs saved successfully" = "Logs saved successfully";
+
+// Additional
+"Save Settings" = "Save Settings";
+"Cancel" = "Cancel";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing.";
+"Settings Saved" = "Settings Saved";
+"Your print settings have been saved and will be used for future printing." = "Your print settings have been saved and will be used for future printing.";
+"English" = "English";
+"Chinese" = "Chinese";
+"Japanese" = "Japanese";
+"Select a language" = "Select a language";
+"Language settings" = "Language settings";
+"Search Printer" = "Search Printer";
+"Searching..." = "Searching...";
+"Found %d printers" = "Found %d printers";
+"Found printer: %@" = "Found printer: %@";
+"Search failed: %@" = "Search failed: %@";
+"Help Title" = "Automatic Printhead Maintenance";
+"Help Content" = "To prevent printhead clogging due to long periods of inactivity, this program automatically prints a test page at regular intervals. By keeping the ink flowing through the nozzles, it ensures your printer stays in optimal working condition—ready to print when you need it.";

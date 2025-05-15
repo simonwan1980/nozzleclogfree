@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Norwegian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Ingen skriver valgt";
+"printer_error_pdf_load_failed" = "Kunne ikke laste PDF-filen for testsiden";
+"printer_error_print_operation_failed" = "Utskriftsfeil: %@";
+"printer_operation_success" = "Utskrift vellykket";
+"printer_operation_failed_unknown" = "Ukjent utskriftsfeil";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Dysevedlikehold";
+"Select Printer:" = "Velg Skriver:";
+"Printer" = "Skriver";
+"View Logs" = "Vis Logger";
+"Enable Auto Print" = "Aktiver Automatisk Utskrift";
+"Disable Auto Print" = "Deaktiver Automatisk Utskrift";
+"(Enabled)" = "(Aktivert)";
+"(Disabled)" = "(Deaktivert)";
+"Next Print Time: %@" = "Neste Utskriftstid: %@";
+"Print Test Page Now" = "Skriv Ut Testside Nå";
+"Exit" = "Avslutt";
+"Language" = "Språk";
+"Select Language" = "Velg språk";
+"Search" = "Søk";
+"Configure Schedule" = "Konfigurer Tidsplan";
+"Print File:" = "Utskriftsfil:";
+"Default Test Page" = "Standard Testside";
+"Select..." = "Velg...";
+"Clear" = "Tøm";
+"Print Settings" = "Utskriftsinnstillinger";
+"Preview" = "Forhåndsvisning";
+"Select PDF File" = "Velg PDF-fil";
+"Print Preview" = "Forhåndsvisning av Utskrift";
+"Save Settings" = "Lagre Innstillinger";
+"Cancel" = "Avbryt";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "I følgende dialog, klikk på 'Skriv ut'-knappen for å lagre innstillingene uten å faktisk skrive ut. Disse innstillingene vil bli brukt for fremtidige utskrifter.";
+"Settings Saved" = "Innstillinger Lagret";
+"Your print settings have been saved and will be used for future printing." = "Utskriftsinnstillingene dine er lagret og vil bli brukt for fremtidige utskrifter.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigurer Utskriftstidsplan";
+"Schedule Type" = "Tidsplantype";
+"Daily" = "Daglig";
+"Weekly" = "Ukentlig";
+"Monthly" = "Månedlig";
+"Time" = "Tid";
+"Hour" = "Time";
+"Minute" = "Minutt";
+"Day of Week" = "Ukedag";
+"Day of Month" = "Dag i Måneden";
+"Sunday" = "Søndag";
+"Monday" = "Mandag";
+"Tuesday" = "Tirsdag";
+"Wednesday" = "Onsdag";
+"Thursday" = "Torsdag";
+"Friday" = "Fredag";
+"Saturday" = "Lørdag";
+"Save" = "Lagre";
+"Schedule Summary" = "Tidsplanoversikt";
+"Print test page every day at %@" = "Skriv ut testside hver dag kl. %@";
+"Print test page every %@ at %@" = "Skriv ut testside hver %@ kl. %@";
+"Print test page on day %d of each month at %@" = "Skriv ut testside den %d. hver måned kl. %@";
+
+// LogView
+"Print Logs" = "Utskriftslogger";
+"Close" = "Lukk";
+"No logs yet" = "Ingen logger ennå";
+"Click the button to generate test data" = "Klikk på knappen for å generere testdata";
+"Total %d log entries" = "Totalt %d loggoppføringer";
+"Print #%d" = "Utskrift #%d";
+"Printed on %@" = "Skrevet ut %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Kan ikke avbryte oppvåkningsplan: %@";
+"Wake schedule cancelled" = "Oppvåkningsplan avbrutt";
+"Unable to create AppleScript" = "Kan ikke opprette AppleScript";
+"Unable to set wake schedule: %@" = "Kan ikke sette oppvåkningsplan: %@";
+"Wake schedule set successfully" = "Oppvåkningsplan satt";
+
+// LogManager
+"Unable to create application directory: %@" = "Kan ikke opprette applikasjonsmappe: %@";
+"Read log data: %d bytes" = "Leste loggdata: %d bytes";
+"Failed to load logs: %@" = "Kunne ikke laste logger: %@";
+"Failed to save logs: %@" = "Kunne ikke lagre logger: %@";
+"Logs saved successfully" = "Logger lagret";
+
+"Help Content" = "For å forhindre tilstopping av skrivehodet på grunn av lange perioder med inaktivitet, skriver dette programmet automatisk ut en testside med jevne mellomrom. Ved å holde blekket flytende gjennom dysene, sikrer det at skriveren din forblir i optimal arbeidstilstand – klar til å skrive ut når du trenger det.";
+"Help Title" = "Automatisk vedlikehold av skrivehode";
+"About" = "Om";

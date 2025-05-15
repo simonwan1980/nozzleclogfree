@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Ukrainian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Принтер не вибрано";
+"printer_error_pdf_load_failed" = "Не вдалося завантажити PDF-файл тестової сторінки";
+"printer_error_print_operation_failed" = "Помилка друку: %@";
+"printer_operation_success" = "Друк успішний";
+"printer_operation_failed_unknown" = "Невідома помилка друку";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Обслуговування Сопел";
+"Select Printer:" = "Виберіть принтер:";
+"Printer" = "Принтер";
+"View Logs" = "Перегляд журналів";
+"Enable Auto Print" = "Увімкнути автоматичний друк";
+"Disable Auto Print" = "Вимкнути автоматичний друк";
+"(Enabled)" = "(Увімкнено)";
+"(Disabled)" = "(Вимкнено)";
+"Next Print Time: %@" = "Наступний час друку: %@";
+"Print Test Page Now" = "Надрукувати тестову сторінку зараз";
+"Exit" = "Вихід";
+"Language" = "Мова";
+"Select Language" = "Вибрати мову";
+"Search" = "Пошук";
+"Configure Schedule" = "Налаштувати розклад";
+"Print File:" = "Файл друку:";
+"Default Test Page" = "Стандартна тестова сторінка";
+"Select..." = "Вибрати...";
+"Clear" = "Очистити";
+"Print Settings" = "Налаштування друку";
+"Preview" = "Перегляд";
+"Select PDF File" = "Вибрати PDF-файл";
+"Print Preview" = "Попередній перегляд друку";
+"Save Settings" = "Зберегти налаштування";
+"Cancel" = "Скасувати";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "У наступному діалоговому вікні натисніть кнопку 'Друк', щоб зберегти налаштування без фактичного друку. Ці налаштування будуть використовуватися для майбутнього друку.";
+"Settings Saved" = "Налаштування збережено";
+"Your print settings have been saved and will be used for future printing." = "Ваші налаштування друку збережено і вони будуть використовуватися для майбутнього друку.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Налаштування розкладу друку";
+"Schedule Type" = "Тип розкладу";
+"Daily" = "Щодня";
+"Weekly" = "Щотижня";
+"Monthly" = "Щомісяця";
+"Time" = "Час";
+"Hour" = "Година";
+"Minute" = "Хвилина";
+"Day of Week" = "День тижня";
+"Day of Month" = "День місяця";
+"Sunday" = "Неділя";
+"Monday" = "Понеділок";
+"Tuesday" = "Вівторок";
+"Wednesday" = "Середа";
+"Thursday" = "Четвер";
+"Friday" = "П'ятниця";
+"Saturday" = "Субота";
+"Save" = "Зберегти";
+"Schedule Summary" = "Резюме розкладу";
+"Print test page every day at %@" = "Друк тестової сторінки щодня о %@";
+"Print test page every %@ at %@" = "Друк тестової сторінки щоразу %@ о %@";
+"Print test page on day %d of each month at %@" = "Друк тестової сторінки %d числа кожного місяця о %@";
+
+// LogView
+"Print Logs" = "Журнали друку";
+"Close" = "Закрити";
+"No logs yet" = "Поки немає журналів";
+"Click the button to generate test data" = "Натисніть кнопку для створення тестових даних";
+"Total %d log entries" = "Всього %d записів у журналі";
+"Print #%d" = "Друк #%d";
+"Printed on %@" = "Надруковано %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Не вдалося скасувати розклад пробудження: %@";
+"Wake schedule cancelled" = "Розклад пробудження скасовано";
+"Unable to create AppleScript" = "Не вдалося створити AppleScript";
+"Unable to set wake schedule: %@" = "Не вдалося встановити розклад пробудження: %@";
+"Wake schedule set successfully" = "Розклад пробудження успішно встановлено";
+
+// LogManager
+"Unable to create application directory: %@" = "Не вдалося створити каталог додатка: %@";
+"Read log data: %d bytes" = "Прочитано даних журналу: %d байт";
+"Failed to load logs: %@" = "Не вдалося завантажити журнали: %@";
+"Failed to save logs: %@" = "Не вдалося зберегти журнали: %@";
+"Logs saved successfully" = "Журнали успішно збережено";
+
+"Help Content" = "Щоб запобігти засміченню друкуючої головки через тривалі періоди бездіяльності, ця програма автоматично друкує тестову сторінку через регулярні проміжки часу. Підтримуючи потік чорнила через сопла, вона забезпечує оптимальний робочий стан вашого принтера — готового до друку, коли він вам понадобиться.";
+"Help Title" = "Автоматичне обслуговування друкуючої головки";
+"About" = "Про програму";

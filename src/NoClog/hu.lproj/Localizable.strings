@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Hungarian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nincs nyomtató kiválasztva";
+"printer_error_pdf_load_failed" = "Nem sikerült betölteni a tesztoldal PDF-fájlját";
+"printer_error_print_operation_failed" = "Nyomtatási hiba: %@";
+"printer_operation_success" = "A nyomtatás sikeres volt";
+"printer_operation_failed_unknown" = "Ismeretlen nyomtatási hiba";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Fúvóka Karbantartás";
+"Select Printer:" = "Nyomtató Kiválasztása:";
+"Printer" = "Nyomtató";
+"View Logs" = "Naplók Megtekintése";
+"Enable Auto Print" = "Automatikus Nyomtatás Engedélyezése";
+"Disable Auto Print" = "Automatikus Nyomtatás Letiltása";
+"(Enabled)" = "(Engedélyezve)";
+"(Disabled)" = "(Letiltva)";
+"Next Print Time: %@" = "Következő Nyomtatási Idő: %@";
+"Print Test Page Now" = "Tesztoldal Nyomtatása Most";
+"Exit" = "Kilépés";
+"Language" = "Nyelv";
+"Select Language" = "Nyelv kiválasztása";
+"Search" = "Keresés";
+"Configure Schedule" = "Ütemezés Beállítása";
+"Print File:" = "Nyomtatási Fájl:";
+"Default Test Page" = "Alapértelmezett Tesztoldal";
+"Select..." = "Kiválasztás...";
+"Clear" = "Törlés";
+"Print Settings" = "Nyomtatási Beállítások";
+"Preview" = "Előnézet";
+"Select PDF File" = "PDF Fájl Kiválasztása";
+"Print Preview" = "Nyomtatási Előnézet";
+"Save Settings" = "Beállítások Mentése";
+"Cancel" = "Mégse";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "A következő párbeszédablakban kattintson a 'Nyomtatás' gombra a beállítások mentéséhez tényleges nyomtatás nélkül. Ezeket a beállításokat a jövőbeni nyomtatásokhoz használja a rendszer.";
+"Settings Saved" = "Beállítások Mentve";
+"Your print settings have been saved and will be used for future printing." = "A nyomtatási beállításai mentésre kerültek és a jövőbeni nyomtatásokhoz lesznek használva.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Nyomtatási Ütemezés Beállítása";
+"Schedule Type" = "Ütemezés Típusa";
+"Daily" = "Napi";
+"Weekly" = "Heti";
+"Monthly" = "Havi";
+"Time" = "Idő";
+"Hour" = "Óra";
+"Minute" = "Perc";
+"Day of Week" = "A Hét Napja";
+"Day of Month" = "A Hónap Napja";
+"Sunday" = "Vasárnap";
+"Monday" = "Hétfő";
+"Tuesday" = "Kedd";
+"Wednesday" = "Szerda";
+"Thursday" = "Csütörtök";
+"Friday" = "Péntek";
+"Saturday" = "Szombat";
+"Save" = "Mentés";
+"Schedule Summary" = "Ütemezés Összefoglalása";
+"Print test page every day at %@" = "Tesztoldal nyomtatása minden nap %@ órakor";
+"Print test page every %@ at %@" = "Tesztoldal nyomtatása minden %@ %@ órakor";
+"Print test page on day %d of each month at %@" = "Tesztoldal nyomtatása minden hónap %d. napján %@ órakor";
+
+// LogView
+"Print Logs" = "Nyomtatási Naplók";
+"Close" = "Bezárás";
+"No logs yet" = "Még nincsenek naplók";
+"Click the button to generate test data" = "Kattintson a gombra tesztadatok létrehozásához";
+"Total %d log entries" = "Összesen %d naplóbejegyzés";
+"Print #%d" = "Nyomtatás #%d";
+"Printed on %@" = "Nyomtatva: %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nem sikerült törölni az ébresztési ütemezést: %@";
+"Wake schedule cancelled" = "Ébresztési ütemezés törölve";
+"Unable to create AppleScript" = "Nem sikerült létrehozni az AppleScript-et";
+"Unable to set wake schedule: %@" = "Nem sikerült beállítani az ébresztési ütemezést: %@";
+"Wake schedule set successfully" = "Ébresztési ütemezés sikeresen beállítva";
+
+// LogManager
+"Unable to create application directory: %@" = "Nem sikerült létrehozni az alkalmazás könyvtárat: %@";
+"Read log data: %d bytes" = "Naplóadatok olvasása: %d bájt";
+"Failed to load logs: %@" = "Nem sikerült betölteni a naplókat: %@";
+"Failed to save logs: %@" = "Nem sikerült menteni a naplókat: %@";
+"Logs saved successfully" = "Naplók sikeresen mentve";
+
+"Help Content" = "A nyomtatófej eldugulásának megelőzése érdekében, amely a hosszú inaktív időszakok miatt következhet be, ez a program rendszeres időközönként automatikusan kinyomtat egy tesztoldalt. A tinta fúvókákon keresztüli áramlásának fenntartásával biztosítja, hogy nyomtatója optimális működési állapotban maradjon – készen állva a nyomtatásra, amikor szüksége van rá.";
+"Help Title" = "Automatikus nyomtatófej karbantartás";
+"About" = "Névjegy";

@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Danish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Ingen printer valgt";
+"printer_error_pdf_load_failed" = "Kunne ikke indlæse testside-PDF-filen";
+"printer_error_print_operation_failed" = "Udskrivning mislykkedes: %@";
+"printer_operation_success" = "Udskrift lykkedes";
+"printer_operation_failed_unknown" = "Ukendt udskrivningsfejl";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Dysepleje";
+"Select Printer:" = "Vælg Printer:";
+"Printer" = "Printer";
+"View Logs" = "Vis Logfiler";
+"Enable Auto Print" = "Aktiver Automatisk Udskrivning";
+"Disable Auto Print" = "Deaktiver Automatisk Udskrivning";
+"(Enabled)" = "(Aktiveret)";
+"(Disabled)" = "(Deaktiveret)";
+"Next Print Time: %@" = "Næste Udskrivningstid: %@";
+"Print Test Page Now" = "Udskriv Testside Nu";
+"Exit" = "Afslut";
+"Language" = "Sprog";
+"Select Language" = "Vælg sprog";
+"Search" = "Søg";
+"Configure Schedule" = "Konfigurer Tidsplan";
+"Print File:" = "Udskrivningsfil:";
+"Default Test Page" = "Standard Testside";
+"Select..." = "Vælg...";
+"Clear" = "Ryd";
+"Print Settings" = "Udskriftsindstillinger";
+"Preview" = "Forhåndsvisning";
+"Select PDF File" = "Vælg PDF-fil";
+"Print Preview" = "Udskriftsforhåndsvisning";
+"Save Settings" = "Gem Indstillinger";
+"Cancel" = "Annuller";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "I den følgende dialog skal du klikke på knappen 'Udskriv' for at gemme dine indstillinger uden faktisk at udskrive. Disse indstillinger vil blive brugt til fremtidige udskrivninger.";
+"Settings Saved" = "Indstillinger Gemt";
+"Your print settings have been saved and will be used for future printing." = "Dine udskriftsindstillinger er blevet gemt og vil blive brugt til fremtidige udskrivninger.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigurer Udskrivningstidsplan";
+"Schedule Type" = "Tidsplantype";
+"Daily" = "Dagligt";
+"Weekly" = "Ugentligt";
+"Monthly" = "Månedligt";
+"Time" = "Tid";
+"Hour" = "Time";
+"Minute" = "Minut";
+"Day of Week" = "Ugedag";
+"Day of Month" = "Dag i Måneden";
+"Sunday" = "Søndag";
+"Monday" = "Mandag";
+"Tuesday" = "Tirsdag";
+"Wednesday" = "Onsdag";
+"Thursday" = "Torsdag";
+"Friday" = "Fredag";
+"Saturday" = "Lørdag";
+"Save" = "Gem";
+"Schedule Summary" = "Tidsplanoversigt";
+"Print test page every day at %@" = "Udskriv testside hver dag kl. %@";
+"Print test page every %@ at %@" = "Udskriv testside hver %@ kl. %@";
+"Print test page on day %d of each month at %@" = "Udskriv testside den %d. hver måned kl. %@";
+
+// LogView
+"Print Logs" = "Udskrivningslogfiler";
+"Close" = "Luk";
+"No logs yet" = "Ingen logfiler endnu";
+"Click the button to generate test data" = "Klik på knappen for at generere testdata";
+"Total %d log entries" = "I alt %d logposter";
+"Print #%d" = "Udskrivning #%d";
+"Printed on %@" = "Udskrevet den %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Kan ikke annullere vækketidsplan: %@";
+"Wake schedule cancelled" = "Vækketidsplan annulleret";
+"Unable to create AppleScript" = "Kan ikke oprette AppleScript";
+"Unable to set wake schedule: %@" = "Kan ikke indstille vækketidsplan: %@";
+"Wake schedule set successfully" = "Vækketidsplan indstillet";
+
+// LogManager
+"Unable to create application directory: %@" = "Kan ikke oprette programmappe: %@";
+"Read log data: %d bytes" = "Læste logdata: %d bytes";
+"Failed to load logs: %@" = "Kunne ikke indlæse logfiler: %@";
+"Failed to save logs: %@" = "Kunne ikke gemme logfiler: %@";
+"Logs saved successfully" = "Logfiler gemt";
+
+"Help Content" = "For at forhindre tilstopning af printhovedet på grund af lange perioder med inaktivitet, udskriver dette program automatisk en testside med jævne mellemrum. Ved at holde blækket flydende gennem dyserne sikrer det, at din printer forbliver i optimal driftstilstand - klar til at udskrive, når du har brug for det.";
+"Help Title" = "Automatisk vedligeholdelse af printhoved";
+"About" = "Om";

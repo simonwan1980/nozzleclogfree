@@ -1,3 +1,4 @@
+# macOS
 .DS_Store
 .DS_Store?
 ._*
@@ -5,3 +6,31 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad/
+
+# Build
+build/
+DerivedData/
+
+# Firebase
+GoogleService-Info.plist
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Personal files
+**/xcuserdata/
+**/simon.xcuserdatad/

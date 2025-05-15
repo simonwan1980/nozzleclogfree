@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Spanish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "No se ha seleccionado impresora";
+"printer_error_pdf_load_failed" = "No se pudo cargar el archivo PDF de la página de prueba";
+"printer_error_print_operation_failed" = "Error de impresión: %@";
+"printer_operation_success" = "Impresión exitosa";
+"printer_operation_failed_unknown" = "Error de impresión desconocido";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Mantenimiento de Boquillas";
+"Select Printer:" = "Seleccionar Impresora:";
+"Printer" = "Impresora";
+"View Logs" = "Ver Registros";
+"Enable Auto Print" = "Activar Impresión Automática";
+"Disable Auto Print" = "Desactivar Impresión Automática";
+"(Enabled)" = "(Activado)";
+"(Disabled)" = "(Desactivado)";
+"Next Print Time: %@" = "Próxima Impresión: %@";
+"Print Test Page Now" = "Imprimir Página de Prueba Ahora";
+"Exit" = "Salir";
+"Language" = "Idioma";
+"Select Language" = "Seleccionar idioma";
+"Search" = "Buscar";
+"Configure Schedule" = "Configurar Programación";
+"Print File:" = "Archivo de Impresión:";
+"Default Test Page" = "Página de Prueba Predeterminada";
+"Select..." = "Seleccionar...";
+"Clear" = "Borrar";
+"Print Settings" = "Configuración de Impresión";
+"Preview" = "Vista Previa";
+"Select PDF File" = "Seleccionar Archivo PDF";
+"Print Preview" = "Vista Previa de Impresión";
+"Save Settings" = "Guardar Configuración";
+"Cancel" = "Cancelar";
+"OK" = "Aceptar";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "En el siguiente diálogo, haga clic en el botón 'Imprimir' para guardar su configuración sin imprimir realmente. Esta configuración se utilizará para futuras impresiones.";
+"Settings Saved" = "Configuración Guardada";
+"Your print settings have been saved and will be used for future printing." = "Su configuración de impresión ha sido guardada y se utilizará para futuras impresiones.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configurar Programación de Impresión";
+"Schedule Type" = "Tipo de Programación";
+"Daily" = "Diario";
+"Weekly" = "Semanal";
+"Monthly" = "Mensual";
+"Time" = "Hora";
+"Hour" = "Hora";
+"Minute" = "Minuto";
+"Day of Week" = "Día de la Semana";
+"Day of Month" = "Día del Mes";
+"Sunday" = "Domingo";
+"Monday" = "Lunes";
+"Tuesday" = "Martes";
+"Wednesday" = "Miércoles";
+"Thursday" = "Jueves";
+"Friday" = "Viernes";
+"Saturday" = "Sábado";
+"Save" = "Guardar";
+"Schedule Summary" = "Resumen de Programación";
+"Print test page every day at %@" = "Imprimir página de prueba todos los días a las %@";
+"Print test page every %@ at %@" = "Imprimir página de prueba cada %@ a las %@";
+"Print test page on day %d of each month at %@" = "Imprimir página de prueba el día %d de cada mes a las %@";
+
+// LogView
+"Print Logs" = "Registros de Impresión";
+"Close" = "Cerrar";
+"No logs yet" = "Aún no hay registros";
+"Click the button to generate test data" = "Haga clic en el botón para generar datos de prueba";
+"Total %d log entries" = "Total de %d entradas de registro";
+"Print #%d" = "Impresión #%d";
+"Printed on %@" = "Impreso el %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "No se puede cancelar la programación de activación: %@";
+"Wake schedule cancelled" = "Programación de activación cancelada";
+"Unable to create AppleScript" = "No se puede crear AppleScript";
+"Unable to set wake schedule: %@" = "No se puede establecer la programación de activación: %@";
+"Wake schedule set successfully" = "Programación de activación establecida con éxito";
+
+// LogManager
+"Unable to create application directory: %@" = "No se puede crear el directorio de la aplicación: %@";
+"Read log data: %d bytes" = "Datos de registro leídos: %d bytes";
+"Failed to load logs: %@" = "Error al cargar registros: %@";
+"Failed to save logs: %@" = "Error al guardar registros: %@";
+"Logs saved successfully" = "Registros guardados con éxito";
+
+"Help Content" = "Para evitar la obstrucción del cabezal de impresión debido a largos períodos de inactividad, este programa imprime automáticamente una página de prueba a intervalos regulares. Al mantener el flujo de tinta a través de las boquillas, garantiza que su impresora permanezca en óptimas condiciones de funcionamiento, lista para imprimir cuando la necesite.";
+"Help Title" = "Mantenimiento automático del cabezal de impresión";
+"About" = "Acerca de";

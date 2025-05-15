@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Indonesian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Tidak ada printer yang dipilih";
+"printer_error_pdf_load_failed" = "Gagal memuat file PDF halaman uji";
+"printer_error_print_operation_failed" = "Kesalahan pencetakan: %@";
+"printer_operation_success" = "Pencetakan berhasil";
+"printer_operation_failed_unknown" = "Kesalahan pencetakan tidak diketahui";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Perawatan Nozel";
+"Select Printer:" = "Pilih Printer:";
+"Printer" = "Printer";
+"View Logs" = "Lihat Log";
+"Enable Auto Print" = "Aktifkan Cetak Otomatis";
+"Disable Auto Print" = "Nonaktifkan Cetak Otomatis";
+"(Enabled)" = "(Diaktifkan)";
+"(Disabled)" = "(Dinonaktifkan)";
+"Next Print Time: %@" = "Waktu Cetak Berikutnya: %@";
+"Print Test Page Now" = "Cetak Halaman Uji Sekarang";
+"Exit" = "Keluar";
+"Language" = "Bahasa";
+"Select Language" = "Pilih Bahasa";
+"Search" = "Cari";
+"Configure Schedule" = "Konfigurasi Jadwal";
+"Print File:" = "File Cetak:";
+"Default Test Page" = "Halaman Uji Default";
+"Select..." = "Pilih...";
+"Clear" = "Bersihkan";
+"Print Settings" = "Pengaturan Cetak";
+"Preview" = "Pratinjau";
+"Select PDF File" = "Pilih File PDF";
+"Print Preview" = "Pratinjau Cetak";
+"Save Settings" = "Simpan Pengaturan";
+"Cancel" = "Batal";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Dalam dialog berikut, klik tombol 'Cetak' untuk menyimpan pengaturan Anda tanpa benar-benar mencetak. Pengaturan ini akan digunakan untuk pencetakan di masa mendatang.";
+"Settings Saved" = "Pengaturan Disimpan";
+"Your print settings have been saved and will be used for future printing." = "Pengaturan cetak Anda telah disimpan dan akan digunakan untuk pencetakan di masa mendatang.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigurasi Jadwal Cetak";
+"Schedule Type" = "Jenis Jadwal";
+"Daily" = "Harian";
+"Weekly" = "Mingguan";
+"Monthly" = "Bulanan";
+"Time" = "Waktu";
+"Hour" = "Jam";
+"Minute" = "Menit";
+"Day of Week" = "Hari dalam Minggu";
+"Day of Month" = "Hari dalam Bulan";
+"Sunday" = "Minggu";
+"Monday" = "Senin";
+"Tuesday" = "Selasa";
+"Wednesday" = "Rabu";
+"Thursday" = "Kamis";
+"Friday" = "Jumat";
+"Saturday" = "Sabtu";
+"Save" = "Simpan";
+"Schedule Summary" = "Ringkasan Jadwal";
+"Print test page every day at %@" = "Cetak halaman uji setiap hari pada %@";
+"Print test page every %@ at %@" = "Cetak halaman uji setiap %@ pada %@";
+"Print test page on day %d of each month at %@" = "Cetak halaman uji pada hari ke-%d setiap bulan pada %@";
+
+// LogView
+"Print Logs" = "Log Cetak";
+"Close" = "Tutup";
+"No logs yet" = "Belum ada log";
+"Click the button to generate test data" = "Klik tombol untuk menghasilkan data uji";
+"Total %d log entries" = "Total %d entri log";
+"Print #%d" = "Cetak #%d";
+"Printed on %@" = "Dicetak pada %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Tidak dapat membatalkan jadwal bangun: %@";
+"Wake schedule cancelled" = "Jadwal bangun dibatalkan";
+"Unable to create AppleScript" = "Tidak dapat membuat AppleScript";
+"Unable to set wake schedule: %@" = "Tidak dapat mengatur jadwal bangun: %@";
+"Wake schedule set successfully" = "Jadwal bangun berhasil diatur";
+
+// LogManager
+"Unable to create application directory: %@" = "Tidak dapat membuat direktori aplikasi: %@";
+"Read log data: %d bytes" = "Membaca data log: %d byte";
+"Failed to load logs: %@" = "Gagal memuat log: %@";
+"Failed to save logs: %@" = "Gagal menyimpan log: %@";
+"Logs saved successfully" = "Log berhasil disimpan";
+
+"Help Content" = "Untuk mencegah penyumbatan printhead akibat periode tidak aktif yang lama, program ini secara otomatis mencetak halaman uji pada interval reguler. Dengan menjaga aliran tinta melalui nozel, program ini memastikan printer Anda tetap dalam kondisi kerja optimal—siap mencetak saat Anda membutuhkannya.";
+"Help Title" = "Pemeliharaan Printhead Otomatis";
+"About" = "Tentang";

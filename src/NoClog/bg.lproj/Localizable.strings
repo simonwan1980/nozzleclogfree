@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Bulgarian localization
+*/
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Поддръжка на Дюзи";
+"Select Printer:" = "Избор на Принтер:";
+"Printer" = "Принтер";
+"View Logs" = "Преглед на Логове";
+"Enable Auto Print" = "Активиране на Автоматичен Печат";
+"Disable Auto Print" = "Деактивиране на Автоматичен Печат";
+"(Enabled)" = "(Активирано)";
+"(Disabled)" = "(Деактивирано)";
+"Next Print Time: %@" = "Следващо Време за Печат: %@";
+"Print Test Page Now" = "Отпечатай Тестова Страница Сега";
+"Exit" = "Изход";
+"Language" = "Език";
+"Select Language" = "Избери език";
+"Search" = "Търсене";
+"Configure Schedule" = "Конфигуриране на График";
+"Print File:" = "Файл за Печат:";
+"Default Test Page" = "Стандартна Тестова Страница";
+"Select..." = "Избор...";
+"Clear" = "Изчисти";
+"Print Settings" = "Настройки за Печат";
+"Preview" = "Преглед";
+"Select PDF File" = "Избор на PDF Файл";
+"Print Preview" = "Преглед на Печат";
+"Save Settings" = "Запази Настройките";
+"Cancel" = "Отказ";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "В следващия диалог, натиснете бутона 'Печат', за да запазите настройките си без действително отпечатване. Тези настройки ще бъдат използвани за бъдещи печати.";
+"Settings Saved" = "Настройките са Запазени";
+"Your print settings have been saved and will be used for future printing." = "Вашите настройки за печат са запазени и ще бъдат използвани за бъдещи печати.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Конфигуриране на График за Печат";
+"Schedule Type" = "Тип График";
+"Daily" = "Ежедневно";
+"Weekly" = "Седмично";
+"Monthly" = "Месечно";
+"Time" = "Време";
+"Hour" = "Час";
+"Minute" = "Минута";
+"Day of Week" = "Ден от Седмицата";
+"Day of Month" = "Ден от Месеца";
+"Sunday" = "Неделя";
+"Monday" = "Понеделник";
+"Tuesday" = "Вторник";
+"Wednesday" = "Сряда";
+"Thursday" = "Четвъртък";
+"Friday" = "Петък";
+"Saturday" = "Събота";
+"Save" = "Запази";
+"Schedule Summary" = "Резюме на График";
+"Print test page every day at %@" = "Отпечатване на тестова страница всеки ден в %@";
+"Print test page every %@ at %@" = "Отпечатване на тестова страница всеки %@ в %@";
+"Print test page on day %d of each month at %@" = "Отпечатване на тестова страница на ден %d от всеки месец в %@";
+
+// LogView
+"Print Logs" = "Логове за Печат";
+"Close" = "Затвори";
+"No logs yet" = "Все още няма логове";
+"Click the button to generate test data" = "Натиснете бутона, за да генерирате тестови данни";
+"Total %d log entries" = "Общо %d записа в лога";
+"Print #%d" = "Печат #%d";
+"Printed on %@" = "Отпечатано на %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Не може да се отмени графика за събуждане: %@";
+"Wake schedule cancelled" = "Графикът за събуждане е отменен";
+"Unable to create AppleScript" = "Не може да се създаде AppleScript";
+"Unable to set wake schedule: %@" = "Не може да се зададе график за събуждане: %@";
+"Wake schedule set successfully" = "Графикът за събуждане е зададен успешно";
+
+// LogManager
+"Unable to create application directory: %@" = "Не може да се създаде директория на приложението: %@";
+"Read log data: %d bytes" = "Прочетени данни от лога: %d байта";
+"Failed to load logs: %@" = "Неуспешно зареждане на логове: %@";
+"Failed to save logs: %@" = "Неуспешно запазване на логове: %@";
+"Logs saved successfully" = "Логовете са запазени успешно";
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Не е избран принтер";
+"printer_error_pdf_load_failed" = "Неуспешно зареждане на PDF файла за тестовата страница";
+"printer_error_print_operation_failed" = "Грешка при печат: %@";
+"printer_operation_success" = "Печатът е успешен";
+"printer_operation_failed_unknown" = "Неизвестна грешка при печат";
+
+"Help Content" = "За да предотврати запушване на печатащата глава поради дълги периоди на бездействие, тази програма автоматично отпечатва тестова страница на редовни интервали. Като поддържа мастилото да тече през дюзите, тя гарантира, че вашият принтер остава в оптимално работно състояние - готов за печат, когато имате нужда от него.";
+"Help Title" = "Автоматична поддръжка на печатащата глава";
+"About" = "Относно";

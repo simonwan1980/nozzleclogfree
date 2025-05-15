@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Luxembourgish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Kee Printer ausgewielt";
+"printer_error_pdf_load_failed" = "PDF-Datei vun der Testsäit konnt net geluede ginn";
+"printer_error_print_operation_failed" = "Dréckfeeler: %@";
+"printer_operation_success" = "Dréck war erfollegräich";
+"printer_operation_failed_unknown" = "Onbekannte Dréckfeeler";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Düsenwartung";
+"Select Printer:" = "Printer auswielen:";
+"Printer" = "Printer";
+"View Logs" = "Logbicher ukucken";
+"Enable Auto Print" = "Automatesch Drocken aktivéieren";
+"Disable Auto Print" = "Automatesch Drocken desaktivéieren";
+"(Enabled)" = "(Aktivéiert)";
+"(Disabled)" = "(Desaktivéiert)";
+"Next Print Time: %@" = "Nächst Drockzäit: %@";
+"Print Test Page Now" = "Testsäit elo drécken";
+"Exit" = "Zoumaachen";
+"Language" = "Sprooch";
+"Select Language" = "Sprooch wielen";
+"Search" = "Sichen";
+"Configure Schedule" = "Zäitplang konfiguréieren";
+"Print File:" = "Drockdatei:";
+"Default Test Page" = "Standard Testsäit";
+"Select..." = "Auswielen...";
+"Clear" = "Läschen";
+"Print Settings" = "Drockastellungen";
+"Preview" = "Virschau";
+"Select PDF File" = "PDF Datei auswielen";
+"Print Preview" = "Drockvirschau";
+"Save Settings" = "Astellungen späicheren";
+"Cancel" = "Ofbriechen";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Am nächsten Dialog, klickt op de 'Drécken' Knäppchen fir Är Astellungen ze späicheren ouni wierklech ze drécken. Dës Astellunge ginn fir zukünfteg Drockaufgaben benotzt.";
+"Settings Saved" = "Astellunge gespäichert";
+"Your print settings have been saved and will be used for future printing." = "Är Drockastellunge goufe gespäichert a gi fir zukünfteg Drockaufgabe benotzt.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Drockzäitplang konfiguréieren";
+"Schedule Type" = "Zäitplangtyp";
+"Daily" = "Deeglech";
+"Weekly" = "Wöchentlech";
+"Monthly" = "Méintlech";
+"Time" = "Zäit";
+"Hour" = "Stonn";
+"Minute" = "Minutt";
+"Day of Week" = "Wochendag";
+"Day of Month" = "Dag vum Mount";
+"Sunday" = "Sonndeg";
+"Monday" = "Méindeg";
+"Tuesday" = "Dënschdeg";
+"Wednesday" = "Mëttwoch";
+"Thursday" = "Donneschdeg";
+"Friday" = "Freideg";
+"Saturday" = "Samschdeg";
+"Save" = "Späicheren";
+"Schedule Summary" = "Zäitplangzesummefaassung";
+"Print test page every day at %@" = "Testsäit all Dag um %@ drécken";
+"Print test page every %@ at %@" = "Testsäit all %@ um %@ drécken";
+"Print test page on day %d of each month at %@" = "Testsäit um %d. Dag vun all Mount um %@ drécken";
+
+// LogView
+"Print Logs" = "Drocklogbicher";
+"Close" = "Zoumaachen";
+"No logs yet" = "Nach keng Logbicher";
+"Click the button to generate test data" = "Klickt op de Knäppche fir Testdate ze generéieren";
+"Total %d log entries" = "Total %d Logbichaschreiwungen";
+"Print #%d" = "Drock #%d";
+"Printed on %@" = "Gedréckt um %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Opweckzäitplang konnt net ofgebrach ginn: %@";
+"Wake schedule cancelled" = "Opweckzäitplang ofgebrach";
+"Unable to create AppleScript" = "AppleScript konnt net erstallt ginn";
+"Unable to set wake schedule: %@" = "Opweckzäitplang konnt net agestallt ginn: %@";
+"Wake schedule set successfully" = "Opweckzäitplang erfollegräich agestallt";
+
+// LogManager
+"Unable to create application directory: %@" = "Applikatiounsverzeechnes konnt net erstallt ginn: %@";
+"Read log data: %d bytes" = "Logdate geliesen: %d Bytes";
+"Failed to load logs: %@" = "Logbicher konnten net geluede ginn: %@";
+"Failed to save logs: %@" = "Logbicher konnten net gespäichert ginn: %@";
+"Logs saved successfully" = "Logbicher erfollegräich gespäichert";
+
+"Help Content" = "Fir ze verhënneren datt d'Drockkäpp verstoppt gëtt wéinst laange Perioden vun Inaktivitéit, dréckt dëst Programm automatesch eng Testsäit a regelméissegen Ofstänn. Andeems d'Tënt duerch d'Düsen fléisst, stellt et sécher datt Äre Printer an optimalen Aarbechtskonditiounen bleift - prett fir ze drécken wann Dir et braucht.";
+"Help Title" = "Automatesch Drockkapp Maintenance";
+"About" = "Iwwer";

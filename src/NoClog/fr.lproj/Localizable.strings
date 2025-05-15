@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  French localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Aucune imprimante sélectionnée";
+"printer_error_pdf_load_failed" = "Impossible de charger le fichier PDF de la page de test";
+"printer_error_print_operation_failed" = "Erreur d'impression : %@";
+"printer_operation_success" = "Impression réussie";
+"printer_operation_failed_unknown" = "Erreur d'impression inconnue";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Entretien des Buses";
+"Select Printer:" = "Sélectionner l'Imprimante:";
+"Printer" = "Imprimante";
+"View Logs" = "Voir les Journaux";
+"Enable Auto Print" = "Activer l'Impression Automatique";
+"Disable Auto Print" = "Désactiver l'Impression Automatique";
+"(Enabled)" = "(Activé)";
+"(Disabled)" = "(Désactivé)";
+"Next Print Time: %@" = "Prochaine Impression: %@";
+"Print Test Page Now" = "Imprimer une Page de Test Maintenant";
+"Exit" = "Quitter";
+"Language" = "Langue";
+"Select Language" = "Sélectionner la langue";
+"Search" = "Rechercher";
+"Configure Schedule" = "Configurer le Calendrier";
+"Print File:" = "Fichier d'Impression:";
+"Default Test Page" = "Page de Test par Défaut";
+"Select..." = "Sélectionner...";
+"Clear" = "Effacer";
+"Print Settings" = "Paramètres d'Impression";
+"Preview" = "Aperçu";
+"Select PDF File" = "Sélectionner un Fichier PDF";
+"Print Preview" = "Aperçu d'Impression";
+"Save Settings" = "Enregistrer les Paramètres";
+"Cancel" = "Annuler";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Dans la boîte de dialogue suivante, cliquez sur le bouton 'Imprimer' pour enregistrer vos paramètres sans imprimer réellement. Ces paramètres seront utilisés pour les impressions futures.";
+"Settings Saved" = "Paramètres Enregistrés";
+"Your print settings have been saved and will be used for future printing." = "Vos paramètres d'impression ont été enregistrés et seront utilisés pour les impressions futures.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configurer le Calendrier d'Impression";
+"Schedule Type" = "Type de Calendrier";
+"Daily" = "Quotidien";
+"Weekly" = "Hebdomadaire";
+"Monthly" = "Mensuel";
+"Auto" = "Auto";
+"Time" = "Heure";
+"Hour" = "Heure";
+"Minute" = "Minute";
+"Day of Week" = "Jour de la Semaine";
+"Day of Month" = "Jour du Mois";
+"Sunday" = "Dimanche";
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+"Save" = "Enregistrer";
+"Schedule Summary" = "Résumé du Calendrier";
+"Print test page every day at %@" = "Imprimer une page de test tous les jours à %@";
+"Print test page every %@ at %@" = "Imprimer une page de test chaque %@ à %@";
+"Print test page on day %d of each month at %@" = "Imprimer une page de test le jour %d de chaque mois à %@";
+
+// LogView
+"Print Logs" = "Journaux d'Impression";
+"Close" = "Fermer";
+"No logs yet" = "Pas encore de journaux";
+"Click the button to generate test data" = "Cliquez sur le bouton pour générer des données de test";
+"Total %d log entries" = "Total de %d entrées de journal";
+"Print #%d" = "Impression #%d";
+"Printed on %@" = "Imprimé le %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Impossible d'annuler le calendrier de réveil: %@";
+"Wake schedule cancelled" = "Calendrier de réveil annulé";
+"Unable to create AppleScript" = "Impossible de créer l'AppleScript";
+"Unable to set wake schedule: %@" = "Impossible de définir le calendrier de réveil: %@";
+"Wake schedule set successfully" = "Calendrier de réveil défini avec succès";
+
+// LogManager
+"Unable to create application directory: %@" = "Impossible de créer le répertoire de l'application: %@";
+"Read log data: %d bytes" = "Données de journal lues: %d octets";
+"Failed to load logs: %@" = "Échec du chargement des journaux: %@";
+"Failed to save logs: %@" = "Échec de l'enregistrement des journaux: %@";
+"Logs saved successfully" = "Journaux enregistrés avec succès";
+
+"Help Content" = "Pour éviter l'obstruction de la tête d'impression due à de longues périodes d'inactivité, ce programme imprime automatiquement une page de test à intervalles réguliers. En maintenant l'encre qui s'écoule à travers les buses, il garantit que votre imprimante reste dans des conditions de fonctionnement optimales, prête à imprimer lorsque vous en avez besoin.";
+"Help Title" = "Entretien automatique de la tête d'impression";
+"About" = "À propos";
+"About_Version" = "Version : %@";

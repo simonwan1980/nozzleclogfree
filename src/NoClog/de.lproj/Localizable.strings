@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  German localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Kein Drucker ausgewählt";
+"printer_error_pdf_load_failed" = "Testseiten-PDF-Datei konnte nicht geladen werden";
+"printer_error_print_operation_failed" = "Druckfehler: %@";
+"printer_operation_success" = "Druck erfolgreich";
+"printer_operation_failed_unknown" = "Unbekannter Druckfehler";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Düsenwartung";
+"Select Printer:" = "Drucker auswählen:";
+"Printer" = "Drucker";
+"View Logs" = "Protokolle anzeigen";
+"Enable Auto Print" = "Automatischen Druck aktivieren";
+"Disable Auto Print" = "Automatischen Druck deaktivieren";
+"(Enabled)" = "(Aktiviert)";
+"(Disabled)" = "(Deaktiviert)";
+"Next Print Time: %@" = "Nächste Druckzeit: %@";
+"Print Test Page Now" = "Testseite jetzt drucken";
+"Exit" = "Beenden";
+"Language" = "Sprache";
+"Select Language" = "Sprache auswählen";
+"Search" = "Suchen";
+"Configure Schedule" = "Zeitplan konfigurieren";
+"Print File:" = "Druckdatei:";
+"Default Test Page" = "Standard-Testseite";
+"Select..." = "Auswählen...";
+"Clear" = "Löschen";
+"Print Settings" = "Druckeinstellungen";
+"Preview" = "Vorschau";
+"Select PDF File" = "PDF-Datei auswählen";
+"Print Preview" = "Druckvorschau";
+"Save Settings" = "Einstellungen speichern";
+"Cancel" = "Abbrechen";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Klicken Sie im folgenden Dialog auf die Schaltfläche 'Drucken', um Ihre Einstellungen zu speichern, ohne tatsächlich zu drucken. Diese Einstellungen werden für zukünftige Druckvorgänge verwendet.";
+"Settings Saved" = "Einstellungen gespeichert";
+"Your print settings have been saved and will be used for future printing." = "Ihre Druckeinstellungen wurden gespeichert und werden für zukünftige Druckvorgänge verwendet.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Druckzeitplan konfigurieren";
+"Schedule Type" = "Zeitplantyp";
+"Daily" = "Täglich";
+"Weekly" = "Wöchentlich";
+"Monthly" = "Monatlich";
+"Time" = "Zeit";
+"Hour" = "Stunde";
+"Minute" = "Minute";
+"Day of Week" = "Wochentag";
+"Day of Month" = "Tag des Monats";
+"Sunday" = "Sonntag";
+"Monday" = "Montag";
+"Tuesday" = "Dienstag";
+"Wednesday" = "Mittwoch";
+"Thursday" = "Donnerstag";
+"Friday" = "Freitag";
+"Saturday" = "Samstag";
+"Save" = "Speichern";
+"Schedule Summary" = "Zeitplanzusammenfassung";
+"Print test page every day at %@" = "Testseite jeden Tag um %@ drucken";
+"Print test page every %@ at %@" = "Testseite jeden %@ um %@ drucken";
+"Print test page on day %d of each month at %@" = "Testseite am %d. Tag jedes Monats um %@ drucken";
+
+// LogView
+"Print Logs" = "Druckprotokolle";
+"Close" = "Schließen";
+"No logs yet" = "Noch keine Protokolle";
+"Click the button to generate test data" = "Klicken Sie auf die Schaltfläche, um Testdaten zu generieren";
+"Total %d log entries" = "Insgesamt %d Protokolleinträge";
+"Print #%d" = "Druck #%d";
+"Printed on %@" = "Gedruckt am %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Aufweckzeitplan kann nicht abgebrochen werden: %@";
+"Wake schedule cancelled" = "Aufweckzeitplan abgebrochen";
+"Unable to create AppleScript" = "AppleScript kann nicht erstellt werden";
+"Unable to set wake schedule: %@" = "Aufweckzeitplan kann nicht eingestellt werden: %@";
+"Wake schedule set successfully" = "Aufweckzeitplan erfolgreich eingestellt";
+
+// LogManager
+"Unable to create application directory: %@" = "Anwendungsverzeichnis kann nicht erstellt werden: %@";
+"Read log data: %d bytes" = "Protokolldaten gelesen: %d Bytes";
+"Failed to load logs: %@" = "Fehler beim Laden der Protokolle: %@";
+"Failed to save logs: %@" = "Fehler beim Speichern der Protokolle: %@";
+"Logs saved successfully" = "Protokolle erfolgreich gespeichert";
+
+"Help Content" = "Um ein Verstopfen des Druckkopfes aufgrund langer Inaktivitätszeiten zu verhindern, druckt dieses Programm automatisch in regelmäßigen Abständen eine Testseite. Indem es den Tintenfluss durch die Düsen aufrechterhält, stellt es sicher, dass Ihr Drucker in optimalem Betriebszustand bleibt – bereit zum Drucken, wenn Sie ihn brauchen.";
+"Help Title" = "Automatische Druckkopfwartung";
+"About" = "Über";
+"About_Version" = "Version: %@";

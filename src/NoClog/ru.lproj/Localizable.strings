@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Russian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Принтер не выбран";
+"printer_error_pdf_load_failed" = "Не удалось загрузить PDF-файл тестовой страницы";
+"printer_error_print_operation_failed" = "Ошибка печати: %@";
+"printer_operation_success" = "Печать выполнена успешно";
+"printer_operation_failed_unknown" = "Неизвестная ошибка печати";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Обслуживание Сопел";
+"Select Printer:" = "Выберите принтер:";
+"Printer" = "Принтер";
+"View Logs" = "Просмотр журналов";
+"Enable Auto Print" = "Включить автоматическую печать";
+"Disable Auto Print" = "Отключить автоматическую печать";
+"(Enabled)" = "(Включено)";
+"(Disabled)" = "(Отключено)";
+"Next Print Time: %@" = "Следующее время печати: %@";
+"Print Test Page Now" = "Напечатать тестовую страницу сейчас";
+"Exit" = "Выход";
+"Language" = "Язык";
+"Select Language" = "Выбрать язык";
+"Search" = "Поиск";
+"Configure Schedule" = "Настроить расписание";
+"Print File:" = "Файл печати:";
+"Default Test Page" = "Стандартная тестовая страница";
+"Select..." = "Выбрать...";
+"Clear" = "Очистить";
+"Print Settings" = "Настройки печати";
+"Preview" = "Предпросмотр";
+"Select PDF File" = "Выбрать PDF-файл";
+"Print Preview" = "Предварительный просмотр печати";
+"Save Settings" = "Сохранить настройки";
+"Cancel" = "Отмена";
+"OK" = "ОК";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "В следующем диалоговом окне нажмите кнопку 'Печать', чтобы сохранить настройки без фактической печати. Эти настройки будут использоваться для будущей печати.";
+"Settings Saved" = "Настройки сохранены";
+"Your print settings have been saved and will be used for future printing." = "Ваши настройки печати сохранены и будут использоваться для будущей печати.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Настройка расписания печати";
+"Schedule Type" = "Тип расписания";
+"Daily" = "Ежедневно";
+"Weekly" = "Еженедельно";
+"Monthly" = "Ежемесячно";
+"Time" = "Время";
+"Hour" = "Час";
+"Minute" = "Минута";
+"Day of Week" = "День недели";
+"Day of Month" = "День месяца";
+"Sunday" = "Воскресенье";
+"Monday" = "Понедельник";
+"Tuesday" = "Вторник";
+"Wednesday" = "Среда";
+"Thursday" = "Четверг";
+"Friday" = "Пятница";
+"Saturday" = "Суббота";
+"Save" = "Сохранить";
+"Schedule Summary" = "Сводка расписания";
+"Print test page every day at %@" = "Печать тестовой страницы каждый день в %@";
+"Print test page every %@ at %@" = "Печать тестовой страницы каждый %@ в %@";
+"Print test page on day %d of each month at %@" = "Печать тестовой страницы %d числа каждого месяца в %@";
+
+// LogView
+"Print Logs" = "Журналы печати";
+"Close" = "Закрыть";
+"No logs yet" = "Пока нет журналов";
+"Click the button to generate test data" = "Нажмите кнопку для создания тестовых данных";
+"Total %d log entries" = "Всего %d записей в журнале";
+"Print #%d" = "Печать #%d";
+"Printed on %@" = "Напечатано %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Не удалось отменить расписание пробуждения: %@";
+"Wake schedule cancelled" = "Расписание пробуждения отменено";
+"Unable to create AppleScript" = "Не удалось создать AppleScript";
+"Unable to set wake schedule: %@" = "Не удалось установить расписание пробуждения: %@";
+"Wake schedule set successfully" = "Расписание пробуждения успешно установлено";
+
+// LogManager
+"Unable to create application directory: %@" = "Не удалось создать каталог приложения: %@";
+"Read log data: %d bytes" = "Прочитано данных журнала: %d байт";
+"Failed to load logs: %@" = "Не удалось загрузить журналы: %@";
+"Failed to save logs: %@" = "Не удалось сохранить журналы: %@";
+"Logs saved successfully" = "Журналы успешно сохранены";
+
+"Help Content" = "Чтобы предотвратить засорение печатающей головки из-за длительных периодов бездействия, эта программа автоматически печатает тестовую страницу через регулярные промежутки времени. Поддерживая поток чернил через сопла, она обеспечивает оптимальное рабочее состояние вашего принтера — готового к печати, когда он вам понадобится.";
+"Help Title" = "Автоматическое обслуживание печатающей головки";
+"About" = "О программе";

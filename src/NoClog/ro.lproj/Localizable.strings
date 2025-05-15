@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Romanian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nicio imprimantă selectată";
+"printer_error_pdf_load_failed" = "Nu s-a putut încărca fișierul PDF al paginii de test";
+"printer_error_print_operation_failed" = "Eroare la imprimare: %@";
+"printer_operation_success" = "Imprimare reușită";
+"printer_operation_failed_unknown" = "Eroare de imprimare necunoscută";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Întreținere Duze";
+"Select Printer:" = "Selectare Imprimantă:";
+"Printer" = "Imprimantă";
+"View Logs" = "Vizualizare Jurnale";
+"Enable Auto Print" = "Activare Imprimare Automată";
+"Disable Auto Print" = "Dezactivare Imprimare Automată";
+"(Enabled)" = "(Activat)";
+"(Disabled)" = "(Dezactivat)";
+"Next Print Time: %@" = "Următorul Timp de Imprimare: %@";
+"Print Test Page Now" = "Imprimă Pagina de Test Acum";
+"Exit" = "Ieșire";
+"Language" = "Limbă";
+"Select Language" = "Selectați limba";
+"Search" = "Căutare";
+"Configure Schedule" = "Configurare Program";
+"Print File:" = "Fișier de Imprimat:";
+"Default Test Page" = "Pagină de Test Implicită";
+"Select..." = "Selectare...";
+"Clear" = "Șterge";
+"Print Settings" = "Setări de Imprimare";
+"Preview" = "Previzualizare";
+"Select PDF File" = "Selectare Fișier PDF";
+"Print Preview" = "Previzualizare Imprimare";
+"Save Settings" = "Salvare Setări";
+"Cancel" = "Anulare";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "În dialogul următor, faceți clic pe butonul 'Imprimare' pentru a salva setările fără a imprima efectiv. Aceste setări vor fi utilizate pentru imprimările viitoare.";
+"Settings Saved" = "Setări Salvate";
+"Your print settings have been saved and will be used for future printing." = "Setările de imprimare au fost salvate și vor fi utilizate pentru imprimările viitoare.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configurare Program de Imprimare";
+"Schedule Type" = "Tip Program";
+"Daily" = "Zilnic";
+"Weekly" = "Săptămânal";
+"Monthly" = "Lunar";
+"Time" = "Timp";
+"Hour" = "Oră";
+"Minute" = "Minut";
+"Day of Week" = "Ziua Săptămânii";
+"Day of Month" = "Ziua Lunii";
+"Sunday" = "Duminică";
+"Monday" = "Luni";
+"Tuesday" = "Marți";
+"Wednesday" = "Miercuri";
+"Thursday" = "Joi";
+"Friday" = "Vineri";
+"Saturday" = "Sâmbătă";
+"Save" = "Salvare";
+"Schedule Summary" = "Rezumat Program";
+"Print test page every day at %@" = "Imprimă pagina de test în fiecare zi la %@";
+"Print test page every %@ at %@" = "Imprimă pagina de test în fiecare %@ la %@";
+"Print test page on day %d of each month at %@" = "Imprimă pagina de test în ziua %d a fiecărei luni la %@";
+
+// LogView
+"Print Logs" = "Jurnale de Imprimare";
+"Close" = "Închide";
+"No logs yet" = "Încă nu există jurnale";
+"Click the button to generate test data" = "Faceți clic pe buton pentru a genera date de test";
+"Total %d log entries" = "Total %d înregistrări în jurnal";
+"Print #%d" = "Imprimare #%d";
+"Printed on %@" = "Imprimat la %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nu se poate anula programul de trezire: %@";
+"Wake schedule cancelled" = "Program de trezire anulat";
+"Unable to create AppleScript" = "Nu se poate crea AppleScript";
+"Unable to set wake schedule: %@" = "Nu se poate seta programul de trezire: %@";
+"Wake schedule set successfully" = "Programul de trezire a fost setat cu succes";
+
+// LogManager
+"Unable to create application directory: %@" = "Nu se poate crea directorul aplicației: %@";
+"Read log data: %d bytes" = "Date jurnal citite: %d bytes";
+"Failed to load logs: %@" = "Eșec la încărcarea jurnalelor: %@";
+"Failed to save logs: %@" = "Eșec la salvarea jurnalelor: %@";
+"Logs saved successfully" = "Jurnalele au fost salvate cu succes";
+
+"Help Content" = "Pentru a preveni înfundarea capului de imprimare din cauza perioadelor lungi de inactivitate, acest program tipărește automat o pagină de test la intervale regulate. Prin menținerea curgerii cernelii prin duze, asigură că imprimanta dvs. rămâne în condiții optime de funcționare—gata de tipărire atunci când aveți nevoie.";
+"Help Title" = "Întreținere automată a capului de imprimare";
+"About" = "Despre";

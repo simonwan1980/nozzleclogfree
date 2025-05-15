@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Arabic localization
+*/
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree صيانة الفوهات";
+"Select Printer:" = "اختر الطابعة:";
+"Printer" = "طابعة";
+"View Logs" = "عرض السجلات";
+"Enable Auto Print" = "تمكين الطباعة التلقائية";
+"Disable Auto Print" = "تعطيل الطباعة التلقائية";
+"(Enabled)" = "(مُمكّن)";
+"(Disabled)" = "(مُعطّل)";
+"Next Print Time: %@" = "وقت الطباعة التالي: %@";
+"Print Test Page Now" = "طباعة صفحة اختبار الآن";
+"Exit" = "خروج";
+"Language" = "اللغة";
+"Select Language" = "اختر اللغة";
+"Search" = "بحث";
+"Configure Schedule" = "تكوين الجدول";
+"Print File:" = "ملف الطباعة:";
+"Default Test Page" = "صفحة الاختبار الافتراضية";
+"Select..." = "اختيار...";
+"Clear" = "مسح";
+"Print Settings" = "إعدادات الطباعة";
+"Preview" = "معاينة";
+"Select PDF File" = "اختر ملف PDF";
+"Print Preview" = "معاينة الطباعة";
+"Save Settings" = "حفظ الإعدادات";
+"Cancel" = "إلغاء";
+"OK" = "موافق";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "في مربع الحوار التالي، انقر على زر 'طباعة' لحفظ إعداداتك دون الطباعة فعليًا. سيتم استخدام هذه الإعدادات للطباعة المستقبلية.";
+"Settings Saved" = "تم حفظ الإعدادات";
+"Your print settings have been saved and will be used for future printing." = "تم حفظ إعدادات الطباعة الخاصة بك وسيتم استخدامها للطباعة المستقبلية.";
+"printer_error_no_printer_selected" = "لم يتم اختيار الطابعة";
+"printer_operation_success" = "تمت الطباعة بنجاح";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "تكوين جدول الطباعة";
+"Schedule Type" = "نوع الجدول";
+"Daily" = "يومي";
+"Weekly" = "أسبوعي";
+"Monthly" = "شهري";
+"Time" = "الوقت";
+"Hour" = "ساعة";
+"Minute" = "دقيقة";
+"Day of Week" = "يوم الأسبوع";
+"Day of Month" = "يوم الشهر";
+"Sunday" = "الأحد";
+"Monday" = "الاثنين";
+"Tuesday" = "الثلاثاء";
+"Wednesday" = "الأربعاء";
+"Thursday" = "الخميس";
+"Friday" = "الجمعة";
+"Saturday" = "السبت";
+"Save" = "حفظ";
+"Schedule Summary" = "ملخص الجدول";
+"Print test page every day at %@" = "طباعة صفحة اختبار كل يوم في %@";
+"Print test page every %@ at %@" = "طباعة صفحة اختبار كل %@ في %@";
+"Print test page on day %d of each month at %@" = "طباعة صفحة اختبار في اليوم %d من كل شهر في %@";
+"printer_error_pdf_load_failed" = "تعذر تحميل ملف PDF لصفحة الاختبار";
+
+// LogView
+"Print Logs" = "سجلات الطباعة";
+"Close" = "إغلاق";
+"No logs yet" = "لا توجد سجلات بعد";
+"Click the button to generate test data" = "انقر على الزر لإنشاء بيانات اختبار";
+"Total %d log entries" = "إجمالي %d من إدخالات السجل";
+"Print #%d" = "طباعة #%d";
+"Printed on %@" = "تمت الطباعة في %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "تعذر إلغاء جدول الاستيقاظ: %@";
+"Wake schedule cancelled" = "تم إلغاء جدول الاستيقاظ";
+"Unable to create AppleScript" = "تعذر إنشاء AppleScript";
+"Unable to set wake schedule: %@" = "تعذر تعيين جدول الاستيقاظ: %@";
+"Wake schedule set successfully" = "تم تعيين جدول الاستيقاظ بنجاح";
+
+// LogManager
+"Unable to create application directory: %@" = "تعذر إنشاء دليل التطبيق: %@";
+"Read log data: %d bytes" = "قراءة بيانات السجل: %d بايت";
+"Failed to load logs: %@" = "فشل تحميل السجلات: %@";
+"Failed to save logs: %@" = "فشل حفظ السجلات: %@";
+"Logs saved successfully" = "تم حفظ السجلات بنجاح";
+"printer_error_print_operation_failed" = "فشل الطباعة: %@";
+
+"Help Content" = "لمنع انسداد رأس الطباعة بسبب فترات طويلة من عدم النشاط، يقوم هذا البرنامج تلقائيًا بطباعة صفحة اختبار على فترات منتظمة. من خلال الحفاظ على تدفق الحبر عبر الفوهات، فإنه يضمن بقاء طابعتك في حالة عمل مثالية - جاهزة للطباعة عندما تحتاج إليها.";
+"Help Title" = "صيانة رأس الطباعة التلقائية";
+"About" = "حول";
+"About_Version" = "الإصدار: %@";

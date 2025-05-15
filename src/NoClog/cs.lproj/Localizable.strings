@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Czech localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Není vybrána žádná tiskárna";
+"printer_error_pdf_load_failed" = "Nepodařilo se načíst PDF soubor testovací stránky";
+"printer_error_print_operation_failed" = "Chyba tisku: %@";
+"printer_operation_success" = "Tisk byl úspěšný";
+"printer_operation_failed_unknown" = "Neznámá chyba tisku";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Údržba Trysek";
+"Select Printer:" = "Vyberte Tiskárnu:";
+"Printer" = "Tiskárna";
+"View Logs" = "Zobrazit Protokoly";
+"Enable Auto Print" = "Povolit Automatický Tisk";
+"Disable Auto Print" = "Zakázat Automatický Tisk";
+"(Enabled)" = "(Povoleno)";
+"(Disabled)" = "(Zakázáno)";
+"Next Print Time: %@" = "Další Čas Tisku: %@";
+"Print Test Page Now" = "Vytisknout Testovací Stránku Nyní";
+"Exit" = "Ukončit";
+"Language" = "Jazyk";
+"Select Language" = "Vybrat jazyk";
+"Search" = "Hledat";
+"Configure Schedule" = "Nastavit Plán";
+"Print File:" = "Tisknout Soubor:";
+"Default Test Page" = "Výchozí Testovací Stránka";
+"Select..." = "Vybrat...";
+"Clear" = "Vymazat";
+"Print Settings" = "Nastavení Tisku";
+"Preview" = "Náhled";
+"Select PDF File" = "Vybrat PDF Soubor";
+"Print Preview" = "Náhled Tisku";
+"Save Settings" = "Uložit Nastavení";
+"Cancel" = "Zrušit";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "V následujícím dialogu klikněte na tlačítko 'Tisk' pro uložení nastavení bez skutečného tisku. Tato nastavení budou použita pro budoucí tisk.";
+"Settings Saved" = "Nastavení Uloženo";
+"Your print settings have been saved and will be used for future printing." = "Vaše nastavení tisku byla uložena a budou použita pro budoucí tisk.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Nastavit Plán Tisku";
+"Schedule Type" = "Typ Plánu";
+"Daily" = "Denně";
+"Weekly" = "Týdně";
+"Monthly" = "Měsíčně";
+"Time" = "Čas";
+"Hour" = "Hodina";
+"Minute" = "Minuta";
+"Day of Week" = "Den v Týdnu";
+"Day of Month" = "Den v Měsíci";
+"Sunday" = "Neděle";
+"Monday" = "Pondělí";
+"Tuesday" = "Úterý";
+"Wednesday" = "Středa";
+"Thursday" = "Čtvrtek";
+"Friday" = "Pátek";
+"Saturday" = "Sobota";
+"Save" = "Uložit";
+"Schedule Summary" = "Souhrn Plánu";
+"Print test page every day at %@" = "Tisknout testovací stránku každý den v %@";
+"Print test page every %@ at %@" = "Tisknout testovací stránku každý %@ v %@";
+"Print test page on day %d of each month at %@" = "Tisknout testovací stránku %d. den každého měsíce v %@";
+
+// LogView
+"Print Logs" = "Protokoly Tisku";
+"Close" = "Zavřít";
+"No logs yet" = "Zatím žádné protokoly";
+"Click the button to generate test data" = "Klikněte na tlačítko pro generování testovacích dat";
+"Total %d log entries" = "Celkem %d záznamů v protokolu";
+"Print #%d" = "Tisk #%d";
+"Printed on %@" = "Vytištěno dne %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nelze zrušit plán probuzení: %@";
+"Wake schedule cancelled" = "Plán probuzení zrušen";
+"Unable to create AppleScript" = "Nelze vytvořit AppleScript";
+"Unable to set wake schedule: %@" = "Nelze nastavit plán probuzení: %@";
+"Wake schedule set successfully" = "Plán probuzení úspěšně nastaven";
+
+// LogManager
+"Unable to create application directory: %@" = "Nelze vytvořit adresář aplikace: %@";
+"Read log data: %d bytes" = "Přečtena data protokolu: %d bajtů";
+"Failed to load logs: %@" = "Nepodařilo se načíst protokoly: %@";
+"Failed to save logs: %@" = "Nepodařilo se uložit protokoly: %@";
+"Logs saved successfully" = "Protokoly úspěšně uloženy";
+
+"Help Content" = "Aby se zabránilo ucpání tiskové hlavy z důvodu dlouhé nečinnosti, tento program automaticky tiskne testovací stránku v pravidelných intervalech. Udržováním toku inkoustu tryskami zajišťuje, že vaše tiskárna zůstává v optimálním provozním stavu - připravena k tisku, když ji potřebujete.";
+"Help Title" = "Automatická údržba tiskové hlavy";
+"About" = "O aplikaci";

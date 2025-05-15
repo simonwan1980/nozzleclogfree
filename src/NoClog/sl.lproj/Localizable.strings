@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Slovenian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Noben tiskalnik ni izbran";
+"printer_error_pdf_load_failed" = "PDF datoteke testne strani ni bilo mogoče naložiti";
+"printer_error_print_operation_failed" = "Napaka pri tiskanju: %@";
+"printer_operation_success" = "Tiskanje je bilo uspešno";
+"printer_operation_failed_unknown" = "Neznana napaka pri tiskanju";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Vzdrževanje Šob";
+"Select Printer:" = "Izberite Tiskalnik:";
+"Printer" = "Tiskalnik";
+"View Logs" = "Ogled Dnevnikov";
+"Enable Auto Print" = "Omogoči Samodejno Tiskanje";
+"Disable Auto Print" = "Onemogoči Samodejno Tiskanje";
+"(Enabled)" = "(Omogočeno)";
+"(Disabled)" = "(Onemogočeno)";
+"Next Print Time: %@" = "Naslednji Čas Tiskanja: %@";
+"Print Test Page Now" = "Natisni Testno Stran Zdaj";
+"Exit" = "Izhod";
+"Language" = "Jezik";
+"Select Language" = "Izberi jezik";
+"Search" = "Iskanje";
+"Configure Schedule" = "Nastavi Urnik";
+"Print File:" = "Datoteka za Tisk:";
+"Default Test Page" = "Privzeta Testna Stran";
+"Select..." = "Izberi...";
+"Clear" = "Počisti";
+"Print Settings" = "Nastavitve Tiskanja";
+"Preview" = "Predogled";
+"Select PDF File" = "Izberi PDF Datoteko";
+"Print Preview" = "Predogled Tiskanja";
+"Save Settings" = "Shrani Nastavitve";
+"Cancel" = "Prekliči";
+"OK" = "V redu";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "V naslednjem pogovornem oknu kliknite gumb 'Natisni', da shranite nastavitve brez dejanskega tiskanja. Te nastavitve bodo uporabljene za prihodnje tiskanje.";
+"Settings Saved" = "Nastavitve Shranjene";
+"Your print settings have been saved and will be used for future printing." = "Vaše nastavitve tiskanja so bile shranjene in bodo uporabljene za prihodnje tiskanje.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Nastavi Urnik Tiskanja";
+"Schedule Type" = "Vrsta Urnika";
+"Daily" = "Dnevno";
+"Weekly" = "Tedensko";
+"Monthly" = "Mesečno";
+"Time" = "Čas";
+"Hour" = "Ura";
+"Minute" = "Minuta";
+"Day of Week" = "Dan v Tednu";
+"Day of Month" = "Dan v Mesecu";
+"Sunday" = "Nedelja";
+"Monday" = "Ponedeljek";
+"Tuesday" = "Torek";
+"Wednesday" = "Sreda";
+"Thursday" = "Četrtek";
+"Friday" = "Petek";
+"Saturday" = "Sobota";
+"Save" = "Shrani";
+"Schedule Summary" = "Povzetek Urnika";
+"Print test page every day at %@" = "Natisni testno stran vsak dan ob %@";
+"Print test page every %@ at %@" = "Natisni testno stran vsak %@ ob %@";
+"Print test page on day %d of each month at %@" = "Natisni testno stran na %d. dan vsakega meseca ob %@";
+
+// LogView
+"Print Logs" = "Dnevniki Tiskanja";
+"Close" = "Zapri";
+"No logs yet" = "Še ni dnevnikov";
+"Click the button to generate test data" = "Kliknite gumb za ustvarjanje testnih podatkov";
+"Total %d log entries" = "Skupaj %d vnosov v dnevnik";
+"Print #%d" = "Tiskanje #%d";
+"Printed on %@" = "Natisnjeno dne %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Ni mogoče preklicati urnika bujenja: %@";
+"Wake schedule cancelled" = "Urnik bujenja preklican";
+"Unable to create AppleScript" = "Ni mogoče ustvariti AppleScript";
+"Unable to set wake schedule: %@" = "Ni mogoče nastaviti urnika bujenja: %@";
+"Wake schedule set successfully" = "Urnik bujenja uspešno nastavljen";
+
+// LogManager
+"Unable to create application directory: %@" = "Ni mogoče ustvariti mape aplikacije: %@";
+"Read log data: %d bytes" = "Prebrani podatki dnevnika: %d bajtov";
+"Failed to load logs: %@" = "Nalaganje dnevnikov ni uspelo: %@";
+"Failed to save logs: %@" = "Shranjevanje dnevnikov ni uspelo: %@";
+"Logs saved successfully" = "Dnevniki uspešno shranjeni";
+
+"Help Content" = "Da bi preprečili zamašitev tiskalne glave zaradi dolgih obdobij neaktivnosti, ta program samodejno natisne testno stran v rednih intervalih. Z ohranjanjem pretoka črnila skozi šobe zagotavlja, da vaš tiskalnik ostane v optimalnem delovnem stanju - pripravljen za tiskanje, ko ga potrebujete.";
+"Help Title" = "Samodejno vzdrževanje tiskalne glave";
+"About" = "O programu";

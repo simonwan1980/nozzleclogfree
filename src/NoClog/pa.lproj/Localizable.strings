@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Punjabi localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "ਕੋਈ ਪ੍ਰਿੰਟਰ ਚੁਣਿਆ ਨਹੀਂ ਗਿਆ";
+"printer_error_pdf_load_failed" = "ਟੈਸਟ ਪੇਜ PDF ਫ਼ਾਈਲ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ";
+"printer_error_print_operation_failed" = "ਪਰਿੰਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ: %@";
+"printer_operation_success" = "ਪਰਿੰਟ ਸਫਲ ਹੋਈ";
+"printer_operation_failed_unknown" = "ਅਣਜਾਣ ਪਰਿੰਟ ਗਲਤੀ";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree ਨੋਜ਼ਲ ਰੱਖ-ਰਖਾਅ";
+"Select Printer:" = "ਪ੍ਰਿੰਟਰ ਚੁਣੋ:";
+"Printer" = "ਪ੍ਰਿੰਟਰ";
+"View Logs" = "ਲੌਗ ਵੇਖੋ";
+"Enable Auto Print" = "ਆਟੋ ਪ੍ਰਿੰਟ ਚਾਲੂ ਕਰੋ";
+"Disable Auto Print" = "ਆਟੋ ਪ੍ਰਿੰਟ ਬੰਦ ਕਰੋ";
+"(Enabled)" = "(ਚਾਲੂ)";
+"(Disabled)" = "(ਬੰਦ)";
+"Next Print Time: %@" = "ਅਗਲਾ ਪ੍ਰਿੰਟ ਸਮਾਂ: %@";
+"Print Test Page Now" = "ਹੁਣ ਟੈਸਟ ਪੰਨਾ ਪ੍ਰਿੰਟ ਕਰੋ";
+"Exit" = "ਬਾਹਰ ਜਾਓ";
+"Language" = "ਭਾਸ਼ਾ";
+"Select Language" = "ਭਾਸ਼ਾ ਚੁਣੋ";
+"Search" = "ਖੋਜ";
+"Configure Schedule" = "ਸਮਾਂ-ਸਾਰਣੀ ਕੌਂਫਿਗਰ ਕਰੋ";
+"Print File:" = "ਪ੍ਰਿੰਟ ਫਾਈਲ:";
+"Default Test Page" = "ਡਿਫੌਲਟ ਟੈਸਟ ਪੰਨਾ";
+"Select..." = "ਚੁਣੋ...";
+"Clear" = "ਸਾਫ਼ ਕਰੋ";
+"Print Settings" = "ਪ੍ਰਿੰਟ ਸੈਟਿੰਗਾਂ";
+"Preview" = "ਝਲਕ";
+"Select PDF File" = "PDF ਫਾਈਲ ਚੁਣੋ";
+"Print Preview" = "ਪ੍ਰਿੰਟ ਝਲਕ";
+"Save Settings" = "ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੋ";
+"Cancel" = "ਰੱਦ ਕਰੋ";
+"OK" = "ਠੀਕ ਹੈ";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "ਹੇਠਾਂ ਦਿੱਤੇ ਡਾਇਲਾਗ ਵਿੱਚ, ਅਸਲ ਵਿੱਚ ਪ੍ਰਿੰਟ ਕੀਤੇ ਬਿਨਾਂ ਆਪਣੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੰਭਾਲਣ ਲਈ 'ਪ੍ਰਿੰਟ' ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ। ਇਹ ਸੈਟਿੰਗਾਂ ਭਵਿੱਖ ਦੀ ਪ੍ਰਿੰਟਿੰਗ ਲਈ ਵਰਤੀਆਂ ਜਾਣਗੀਆਂ।";
+"Settings Saved" = "ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੀਆਂ ਗਈਆਂ";
+"Your print settings have been saved and will be used for future printing." = "ਤੁਹਾਡੀਆਂ ਪ੍ਰਿੰਟ ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੀਆਂ ਗਈਆਂ ਹਨ ਅਤੇ ਭਵਿੱਖ ਦੀ ਪ੍ਰਿੰਟਿੰਗ ਲਈ ਵਰਤੀਆਂ ਜਾਣਗੀਆਂ।";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "ਪ੍ਰਿੰਟ ਸਮਾਂ-ਸਾਰਣੀ ਕੌਂਫਿਗਰ ਕਰੋ";
+"Schedule Type" = "ਸਮਾਂ-ਸਾਰਣੀ ਦੀ ਕਿਸਮ";
+"Daily" = "ਰੋਜ਼ਾਨਾ";
+"Weekly" = "ਹਫਤਾਵਾਰੀ";
+"Monthly" = "ਮਹੀਨਾਵਾਰ";
+"Time" = "ਸਮਾਂ";
+"Hour" = "ਘੰਟਾ";
+"Minute" = "ਮਿੰਟ";
+"Day of Week" = "ਹਫਤੇ ਦਾ ਦਿਨ";
+"Day of Month" = "ਮਹੀਨੇ ਦਾ ਦਿਨ";
+"Sunday" = "ਐਤਵਾਰ";
+"Monday" = "ਸੋਮਵਾਰ";
+"Tuesday" = "ਮੰਗਲਵਾਰ";
+"Wednesday" = "ਬੁੱਧਵਾਰ";
+"Thursday" = "ਵੀਰਵਾਰ";
+"Friday" = "ਸ਼ੁੱਕਰਵਾਰ";
+"Saturday" = "ਸ਼ਨੀਵਾਰ";
+"Save" = "ਸੰਭਾਲੋ";
+"Schedule Summary" = "ਸਮਾਂ-ਸਾਰਣੀ ਸੰਖੇਪ";
+"Print test page every day at %@" = "ਹਰ ਰੋਜ਼ %@ 'ਤੇ ਟੈਸਟ ਪੰਨਾ ਪ੍ਰਿੰਟ ਕਰੋ";
+"Print test page every %@ at %@" = "ਹਰ %@ ਨੂੰ %@ 'ਤੇ ਟੈਸਟ ਪੰਨਾ ਪ੍ਰਿੰਟ ਕਰੋ";
+"Print test page on day %d of each month at %@" = "ਹਰ ਮਹੀਨੇ ਦੇ %d ਦਿਨ %@ 'ਤੇ ਟੈਸਟ ਪੰਨਾ ਪ੍ਰਿੰਟ ਕਰੋ";
+
+// LogView
+"Print Logs" = "ਪ੍ਰਿੰਟ ਲੌਗ";
+"Close" = "ਬੰਦ ਕਰੋ";
+"No logs yet" = "ਅਜੇ ਕੋਈ ਲੌਗ ਨਹੀਂ";
+"Click the button to generate test data" = "ਟੈਸਟ ਡਾਟਾ ਬਣਾਉਣ ਲਈ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ";
+"Total %d log entries" = "ਕੁੱਲ %d ਲੌਗ ਐਂਟਰੀਆਂ";
+"Print #%d" = "ਪ੍ਰਿੰਟ #%d";
+"Printed on %@" = "%@ 'ਤੇ ਪ੍ਰਿੰਟ ਕੀਤਾ";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "ਜਾਗਣ ਦੀ ਸਮਾਂ-ਸਾਰਣੀ ਰੱਦ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ: %@";
+"Wake schedule cancelled" = "ਜਾਗਣ ਦੀ ਸਮਾਂ-ਸਾਰਣੀ ਰੱਦ ਕੀਤੀ ਗਈ";
+"Unable to create AppleScript" = "AppleScript ਬਣਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ";
+"Unable to set wake schedule: %@" = "ਜਾਗਣ ਦੀ ਸਮਾਂ-ਸਾਰਣੀ ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ: %@";
+"Wake schedule set successfully" = "ਜਾਗਣ ਦੀ ਸਮਾਂ-ਸਾਰਣੀ ਸਫਲਤਾਪੂਰਵਕ ਸੈੱਟ ਕੀਤੀ ਗਈ";
+
+// LogManager
+"Unable to create application directory: %@" = "ਐਪਲੀਕੇਸ਼ਨ ਡਾਇਰੈਕਟਰੀ ਬਣਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ: %@";
+"Read log data: %d bytes" = "ਲੌਗ ਡਾਟਾ ਪੜ੍ਹਿਆ: %d ਬਾਈਟਸ";
+"Failed to load logs: %@" = "ਲੌਗ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ: %@";
+"Failed to save logs: %@" = "ਲੌਗ ਸੰਭਾਲਣ ਵਿੱਚ ਅਸਫਲ: %@";
+"Logs saved successfully" = "ਲੌਗ ਸਫਲਤਾਪੂਰਵਕ ਸੰਭਾਲੇ ਗਏ";
+
+"Help Content" = "ਲੰਬੇ ਸਮੇਂ ਦੀ ਨਿਸ਼ਕਿਰਿਆਤਾ ਕਾਰਨ ਪ੍ਰਿੰਟਹੈਡ ਦੇ ਜਾਮ ਹੋਣ ਨੂੰ ਰੋਕਣ ਲਈ, ਇਹ ਪ੍ਰੋਗਰਾਮ ਨਿਯਮਤ ਅੰਤਰਾਲਾਂ 'ਤੇ ਆਪਣੇ ਆਪ ਇੱਕ ਟੈਸਟ ਪੇਜ ਪ੍ਰਿੰਟ ਕਰਦਾ ਹੈ। ਨੋਜ਼ਲਾਂ ਰਾਹੀਂ ਸਿਆਹੀ ਦੇ ਪ੍ਰਵਾਹ ਨੂੰ ਬਣਾਈ ਰੱਖ ਕੇ, ਇਹ ਯਕੀਨੀ ਬਣਾਉਂਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਪ੍ਰਿੰਟਰ ਸਰਵੋਤਮ ਕੰਮਕਾਜੀ ਹਾਲਤ ਵਿੱਚ ਰਹੇ—ਜਦੋਂ ਤੁਹਾਨੂੰ ਇਸਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਲਈ ਤਿਆਰ।";
+"Help Title" = "ਆਟੋਮੈਟਿਕ ਪ੍ਰਿੰਟਹੈਡ ਰੱਖ-ਰਖਾਅ";
+"About" = "ਬਾਰੇ";

@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F47363262DBDD6270013B149 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47363252DBDD6270013B149 /* Cocoa.framework */; };
+		F47363282DBDD63D0013B149 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47363272DBDD63D0013B149 /* Security.framework */; };
+		F473632A2DBDD6450013B149 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47363292DBDD6450013B149 /* ServiceManagement.framework */; };
+		F473632C2DBDD66A0013B149 /* com.example.NozzleClogFreeHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = F47363182DBDCE460013B149 /* com.example.NozzleClogFreeHelper */; };
+		F48B54712DBF54B7001D4DB6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F48B54702DBF54B7001D4DB6 /* FirebaseAnalytics */; };
+		F4F37A952DA2A46C004CCD5F /* testpage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4F37A942DA2A46C004CCD5F /* testpage.pdf */; };
+		F4F37A962DA2A46C004CCD5F /* MenuStatusIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4F37A932DA2A46C004CCD5F /* MenuStatusIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F468C5222D9EC354003800C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F468C5082D9EC353003800C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F468C50F2D9EC353003800C8;
+			remoteInfo = NoClog;
+		};
+		F468C52C2D9EC354003800C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F468C5082D9EC353003800C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F468C50F2D9EC353003800C8;
+			remoteInfo = NoClog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F47363162DBDCE460013B149 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F473632B2DBDD6520013B149 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				F473632C2DBDD66A0013B149 /* com.example.NozzleClogFreeHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F468C5102D9EC353003800C8 /* NozzleClogFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NozzleClogFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F468C5212D9EC354003800C8 /* NozzleClogFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NozzleClogFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F468C52B2D9EC354003800C8 /* NozzleClogFreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NozzleClogFreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47363182DBDCE460013B149 /* com.example.NozzleClogFreeHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.example.NozzleClogFreeHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47363252DBDD6270013B149 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F47363272DBDD63D0013B149 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F47363292DBDD6450013B149 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		F4F37A932DA2A46C004CCD5F /* MenuStatusIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MenuStatusIcon.pdf; path = Resources/MenuStatusIcon.pdf; sourceTree = "<group>"; };
+		F4F37A942DA2A46C004CCD5F /* testpage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = testpage.pdf; path = Resources/testpage.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F468C5122D9EC353003800C8 /* NoClog */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NoClog;
+			sourceTree = "<group>";
+		};
+		F468C5242D9EC354003800C8 /* NoClogTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NoClogTests;
+			sourceTree = "<group>";
+		};
+		F468C52E2D9EC354003800C8 /* NoClogUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NoClogUITests;
+			sourceTree = "<group>";
+		};
+		F473630B2DBDCD400013B149 /* Common */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F47363192DBDCE460013B149 /* com.example.NozzleClogFreeHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = com.example.NozzleClogFreeHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F468C50D2D9EC353003800C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F473632A2DBDD6450013B149 /* ServiceManagement.framework in Frameworks */,
+				F47363282DBDD63D0013B149 /* Security.framework in Frameworks */,
+				F48B54712DBF54B7001D4DB6 /* FirebaseAnalytics in Frameworks */,
+				F47363262DBDD6270013B149 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468C51E2D9EC354003800C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468C5282D9EC354003800C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47363152DBDCE460013B149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F468C5072D9EC353003800C8 = {
+			isa = PBXGroup;
+			children = (
+				F473630B2DBDCD400013B149 /* Common */,
+				F4F37A932DA2A46C004CCD5F /* MenuStatusIcon.pdf */,
+				F4F37A942DA2A46C004CCD5F /* testpage.pdf */,
+				F468C5122D9EC353003800C8 /* NoClog */,
+				F468C5242D9EC354003800C8 /* NoClogTests */,
+				F468C52E2D9EC354003800C8 /* NoClogUITests */,
+				F47363192DBDCE460013B149 /* com.example.NozzleClogFreeHelper */,
+				F47363242DBDD6260013B149 /* Frameworks */,
+				F468C5112D9EC353003800C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F468C5112D9EC353003800C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F468C5102D9EC353003800C8 /* NozzleClogFree.app */,
+				F468C5212D9EC354003800C8 /* NozzleClogFreeTests.xctest */,
+				F468C52B2D9EC354003800C8 /* NozzleClogFreeUITests.xctest */,
+				F47363182DBDCE460013B149 /* com.example.NozzleClogFreeHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47363242DBDD6260013B149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F47363292DBDD6450013B149 /* ServiceManagement.framework */,
+				F47363272DBDD63D0013B149 /* Security.framework */,
+				F47363252DBDD6270013B149 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F468C50F2D9EC353003800C8 /* NozzleClogFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468C5352D9EC354003800C8 /* Build configuration list for PBXNativeTarget "NozzleClogFree" */;
+			buildPhases = (
+				F468C50C2D9EC353003800C8 /* Sources */,
+				F468C50D2D9EC353003800C8 /* Frameworks */,
+				F468C50E2D9EC353003800C8 /* Resources */,
+				F473632B2DBDD6520013B149 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F468C5122D9EC353003800C8 /* NoClog */,
+				F473630B2DBDCD400013B149 /* Common */,
+			);
+			name = NozzleClogFree;
+			packageProductDependencies = (
+				F48B54702DBF54B7001D4DB6 /* FirebaseAnalytics */,
+			);
+			productName = NoClog;
+			productReference = F468C5102D9EC353003800C8 /* NozzleClogFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F468C5202D9EC354003800C8 /* NozzleClogFreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468C5382D9EC354003800C8 /* Build configuration list for PBXNativeTarget "NozzleClogFreeTests" */;
+			buildPhases = (
+				F468C51D2D9EC354003800C8 /* Sources */,
+				F468C51E2D9EC354003800C8 /* Frameworks */,
+				F468C51F2D9EC354003800C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F468C5232D9EC354003800C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F468C5242D9EC354003800C8 /* NoClogTests */,
+			);
+			name = NozzleClogFreeTests;
+			packageProductDependencies = (
+			);
+			productName = NoClogTests;
+			productReference = F468C5212D9EC354003800C8 /* NozzleClogFreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F468C52A2D9EC354003800C8 /* NozzleClogFreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468C53B2D9EC354003800C8 /* Build configuration list for PBXNativeTarget "NozzleClogFreeUITests" */;
+			buildPhases = (
+				F468C5272D9EC354003800C8 /* Sources */,
+				F468C5282D9EC354003800C8 /* Frameworks */,
+				F468C5292D9EC354003800C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F468C52D2D9EC354003800C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F468C52E2D9EC354003800C8 /* NoClogUITests */,
+			);
+			name = NozzleClogFreeUITests;
+			packageProductDependencies = (
+			);
+			productName = NoClogUITests;
+			productReference = F468C52B2D9EC354003800C8 /* NozzleClogFreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F47363172DBDCE460013B149 /* com.example.NozzleClogFreeHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F473631C2DBDCE460013B149 /* Build configuration list for PBXNativeTarget "com.example.NozzleClogFreeHelper" */;
+			buildPhases = (
+				F47363142DBDCE460013B149 /* Sources */,
+				F47363152DBDCE460013B149 /* Frameworks */,
+				F47363162DBDCE460013B149 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F473630B2DBDCD400013B149 /* Common */,
+				F47363192DBDCE460013B149 /* com.example.NozzleClogFreeHelper */,
+			);
+			name = com.example.NozzleClogFreeHelper;
+			packageProductDependencies = (
+			);
+			productName = com.example.NozzleClogFreeHelper;
+			productReference = F47363182DBDCE460013B149 /* com.example.NozzleClogFreeHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F468C5082D9EC353003800C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F468C50F2D9EC353003800C8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F468C5202D9EC354003800C8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F468C50F2D9EC353003800C8;
+					};
+					F468C52A2D9EC354003800C8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F468C50F2D9EC353003800C8;
+					};
+					F47363172DBDCE460013B149 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = F468C50B2D9EC353003800C8 /* Build configuration list for PBXProject "NozzleClogFree" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				mr,
+				ar,
+				de,
+				pt,
+				lv,
+				cs,
+				ms,
+				is,
+				bn,
+				et,
+				fi,
+				fr,
+				kl,
+				ro,
+				ru,
+				fa,
+				ur,
+				es,
+				pa,
+				fo,
+				tg,
+				lb,
+				sl,
+				jv,
+				ka,
+				lt,
+				da,
+				"zh-Hant",
+				tr,
+				uk,
+				vi,
+				it,
+				hr,
+				hi,
+				nl,
+				ca,
+				ko,
+				sv,
+				no,
+				ja,
+				bg,
+				sk,
+				id,
+				te,
+				pl,
+				el,
+				th,
+				hu,
+			);
+			mainGroup = F468C5072D9EC353003800C8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F48B546F2DBF54B7001D4DB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F468C5112D9EC353003800C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F468C50F2D9EC353003800C8 /* NozzleClogFree */,
+				F468C5202D9EC354003800C8 /* NozzleClogFreeTests */,
+				F468C52A2D9EC354003800C8 /* NozzleClogFreeUITests */,
+				F47363172DBDCE460013B149 /* com.example.NozzleClogFreeHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F468C50E2D9EC353003800C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F37A952DA2A46C004CCD5F /* testpage.pdf in Resources */,
+				F4F37A962DA2A46C004CCD5F /* MenuStatusIcon.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468C51F2D9EC354003800C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468C5292D9EC354003800C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F468C50C2D9EC353003800C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468C51D2D9EC354003800C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468C5272D9EC354003800C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47363142DBDCE460013B149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F468C5232D9EC354003800C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F468C50F2D9EC353003800C8 /* NozzleClogFree */;
+			targetProxy = F468C5222D9EC354003800C8 /* PBXContainerItemProxy */;
+		};
+		F468C52D2D9EC354003800C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F468C50F2D9EC353003800C8 /* NozzleClogFree */;
+			targetProxy = F468C52C2D9EC354003800C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F468C5332D9EC354003800C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F468C5342D9EC354003800C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F468C5362D9EC354003800C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NoClog/NozzleClogFree.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_ASSET_PATHS = "\"NoClog/Preview Content\"";
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "NoClog/SMJobBlessApp-Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NozzleClogFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F468C5372D9EC354003800C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NoClog/NozzleClogFree.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_ASSET_PATHS = "\"NoClog/Preview Content\"";
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "NoClog/SMJobBlessApp-Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NozzleClogFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F468C5392D9EC354003800C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = starlight.NozzleClogFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NozzleClogFree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NozzleClogFree";
+			};
+			name = Debug;
+		};
+		F468C53A2D9EC354003800C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = starlight.NozzleClogFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NozzleClogFree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NozzleClogFree";
+			};
+			name = Release;
+		};
+		F468C53C2D9EC354003800C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = starlight.NozzleClogFreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NoClog;
+			};
+			name = Debug;
+		};
+		F468C53D2D9EC354003800C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = starlight.NozzleClogFreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NoClog;
+			};
+			name = Release;
+		};
+		F473631D2DBDCE460013B149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: YOUR_NAME (YOUR_TEAM_ID)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = YOUR_TEAM_ID;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "com.example.NozzleClogFreeHelper/SMJobBlessHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"com.example.NozzleClogFreeHelper/SMJobBlessHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"com.example.NozzleClogFreeHelper/SMJobBlessHelper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NozzleClogFreeHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F473631E2DBDCE460013B149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: YOUR_NAME (YOUR_TEAM_ID)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = YOUR_TEAM_ID;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "com.example.NozzleClogFreeHelper/SMJobBlessHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"com.example.NozzleClogFreeHelper/SMJobBlessHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"com.example.NozzleClogFreeHelper/SMJobBlessHelper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NozzleClogFreeHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F468C50B2D9EC353003800C8 /* Build configuration list for PBXProject "NozzleClogFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468C5332D9EC354003800C8 /* Debug */,
+				F468C5342D9EC354003800C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468C5352D9EC354003800C8 /* Build configuration list for PBXNativeTarget "NozzleClogFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468C5362D9EC354003800C8 /* Debug */,
+				F468C5372D9EC354003800C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468C5382D9EC354003800C8 /* Build configuration list for PBXNativeTarget "NozzleClogFreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468C5392D9EC354003800C8 /* Debug */,
+				F468C53A2D9EC354003800C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468C53B2D9EC354003800C8 /* Build configuration list for PBXNativeTarget "NozzleClogFreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468C53C2D9EC354003800C8 /* Debug */,
+				F468C53D2D9EC354003800C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F473631C2DBDCE460013B149 /* Build configuration list for PBXNativeTarget "com.example.NozzleClogFreeHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F473631D2DBDCE460013B149 /* Debug */,
+				F473631E2DBDCE460013B149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F48B546F2DBF54B7001D4DB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F48B54702DBF54B7001D4DB6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F48B546F2DBF54B7001D4DB6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F468C5082D9EC353003800C8 /* Project object */;
+}

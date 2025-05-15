@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Italian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nessuna stampante selezionata";
+"printer_error_pdf_load_failed" = "Impossibile caricare il file PDF della pagina di prova";
+"printer_error_print_operation_failed" = "Errore di stampa: %@";
+"printer_operation_success" = "Stampa riuscita";
+"printer_operation_failed_unknown" = "Errore di stampa sconosciuto";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Manutenzione Ugelli";
+"Select Printer:" = "Seleziona Stampante:";
+"Printer" = "Stampante";
+"View Logs" = "Visualizza Registri";
+"Enable Auto Print" = "Attiva Stampa Automatica";
+"Disable Auto Print" = "Disattiva Stampa Automatica";
+"(Enabled)" = "(Attivato)";
+"(Disabled)" = "(Disattivato)";
+"Next Print Time: %@" = "Prossimo Orario di Stampa: %@";
+"Print Test Page Now" = "Stampa Pagina di Prova Ora";
+"Exit" = "Esci";
+"Language" = "Lingua";
+"Select Language" = "Seleziona lingua";
+"Search" = "Cerca";
+"Configure Schedule" = "Configura Programmazione";
+"Print File:" = "File di Stampa:";
+"Default Test Page" = "Pagina di Prova Predefinita";
+"Select..." = "Seleziona...";
+"Clear" = "Cancella";
+"Print Settings" = "Impostazioni di Stampa";
+"Preview" = "Anteprima";
+"Select PDF File" = "Seleziona File PDF";
+"Print Preview" = "Anteprima di Stampa";
+"Save Settings" = "Salva Impostazioni";
+"Cancel" = "Annulla";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Nella finestra di dialogo seguente, fai clic sul pulsante 'Stampa' per salvare le impostazioni senza stampare effettivamente. Queste impostazioni verranno utilizzate per le stampe future.";
+"Settings Saved" = "Impostazioni Salvate";
+"Your print settings have been saved and will be used for future printing." = "Le tue impostazioni di stampa sono state salvate e verranno utilizzate per le stampe future.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configura Programmazione di Stampa";
+"Schedule Type" = "Tipo di Programmazione";
+"Daily" = "Giornaliera";
+"Weekly" = "Settimanale";
+"Monthly" = "Mensile";
+"Time" = "Orario";
+"Hour" = "Ora";
+"Minute" = "Minuto";
+"Day of Week" = "Giorno della Settimana";
+"Day of Month" = "Giorno del Mese";
+"Sunday" = "Domenica";
+"Monday" = "Lunedì";
+"Tuesday" = "Martedì";
+"Wednesday" = "Mercoledì";
+"Thursday" = "Giovedì";
+"Friday" = "Venerdì";
+"Saturday" = "Sabato";
+"Save" = "Salva";
+"Schedule Summary" = "Riepilogo Programmazione";
+"Print test page every day at %@" = "Stampa pagina di prova ogni giorno alle %@";
+"Print test page every %@ at %@" = "Stampa pagina di prova ogni %@ alle %@";
+"Print test page on day %d of each month at %@" = "Stampa pagina di prova il giorno %d di ogni mese alle %@";
+
+// LogView
+"Print Logs" = "Registri di Stampa";
+"Close" = "Chiudi";
+"No logs yet" = "Ancora nessun registro";
+"Click the button to generate test data" = "Fai clic sul pulsante per generare dati di prova";
+"Total %d log entries" = "Totale %d voci di registro";
+"Print #%d" = "Stampa #%d";
+"Printed on %@" = "Stampato il %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Impossibile annullare la programmazione di risveglio: %@";
+"Wake schedule cancelled" = "Programmazione di risveglio annullata";
+"Unable to create AppleScript" = "Impossibile creare AppleScript";
+"Unable to set wake schedule: %@" = "Impossibile impostare la programmazione di risveglio: %@";
+"Wake schedule set successfully" = "Programmazione di risveglio impostata con successo";
+
+// LogManager
+"Unable to create application directory: %@" = "Impossibile creare la directory dell'applicazione: %@";
+"Read log data: %d bytes" = "Dati di registro letti: %d byte";
+"Failed to load logs: %@" = "Caricamento dei registri fallito: %@";
+"Failed to save logs: %@" = "Salvataggio dei registri fallito: %@";
+"Logs saved successfully" = "Registri salvati con successo";
+
+"Help Content" = "Per prevenire l'intasamento della testina di stampa a causa di lunghi periodi di inattività, questo programma stampa automaticamente una pagina di prova a intervalli regolari. Mantenendo l'inchiostro che scorre attraverso gli ugelli, garantisce che la stampante rimanga in condizioni di lavoro ottimali, pronta per stampare quando ne hai bisogno.";
+"Help Title" = "Manutenzione automatica della testina di stampa";
+"About" = "Informazioni";

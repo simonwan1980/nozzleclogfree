@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Vietnamese localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Chưa chọn máy in";
+"printer_error_pdf_load_failed" = "Không thể tải tệp PDF của trang kiểm tra";
+"printer_error_print_operation_failed" = "Lỗi in: %@";
+"printer_operation_success" = "In thành công";
+"printer_operation_failed_unknown" = "Lỗi in không xác định";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Bảo Trì Vòi Phun";
+"Select Printer:" = "Chọn Máy In:";
+"Printer" = "Máy In";
+"View Logs" = "Xem Nhật Ký";
+"Enable Auto Print" = "Bật In Tự Động";
+"Disable Auto Print" = "Tắt In Tự Động";
+"(Enabled)" = "(Đã Bật)";
+"(Disabled)" = "(Đã Tắt)";
+"Next Print Time: %@" = "Thời Gian In Tiếp Theo: %@";
+"Print Test Page Now" = "In Trang Thử Ngay";
+"Exit" = "Thoát";
+"Language" = "Ngôn ngữ";
+"Select Language" = "Chọn ngôn ngữ";
+"Search" = "Tìm kiếm";
+"Configure Schedule" = "Cấu Hình Lịch Trình";
+"Print File:" = "Tệp In:";
+"Default Test Page" = "Trang Thử Mặc Định";
+"Select..." = "Chọn...";
+"Clear" = "Xóa";
+"Print Settings" = "Cài Đặt In";
+"Preview" = "Xem Trước";
+"Select PDF File" = "Chọn Tệp PDF";
+"Print Preview" = "Xem Trước Bản In";
+"Save Settings" = "Lưu Cài Đặt";
+"Cancel" = "Hủy";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Trong hộp thoại sau, nhấp vào nút 'In' để lưu cài đặt của bạn mà không thực sự in. Các cài đặt này sẽ được sử dụng cho việc in ấn trong tương lai.";
+"Settings Saved" = "Đã Lưu Cài Đặt";
+"Your print settings have been saved and will be used for future printing." = "Cài đặt in của bạn đã được lưu và sẽ được sử dụng cho việc in ấn trong tương lai.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Cấu Hình Lịch Trình In";
+"Schedule Type" = "Loại Lịch Trình";
+"Daily" = "Hàng Ngày";
+"Weekly" = "Hàng Tuần";
+"Monthly" = "Hàng Tháng";
+"Time" = "Thời Gian";
+"Hour" = "Giờ";
+"Minute" = "Phút";
+"Day of Week" = "Ngày Trong Tuần";
+"Day of Month" = "Ngày Trong Tháng";
+"Sunday" = "Chủ Nhật";
+"Monday" = "Thứ Hai";
+"Tuesday" = "Thứ Ba";
+"Wednesday" = "Thứ Tư";
+"Thursday" = "Thứ Năm";
+"Friday" = "Thứ Sáu";
+"Saturday" = "Thứ Bảy";
+"Save" = "Lưu";
+"Schedule Summary" = "Tóm Tắt Lịch Trình";
+"Print test page every day at %@" = "In trang thử mỗi ngày lúc %@";
+"Print test page every %@ at %@" = "In trang thử mỗi %@ lúc %@";
+"Print test page on day %d of each month at %@" = "In trang thử vào ngày %d mỗi tháng lúc %@";
+
+// LogView
+"Print Logs" = "Nhật Ký In";
+"Close" = "Đóng";
+"No logs yet" = "Chưa có nhật ký";
+"Click the button to generate test data" = "Nhấp vào nút để tạo dữ liệu thử nghiệm";
+"Total %d log entries" = "Tổng cộng %d mục nhật ký";
+"Print #%d" = "In #%d";
+"Printed on %@" = "Đã in vào %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Không thể hủy lịch đánh thức: %@";
+"Wake schedule cancelled" = "Đã hủy lịch đánh thức";
+"Unable to create AppleScript" = "Không thể tạo AppleScript";
+"Unable to set wake schedule: %@" = "Không thể đặt lịch đánh thức: %@";
+"Wake schedule set successfully" = "Đã đặt lịch đánh thức thành công";
+
+// LogManager
+"Unable to create application directory: %@" = "Không thể tạo thư mục ứng dụng: %@";
+"Read log data: %d bytes" = "Đọc dữ liệu nhật ký: %d byte";
+"Failed to load logs: %@" = "Không thể tải nhật ký: %@";
+"Failed to save logs: %@" = "Không thể lưu nhật ký: %@";
+"Logs saved successfully" = "Đã lưu nhật ký thành công";
+
+"Help Content" = "Để ngăn ngừa tắc nghẽn đầu in do thời gian dài không hoạt động, chương trình này tự động in một trang thử nghiệm theo định kỳ. Bằng cách duy trì dòng mực chảy qua các đầu phun, nó đảm bảo máy in của bạn luôn ở trong tình trạng hoạt động tối ưu—sẵn sàng in ấn khi bạn cần.";
+"Help Title" = "Bảo trì đầu in tự động";
+"About" = "Về";

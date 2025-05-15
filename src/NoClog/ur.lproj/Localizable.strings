@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Urdu localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "کوئی پرنٹر منتخب نہیں کیا گیا";
+"printer_error_pdf_load_failed" = "ٹیسٹ صفحہ PDF فائل لوڈ نہیں ہو سکی";
+"printer_error_print_operation_failed" = "پرنٹ ناکام: %@";
+"printer_operation_success" = "پرنٹ کامیاب";
+"printer_operation_failed_unknown" = "نامعلوم پرنٹ خرابی";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree نوزل دیکھ بھال";
+"Select Printer:" = "پرنٹر منتخب کریں:";
+"Printer" = "پرنٹر";
+"View Logs" = "لاگز دیکھیں";
+"Enable Auto Print" = "خودکار پرنٹ فعال کریں";
+"Disable Auto Print" = "خودکار پرنٹ غیر فعال کریں";
+"(Enabled)" = "(فعال)";
+"(Disabled)" = "(غیر فعال)";
+"Next Print Time: %@" = "اگلا پرنٹ وقت: %@";
+"Print Test Page Now" = "ابھی ٹیسٹ پیج پرنٹ کریں";
+"Exit" = "باہر نکلیں";
+"Language" = "زبان";
+"Select Language" = "زبان منتخب کریں";
+"Search" = "تلاش";
+"Configure Schedule" = "شیڈول ترتیب دیں";
+"Print File:" = "پرنٹ فائل:";
+"Default Test Page" = "ڈیفالٹ ٹیسٹ پیج";
+"Select..." = "منتخب کریں...";
+"Clear" = "صاف کریں";
+"Print Settings" = "پرنٹ ترتیبات";
+"Preview" = "پیش نظارہ";
+"Select PDF File" = "PDF فائل منتخب کریں";
+"Print Preview" = "پرنٹ پیش نظارہ";
+"Save Settings" = "ترتیبات محفوظ کریں";
+"Cancel" = "منسوخ کریں";
+"OK" = "ٹھیک ہے";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "مندرجہ ذیل ڈائیلاگ میں، اپنی ترتیبات کو محفوظ کرنے کے لیے 'پرنٹ' بٹن پر کلک کریں بغیر اصل میں پرنٹ کیے۔ یہ ترتیبات مستقبل کی پرنٹنگ کے لیے استعمال کی جائیں گی۔";
+"Settings Saved" = "ترتیبات محفوظ ہو گئیں";
+"Your print settings have been saved and will be used for future printing." = "آپ کی پرنٹ ترتیبات محفوظ کر لی گئی ہیں اور مستقبل کی پرنٹنگ کے لیے استعمال کی جائیں گی۔";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "پرنٹ شیڈول ترتیب دیں";
+"Schedule Type" = "شیڈول کی قسم";
+"Daily" = "روزانہ";
+"Weekly" = "ہفتہ وار";
+"Monthly" = "ماہانہ";
+"Time" = "وقت";
+"Hour" = "گھنٹہ";
+"Minute" = "منٹ";
+"Day of Week" = "ہفتے کا دن";
+"Day of Month" = "مہینے کا دن";
+"Sunday" = "اتوار";
+"Monday" = "پیر";
+"Tuesday" = "منگل";
+"Wednesday" = "بدھ";
+"Thursday" = "جمعرات";
+"Friday" = "جمعہ";
+"Saturday" = "ہفتہ";
+"Save" = "محفوظ کریں";
+"Schedule Summary" = "شیڈول کا خلاصہ";
+"Print test page every day at %@" = "ہر روز %@ پر ٹیسٹ پیج پرنٹ کریں";
+"Print test page every %@ at %@" = "ہر %@ کو %@ پر ٹیسٹ پیج پرنٹ کریں";
+"Print test page on day %d of each month at %@" = "ہر مہینے کے %d دن %@ پر ٹیسٹ پیج پرنٹ کریں";
+
+// LogView
+"Print Logs" = "پرنٹ لاگز";
+"Close" = "بند کریں";
+"No logs yet" = "ابھی تک کوئی لاگز نہیں";
+"Click the button to generate test data" = "ٹیسٹ ڈیٹا تیار کرنے کے لیے بٹن پر کلک کریں";
+"Total %d log entries" = "کل %d لاگ اندراجات";
+"Print #%d" = "پرنٹ #%d";
+"Printed on %@" = "%@ پر پرنٹ کیا گیا";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "بیداری شیڈول منسوخ کرنے میں ناکام: %@";
+"Wake schedule cancelled" = "بیداری شیڈول منسوخ کر دیا گیا";
+"Unable to create AppleScript" = "AppleScript بنانے میں ناکام";
+"Unable to set wake schedule: %@" = "بیداری شیڈول مقرر کرنے میں ناکام: %@";
+"Wake schedule set successfully" = "بیداری شیڈول کامیابی سے مقرر کیا گیا";
+
+// LogManager
+"Unable to create application directory: %@" = "ایپلیکیشن ڈائریکٹری بنانے میں ناکام: %@";
+"Read log data: %d bytes" = "لاگ ڈیٹا پڑھا: %d بائٹس";
+"Failed to load logs: %@" = "لاگز لوڈ کرنے میں ناکام: %@";
+"Failed to save logs: %@" = "لاگز محفوظ کرنے میں ناکام: %@";
+"Logs saved successfully" = "لاگز کامیابی سے محفوظ ہو گئے";
+
+"Help Content" = "پرنٹ ہیڈ کے طویل عرصے تک غیر فعال رہنے کی وجہ سے بند ہونے سے بچنے کے لیے، یہ پروگرام باقاعدہ وقفوں پر خود بخود ایک ٹیسٹ پیج پرنٹ کرتا ہے۔ نوزلز کے ذریعے سیاہی کے بہاؤ کو برقرار رکھ کر، یہ یقینی بناتا ہے کہ آپ کا پرنٹر بہترین کام کرنے کی حالت میں رہے—جب آپ کو ضرورت ہو تو پرنٹ کرنے کے لیے تیار ہے۔";
+"Help Title" = "خودکار پرنٹ ہیڈ کی دیکھ بھال";
+"About" = "کے بارے میں";

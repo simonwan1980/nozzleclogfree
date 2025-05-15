@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Slovak localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nie je vybratá žiadna tlačiareň";
+"printer_error_pdf_load_failed" = "Nepodarilo sa načítať PDF súbor testovacej stránky";
+"printer_error_print_operation_failed" = "Chyba tlače: %@";
+"printer_operation_success" = "Tlač bola úspešná";
+"printer_operation_failed_unknown" = "Neznáma chyba tlače";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Údržba Trysiek";
+"Select Printer:" = "Vyberte Tlačiareň:";
+"Printer" = "Tlačiareň";
+"View Logs" = "Zobraziť Záznamy";
+"Enable Auto Print" = "Povoliť Automatickú Tlač";
+"Disable Auto Print" = "Zakázať Automatickú Tlač";
+"(Enabled)" = "(Povolené)";
+"(Disabled)" = "(Zakázané)";
+"Next Print Time: %@" = "Ďalší Čas Tlače: %@";
+"Print Test Page Now" = "Vytlačiť Testovaciu Stránku Teraz";
+"Exit" = "Ukončiť";
+"Language" = "Jazyk";
+"Select Language" = "Vybrať jazyk";
+"Search" = "Hľadať";
+"Configure Schedule" = "Nastaviť Plán";
+"Print File:" = "Tlačový Súbor:";
+"Default Test Page" = "Predvolená Testovacia Stránka";
+"Select..." = "Vybrať...";
+"Clear" = "Vymazať";
+"Print Settings" = "Nastavenia Tlače";
+"Preview" = "Náhľad";
+"Select PDF File" = "Vybrať PDF Súbor";
+"Print Preview" = "Náhľad Tlače";
+"Save Settings" = "Uložiť Nastavenia";
+"Cancel" = "Zrušiť";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "V nasledujúcom dialógu kliknite na tlačidlo 'Tlačiť' pre uloženie nastavení bez skutočnej tlače. Tieto nastavenia budú použité pre budúcu tlač.";
+"Settings Saved" = "Nastavenia Uložené";
+"Your print settings have been saved and will be used for future printing." = "Vaše nastavenia tlače boli uložené a budú použité pre budúcu tlač.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Nastaviť Plán Tlače";
+"Schedule Type" = "Typ Plánu";
+"Daily" = "Denne";
+"Weekly" = "Týždenne";
+"Monthly" = "Mesačne";
+"Time" = "Čas";
+"Hour" = "Hodina";
+"Minute" = "Minúta";
+"Day of Week" = "Deň v Týždni";
+"Day of Month" = "Deň v Mesiaci";
+"Sunday" = "Nedeľa";
+"Monday" = "Pondelok";
+"Tuesday" = "Utorok";
+"Wednesday" = "Streda";
+"Thursday" = "Štvrtok";
+"Friday" = "Piatok";
+"Saturday" = "Sobota";
+"Save" = "Uložiť";
+"Schedule Summary" = "Súhrn Plánu";
+"Print test page every day at %@" = "Tlačiť testovaciu stránku každý deň o %@";
+"Print test page every %@ at %@" = "Tlačiť testovaciu stránku každý %@ o %@";
+"Print test page on day %d of each month at %@" = "Tlačiť testovaciu stránku %d. deň každého mesiaca o %@";
+
+// LogView
+"Print Logs" = "Záznamy Tlače";
+"Close" = "Zavrieť";
+"No logs yet" = "Zatiaľ žiadne záznamy";
+"Click the button to generate test data" = "Kliknite na tlačidlo pre generovanie testovacích údajov";
+"Total %d log entries" = "Celkom %d záznamov";
+"Print #%d" = "Tlač #%d";
+"Printed on %@" = "Vytlačené dňa %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nie je možné zrušiť plán prebudenia: %@";
+"Wake schedule cancelled" = "Plán prebudenia zrušený";
+"Unable to create AppleScript" = "Nie je možné vytvoriť AppleScript";
+"Unable to set wake schedule: %@" = "Nie je možné nastaviť plán prebudenia: %@";
+"Wake schedule set successfully" = "Plán prebudenia úspešne nastavený";
+
+// LogManager
+"Unable to create application directory: %@" = "Nie je možné vytvoriť adresár aplikácie: %@";
+"Read log data: %d bytes" = "Prečítané údaje záznamu: %d bajtov";
+"Failed to load logs: %@" = "Nepodarilo sa načítať záznamy: %@";
+"Failed to save logs: %@" = "Nepodarilo sa uložiť záznamy: %@";
+"Logs saved successfully" = "Záznamy úspešne uložené";
+
+"Help Content" = "Aby sa zabránilo upchaniu tlačovej hlavy z dôvodu dlhých období nečinnosti, tento program automaticky tlačí testovaciu stránku v pravidelných intervaloch. Udržiavaním toku atramentu cez trysky zabezpečuje, že vaša tlačiareň zostáva v optimálnom prevádzkovom stave - pripravená na tlač, keď ju potrebujete.";
+"Help Title" = "Automatická údržba tlačovej hlavy";
+"About" = "O aplikácii";

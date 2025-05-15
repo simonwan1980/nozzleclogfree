@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Estonian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Printerit pole valitud";
+"printer_error_pdf_load_failed" = "Testlehe PDF-faili laadimine ebaõnnestus";
+"printer_error_print_operation_failed" = "Printimine ebaõnnestus: %@";
+"printer_operation_success" = "Printimine õnnestus";
+"printer_operation_failed_unknown" = "Tundmatu printimisviga";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Düüside Hooldus";
+"Select Printer:" = "Vali Printer:";
+"Printer" = "Printer";
+"View Logs" = "Vaata Logisid";
+"Enable Auto Print" = "Luba Automaatne Printimine";
+"Disable Auto Print" = "Keela Automaatne Printimine";
+"(Enabled)" = "(Lubatud)";
+"(Disabled)" = "(Keelatud)";
+"Next Print Time: %@" = "Järgmine Printimise Aeg: %@";
+"Print Test Page Now" = "Prindi Testleht Kohe";
+"Exit" = "Välju";
+"Language" = "Keel";
+"Select Language" = "Vali keel";
+"Search" = "Otsing";
+"Configure Schedule" = "Seadista Ajakava";
+"Print File:" = "Printimise Fail:";
+"Default Test Page" = "Vaikimisi Testleht";
+"Select..." = "Vali...";
+"Clear" = "Puhasta";
+"Print Settings" = "Printimise Seaded";
+"Preview" = "Eelvaade";
+"Select PDF File" = "Vali PDF Fail";
+"Print Preview" = "Printimise Eelvaade";
+"Save Settings" = "Salvesta Seaded";
+"Cancel" = "Tühista";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Järgnevas dialoogis klõpsa nuppu 'Prindi', et salvestada oma seaded ilma tegelikult printimata. Neid seadeid kasutatakse tulevaste printimiste jaoks.";
+"Settings Saved" = "Seaded Salvestatud";
+"Your print settings have been saved and will be used for future printing." = "Sinu printimise seaded on salvestatud ja neid kasutatakse tulevaste printimiste jaoks.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Seadista Printimise Ajakava";
+"Schedule Type" = "Ajakava Tüüp";
+"Daily" = "Igapäevane";
+"Weekly" = "Iganädalane";
+"Monthly" = "Igakuine";
+"Time" = "Aeg";
+"Hour" = "Tund";
+"Minute" = "Minut";
+"Day of Week" = "Nädalapäev";
+"Day of Month" = "Kuupäev";
+"Sunday" = "Pühapäev";
+"Monday" = "Esmaspäev";
+"Tuesday" = "Teisipäev";
+"Wednesday" = "Kolmapäev";
+"Thursday" = "Neljapäev";
+"Friday" = "Reede";
+"Saturday" = "Laupäev";
+"Save" = "Salvesta";
+"Schedule Summary" = "Ajakava Kokkuvõte";
+"Print test page every day at %@" = "Prindi testleht iga päev kell %@";
+"Print test page every %@ at %@" = "Prindi testleht iga %@ kell %@";
+"Print test page on day %d of each month at %@" = "Prindi testleht iga kuu %d. päeval kell %@";
+
+// LogView
+"Print Logs" = "Printimise Logid";
+"Close" = "Sulge";
+"No logs yet" = "Logisid pole veel";
+"Click the button to generate test data" = "Klõpsa nuppu, et genereerida testandmeid";
+"Total %d log entries" = "Kokku %d logikirjet";
+"Print #%d" = "Printimine #%d";
+"Printed on %@" = "Prinditud %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Äratuse ajakava tühistamine ebaõnnestus: %@";
+"Wake schedule cancelled" = "Äratuse ajakava tühistatud";
+"Unable to create AppleScript" = "AppleScript'i loomine ebaõnnestus";
+"Unable to set wake schedule: %@" = "Äratuse ajakava seadistamine ebaõnnestus: %@";
+"Wake schedule set successfully" = "Äratuse ajakava edukalt seadistatud";
+
+// LogManager
+"Unable to create application directory: %@" = "Rakenduse kataloogi loomine ebaõnnestus: %@";
+"Read log data: %d bytes" = "Loetud logiandmed: %d baiti";
+"Failed to load logs: %@" = "Logide laadimine ebaõnnestus: %@";
+"Failed to save logs: %@" = "Logide salvestamine ebaõnnestus: %@";
+"Logs saved successfully" = "Logid edukalt salvestatud";
+
+"Help Content" = "Et vältida prindipea ummistumist pikkade tegevusetuse perioodide tõttu, prindib see programm automaatselt regulaarsete ajavahemike järel testlehe. Hoides tinti düüsides voolamas, tagab see, et teie printer püsib optimaalses töökorras – valmis printima, kui teil seda vaja on.";
+"Help Title" = "Automaatne prindipea hooldus";
+"About" = "Teave";

@@ -1,0 +1,94 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Bengali localization
+*/
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree নজল রক্ষণাবেক্ষণ";
+"Select Printer:" = "প্রিন্টার নির্বাচন করুন:";
+"Printer" = "প্রিন্টার";
+"View Logs" = "লগ দেখুন";
+"Enable Auto Print" = "স্বয়ংক্রিয় প্রিন্ট সক্ষম করুন";
+"Disable Auto Print" = "স্বয়ংক্রিয় প্রিন্ট নিষ্ক্রিয় করুন";
+"(Enabled)" = "(সক্ষম)";
+"(Disabled)" = "(নিষ্ক্রিয়)";
+"Next Print Time: %@" = "পরবর্তী প্রিন্ট সময়: %@";
+"Print Test Page Now" = "এখন টেস্ট পেজ প্রিন্ট করুন";
+"Exit" = "প্রস্থান";
+"Language" = "ভাষা";
+"Select Language" = "ভাষা নির্বাচন করুন";
+"Search" = "অনুসন্ধান";
+"Configure Schedule" = "সময়সূচী কনফিগার করুন";
+"Print File:" = "প্রিন্ট ফাইল:";
+"Default Test Page" = "ডিফল্ট টেস্ট পেজ";
+"Select..." = "নির্বাচন করুন...";
+"Clear" = "মুছুন";
+"Print Settings" = "প্রিন্ট সেটিংস";
+"Preview" = "প্রিভিউ";
+"Select PDF File" = "PDF ফাইল নির্বাচন করুন";
+"Print Preview" = "প্রিন্ট প্রিভিউ";
+"Save Settings" = "সেটিংস সংরক্ষণ করুন";
+"Cancel" = "বাতিল";
+"OK" = "ঠিক আছে";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "নিম্নলিখিত ডায়ালগে, আসলে প্রিন্ট না করেই আপনার সেটিংস সংরক্ষণ করতে 'প্রিন্ট' বাটনে ক্লিক করুন। এই সেটিংসগুলি ভবিষ্যতের প্রিন্টিংয়ের জন্য ব্যবহার করা হবে।";
+"Settings Saved" = "সেটিংস সংরক্ষিত হয়েছে";
+"Your print settings have been saved and will be used for future printing." = "আপনার প্রিন্ট সেটিংস সংরক্ষিত হয়েছে এবং ভবিষ্যতের প্রিন্টিংয়ের জন্য ব্যবহার করা হবে।";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "প্রিন্ট সময়সূচী কনফিগার করুন";
+"Schedule Type" = "সময়সূচীর ধরন";
+"Daily" = "দৈনিক";
+"Weekly" = "সাপ্তাহিক";
+"Monthly" = "মাসিক";
+"Time" = "সময়";
+"Hour" = "ঘন্টা";
+"Minute" = "মিনিট";
+"Day of Week" = "সপ্তাহের দিন";
+"Day of Month" = "মাসের দিন";
+"Sunday" = "রবিবার";
+"Monday" = "সোমবার";
+"Tuesday" = "মঙ্গলবার";
+"Wednesday" = "বুধবার";
+"Thursday" = "বৃহস্পতিবার";
+"Friday" = "শুক্রবার";
+"Saturday" = "শনিবার";
+"Save" = "সংরক্ষণ করুন";
+"Schedule Summary" = "সময়সূচী সারাংশ";
+"Print test page every day at %@" = "প্রতিদিন %@ এ টেস্ট পেজ প্রিন্ট করুন";
+"Print test page every %@ at %@" = "প্রতি %@ এ %@ এ টেস্ট পেজ প্রিন্ট করুন";
+"Print test page on day %d of each month at %@" = "প্রতি মাসের %d তারিখে %@ এ টেস্ট পেজ প্রিন্ট করুন";
+
+// LogView
+"Print Logs" = "প্রিন্ট লগ";
+"Close" = "বন্ধ করুন";
+"No logs yet" = "এখনও কোন লগ নেই";
+"Click the button to generate test data" = "টেস্ট ডেটা তৈরি করতে বাটনে ক্লিক করুন";
+"Total %d log entries" = "মোট %d লগ এন্ট্রি";
+"Print #%d" = "প্রিন্ট #%d";
+"Printed on %@" = "%@ এ প্রিন্ট করা হয়েছে";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "ওয়েক সময়সূচী বাতিল করতে অক্ষম: %@";
+"Wake schedule cancelled" = "ওয়েক সময়সূচী বাতিল করা হয়েছে";
+"Unable to create AppleScript" = "AppleScript তৈরি করতে অক্ষম";
+"Unable to set wake schedule: %@" = "ওয়েক সময়সূচী সেট করতে অক্ষম: %@";
+"Wake schedule set successfully" = "ওয়েক সময়সূচী সফলভাবে সেট করা হয়েছে";
+
+// LogManager
+"Unable to create application directory: %@" = "অ্যাপ্লিকেশন ডিরেক্টরি তৈরি করতে অক্ষম: %@";
+"Read log data: %d bytes" = "লগ ডেটা পড়া হয়েছে: %d বাইট";
+"Failed to load logs: %@" = "লগ লোড করতে ব্যর্থ: %@";
+"Failed to save logs: %@" = "লগ সংরক্ষণ করতে ব্যর্থ: %@";
+"Logs saved successfully" = "লগ সফলভাবে সংরক্ষিত হয়েছে";
+
+"Help Content" = "দীর্ঘ সময় ধরে নিষ্ক্রিয়তার কারণে প্রিন্টহেড জ্যাম হওয়া রোধ করতে, এই প্রোগ্রামটি নিয়মিত বিরতিতে স্বয়ংক্রিয়ভাবে একটি টেস্ট পেজ প্রিন্ট করে। নোজল দিয়ে কালি প্রবাহিত রেখে, এটি নিশ্চিত করে যে আপনার প্রিন্টার সর্বোত্তম কার্যকরী অবস্থায় থাকে—যখন আপনার প্রয়োজন হবে তখন প্রিন্ট করার জন্য প্রস্তুত।";
+"Help Title" = "স্বয়ংক্রিয় প্রিন্টহেড রক্ষণাবেক্ষণ";
+"About" = "সম্বন্ধে";
+
+"printer_error_no_printer_selected" = "কোনো প্রিন্টার নির্বাচন করা হয়নি";
+"printer_error_pdf_load_failed" = "টেস্ট পেজ PDF ফাইল লোড করা যায়নি";
+"printer_error_print_operation_failed" = "প্রিন্ট ব্যর্থ: %@";
+"printer_operation_success" = "প্রিন্ট সফল হয়েছে";
+"printer_operation_failed_unknown" = "অজানা প্রিন্ট ত্রুটি";

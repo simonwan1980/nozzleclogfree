@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Hindi localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "कोई प्रिंटर चयनित नहीं है";
+"printer_error_pdf_load_failed" = "टेस्ट पेज PDF फ़ाइल लोड नहीं हो सकी";
+"printer_error_print_operation_failed" = "प्रिंट विफल: %@";
+"printer_operation_success" = "प्रिंट सफल रहा";
+"printer_operation_failed_unknown" = "अज्ञात प्रिंट त्रुटि";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree नोजल रखरखाव";
+"Select Printer:" = "प्रिंटर चुनें:";
+"Printer" = "प्रिंटर";
+"View Logs" = "लॉग देखें";
+"Enable Auto Print" = "स्वचालित प्रिंट सक्षम करें";
+"Disable Auto Print" = "स्वचालित प्रिंट अक्षम करें";
+"(Enabled)" = "(सक्षम)";
+"(Disabled)" = "(अक्षम)";
+"Next Print Time: %@" = "अगला प्रिंट समय: %@";
+"Print Test Page Now" = "अभी टेस्ट पेज प्रिंट करें";
+"Exit" = "बाहर निकलें";
+"Language" = "भाषा";
+"Select Language" = "भाषा चुनें";
+"Search" = "खोज";
+"Configure Schedule" = "शेड्यूल कॉन्फ़िगर करें";
+"Print File:" = "फ़ाइल प्रिंट करें:";
+"Default Test Page" = "डिफ़ॉल्ट टेस्ट पेज";
+"Select..." = "चुनें...";
+"Clear" = "साफ़ करें";
+"Print Settings" = "प्रिंट सेटिंग्स";
+"Preview" = "पूर्वावलोकन";
+"Select PDF File" = "PDF फ़ाइल चुनें";
+"Print Preview" = "प्रिंट पूर्वावलोकन";
+"Save Settings" = "सेटिंग्स सहेजें";
+"Cancel" = "रद्द करें";
+"OK" = "ठीक है";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "निम्न संवाद में, वास्तव में प्रिंट किए बिना अपनी सेटिंग्स सहेजने के लिए 'प्रिंट' बटन पर क्लिक करें। ये सेटिंग्स भविष्य के प्रिंटिंग के लिए उपयोग की जाएंगी।";
+"Settings Saved" = "सेटिंग्स सहेजी गईं";
+"Your print settings have been saved and will be used for future printing." = "आपकी प्रिंट सेटिंग्स सहेज ली गई हैं और भविष्य के प्रिंटिंग के लिए उपयोग की जाएंगी।";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "प्रिंट शेड्यूल कॉन्फ़िगर करें";
+"Schedule Type" = "शेड्यूल प्रकार";
+"Daily" = "दैनिक";
+"Weekly" = "साप्ताहिक";
+"Monthly" = "मासिक";
+"Time" = "समय";
+"Hour" = "घंटा";
+"Minute" = "मिनट";
+"Day of Week" = "सप्ताह का दिन";
+"Day of Month" = "महीने का दिन";
+"Sunday" = "रविवार";
+"Monday" = "सोमवार";
+"Tuesday" = "मंगलवार";
+"Wednesday" = "बुधवार";
+"Thursday" = "गुरुवार";
+"Friday" = "शुक्रवार";
+"Saturday" = "शनिवार";
+"Save" = "सहेजें";
+"Schedule Summary" = "शेड्यूल सारांश";
+"Print test page every day at %@" = "हर दिन %@ पर टेस्ट पेज प्रिंट करें";
+"Print test page every %@ at %@" = "हर %@ को %@ पर टेस्ट पेज प्रिंट करें";
+"Print test page on day %d of each month at %@" = "हर महीने के %d दिन %@ पर टेस्ट पेज प्रिंट करें";
+
+// LogView
+"Print Logs" = "प्रिंट लॉग";
+"Close" = "बंद करें";
+"No logs yet" = "अभी तक कोई लॉग नहीं";
+"Click the button to generate test data" = "टेस्ट डेटा जनरेट करने के लिए बटन पर क्लिक करें";
+"Total %d log entries" = "कुल %d लॉग प्रविष्टियां";
+"Print #%d" = "प्रिंट #%d";
+"Printed on %@" = "%@ पर प्रिंट किया गया";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "वेक शेड्यूल रद्द करने में असमर्थ: %@";
+"Wake schedule cancelled" = "वेक शेड्यूल रद्द किया गया";
+"Unable to create AppleScript" = "AppleScript बनाने में असमर्थ";
+"Unable to set wake schedule: %@" = "वेक शेड्यूल सेट करने में असमर्थ: %@";
+"Wake schedule set successfully" = "वेक शेड्यूल सफलतापूर्वक सेट किया गया";
+
+// LogManager
+"Unable to create application directory: %@" = "एप्लिकेशन डायरेक्टरी बनाने में असमर्थ: %@";
+"Read log data: %d bytes" = "लॉग डेटा पढ़ा: %d बाइट्स";
+"Failed to load logs: %@" = "लॉग लोड करने में विफल: %@";
+"Failed to save logs: %@" = "लॉग सहेजने में विफल: %@";
+"Logs saved successfully" = "लॉग सफलतापूर्वक सहेजे गए";
+
+"Help Content" = "लंबे समय तक निष्क्रियता के कारण प्रिंटहेड के जाम होने से बचाने के लिए, यह प्रोग्राम नियमित अंतराल पर स्वचालित रूप से एक परीक्षण पृष्ठ प्रिंट करता है। नोजल्स के माध्यम से स्याही के प्रवाह को बनाए रखकर, यह सुनिश्चित करता है कि आपका प्रिंटर इष्टतम कार्य स्थिति में रहे—जब आपको इसकी आवश्यकता हो तब प्रिंट करने के लिए तैयार।";
+"Help Title" = "स्वचालित प्रिंटहेड रखरखाव";
+"Help" = "मदद";

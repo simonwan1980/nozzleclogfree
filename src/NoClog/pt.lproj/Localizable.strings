@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Portuguese localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nenhuma impressora selecionada";
+"printer_error_pdf_load_failed" = "Falha ao carregar o arquivo PDF da página de teste";
+"printer_error_print_operation_failed" = "Erro de impressão: %@";
+"printer_operation_success" = "Impressão bem-sucedida";
+"printer_operation_failed_unknown" = "Erro de impressão desconhecido";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Manutenção de Bicos";
+"Select Printer:" = "Selecionar Impressora:";
+"Printer" = "Impressora";
+"View Logs" = "Ver Registros";
+"Enable Auto Print" = "Ativar Impressão Automática";
+"Disable Auto Print" = "Desativar Impressão Automática";
+"(Enabled)" = "(Ativado)";
+"(Disabled)" = "(Desativado)";
+"Next Print Time: %@" = "Próxima Impressão: %@";
+"Print Test Page Now" = "Imprimir Página de Teste Agora";
+"Exit" = "Sair";
+"Language" = "Idioma";
+"Select Language" = "Selecionar idioma";
+"Search" = "Pesquisar";
+"Configure Schedule" = "Configurar Agenda";
+"Print File:" = "Arquivo de Impressão:";
+"Default Test Page" = "Página de Teste Padrão";
+"Select..." = "Selecionar...";
+"Clear" = "Limpar";
+"Print Settings" = "Configurações de Impressão";
+"Preview" = "Visualizar";
+"Select PDF File" = "Selecionar Arquivo PDF";
+"Print Preview" = "Visualização da Impressão";
+"Save Settings" = "Salvar Configurações";
+"Cancel" = "Cancelar";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Na caixa de diálogo a seguir, clique no botão 'Imprimir' para salvar suas configurações sem realmente imprimir. Essas configurações serão usadas para impressões futuras.";
+"Settings Saved" = "Configurações Salvas";
+"Your print settings have been saved and will be used for future printing." = "Suas configurações de impressão foram salvas e serão usadas para impressões futuras.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configurar Agenda de Impressão";
+"Schedule Type" = "Tipo de Agenda";
+"Daily" = "Diário";
+"Weekly" = "Semanal";
+"Monthly" = "Mensal";
+"Time" = "Hora";
+"Hour" = "Hora";
+"Minute" = "Minuto";
+"Day of Week" = "Dia da Semana";
+"Day of Month" = "Dia do Mês";
+"Sunday" = "Domingo";
+"Monday" = "Segunda-feira";
+"Tuesday" = "Terça-feira";
+"Wednesday" = "Quarta-feira";
+"Thursday" = "Quinta-feira";
+"Friday" = "Sexta-feira";
+"Saturday" = "Sábado";
+"Save" = "Salvar";
+"Schedule Summary" = "Resumo da Agenda";
+"Print test page every day at %@" = "Imprimir página de teste todos os dias às %@";
+"Print test page every %@ at %@" = "Imprimir página de teste toda %@ às %@";
+"Print test page on day %d of each month at %@" = "Imprimir página de teste no dia %d de cada mês às %@";
+
+// LogView
+"Print Logs" = "Registros de Impressão";
+"Close" = "Fechar";
+"No logs yet" = "Ainda não há registros";
+"Click the button to generate test data" = "Clique no botão para gerar dados de teste";
+"Total %d log entries" = "Total de %d entradas de registro";
+"Print #%d" = "Impressão #%d";
+"Printed on %@" = "Impresso em %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Não foi possível cancelar a agenda de ativação: %@";
+"Wake schedule cancelled" = "Agenda de ativação cancelada";
+"Unable to create AppleScript" = "Não foi possível criar AppleScript";
+"Unable to set wake schedule: %@" = "Não foi possível definir a agenda de ativação: %@";
+"Wake schedule set successfully" = "Agenda de ativação definida com sucesso";
+
+// LogManager
+"Unable to create application directory: %@" = "Não foi possível criar o diretório do aplicativo: %@";
+"Read log data: %d bytes" = "Dados de registro lidos: %d bytes";
+"Failed to load logs: %@" = "Falha ao carregar registros: %@";
+"Failed to save logs: %@" = "Falha ao salvar registros: %@";
+"Logs saved successfully" = "Registros salvos com sucesso";
+
+"Help Content" = "Para evitar o entupimento da cabeça de impressão devido a longos períodos de inatividade, este programa imprime automaticamente uma página de teste em intervalos regulares. Ao manter a tinta fluindo através dos bicos, garante que a sua impressora permanece em ótimas condições de funcionamento—pronta para imprimir quando precisar.";
+"Help Title" = "Manutenção automática da cabeça de impressão";
+"About" = "Sobre";

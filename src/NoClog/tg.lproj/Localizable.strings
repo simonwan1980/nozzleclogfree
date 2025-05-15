@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Tajik localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Ягон чопгар интихоб нашудааст";
+"printer_error_pdf_load_failed" = "Файли PDF саҳифаи санҷишӣ бор нашуд";
+"printer_error_print_operation_failed" = "Хатои чоп: %@";
+"printer_operation_success" = "Чоп муваффақ шуд";
+"printer_operation_failed_unknown" = "Хатои номаълум дар чоп";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Нигоҳубини Нозл";
+"Select Printer:" = "Интихоби Принтер:";
+"Printer" = "Принтер";
+"View Logs" = "Дидани Сабтҳо";
+"Enable Auto Print" = "Фаъолсозии Чопи Худкор";
+"Disable Auto Print" = "Ғайрифаъолсозии Чопи Худкор";
+"(Enabled)" = "(Фаъол)";
+"(Disabled)" = "(Ғайрифаъол)";
+"Next Print Time: %@" = "Вақти Чопи Оянда: %@";
+"Print Test Page Now" = "Чопи Саҳифаи Санҷишӣ Ҳозир";
+"Exit" = "Баромадан";
+"Language" = "Забон";
+"Select Language" = "Интихоби забон";
+"Search" = "Ҷустуҷӯ";
+"Configure Schedule" = "Танзими Ҷадвал";
+"Print File:" = "Файли Чоп:";
+"Default Test Page" = "Саҳифаи Санҷишии Пешфарз";
+"Select..." = "Интихоб...";
+"Clear" = "Тоза кардан";
+"Print Settings" = "Танзимоти Чоп";
+"Preview" = "Пешнамоиш";
+"Select PDF File" = "Интихоби Файли PDF";
+"Print Preview" = "Пешнамоиши Чоп";
+"Save Settings" = "Нигоҳдории Танзимот";
+"Cancel" = "Бекор кардан";
+"OK" = "Хуб";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Дар равзанаи зерин, тугмаи 'Чоп'-ро пахш кунед, то танзимоти шумо бидуни чопи воқеӣ нигоҳ дошта шавад. Ин танзимот барои чопи оянда истифода хоҳад шуд.";
+"Settings Saved" = "Танзимот Нигоҳ Дошта Шуд";
+"Your print settings have been saved and will be used for future printing." = "Танзимоти чопи шумо нигоҳ дошта шуд ва барои чопи оянда истифода хоҳад шуд.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Танзими Ҷадвали Чоп";
+"Schedule Type" = "Навъи Ҷадвал";
+"Daily" = "Рӯзона";
+"Weekly" = "Ҳафтагӣ";
+"Monthly" = "Моҳона";
+"Time" = "Вақт";
+"Hour" = "Соат";
+"Minute" = "Дақиқа";
+"Day of Week" = "Рӯзи Ҳафта";
+"Day of Month" = "Рӯзи Моҳ";
+"Sunday" = "Якшанбе";
+"Monday" = "Душанбе";
+"Tuesday" = "Сешанбе";
+"Wednesday" = "Чоршанбе";
+"Thursday" = "Панҷшанбе";
+"Friday" = "Ҷумъа";
+"Saturday" = "Шанбе";
+"Save" = "Нигоҳ доштан";
+"Schedule Summary" = "Хулосаи Ҷадвал";
+"Print test page every day at %@" = "Чопи саҳифаи санҷишӣ ҳар рӯз дар соати %@";
+"Print test page every %@ at %@" = "Чопи саҳифаи санҷишӣ ҳар %@ дар соати %@";
+"Print test page on day %d of each month at %@" = "Чопи саҳифаи санҷишӣ дар рӯзи %d-уми ҳар моҳ дар соати %@";
+
+// LogView
+"Print Logs" = "Сабтҳои Чоп";
+"Close" = "Пӯшидан";
+"No logs yet" = "Ҳанӯз сабт нест";
+"Click the button to generate test data" = "Барои тавлиди маълумоти санҷишӣ тугмаро пахш кунед";
+"Total %d log entries" = "Ҳамагӣ %d сабт";
+"Print #%d" = "Чопи #%d";
+"Printed on %@" = "Чоп шуда дар %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Бекор кардани ҷадвали бедоршавӣ имконнопазир аст: %@";
+"Wake schedule cancelled" = "Ҷадвали бедоршавӣ бекор карда шуд";
+"Unable to create AppleScript" = "Сохтани AppleScript имконнопазир аст";
+"Unable to set wake schedule: %@" = "Танзими ҷадвали бедоршавӣ имконнопазир аст: %@";
+"Wake schedule set successfully" = "Ҷадвали бедоршавӣ бомуваффақият танзим шуд";
+
+// LogManager
+"Unable to create application directory: %@" = "Сохтани феҳристи барнома имконнопазир аст: %@";
+"Read log data: %d bytes" = "Хондани маълумоти сабт: %d байт";
+"Failed to load logs: %@" = "Боркунии сабтҳо ноком шуд: %@";
+"Failed to save logs: %@" = "Нигоҳдории сабтҳо ноком шуд: %@";
+"Logs saved successfully" = "Сабтҳо бомуваффақият нигоҳ дошта шуданд";
+
+"Help Content" = "Барои пешгирии банд шудани сараки чопгар бинобар давраҳои дарози ғайрифаъол, ин барнома ба таври худкор дар фосилаҳои муқаррарӣ саҳифаи санҷиширо чоп мекунад. Бо нигоҳ доштани ҷараёни ранг тавассути нозулҳо, он кафолат медиҳад, ки чопгари шумо дар ҳолати кории мувофиқ мемонад — барои чоп кардан вақте ки ба шумо лозим аст, омода аст.";
+"Help Title" = "Нигоҳдории худкори сараки чопгар";
+"About" = "Дар бораи";

@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Turkish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Yazıcı seçilmedi";
+"printer_error_pdf_load_failed" = "Test sayfası PDF dosyası yüklenemedi";
+"printer_error_print_operation_failed" = "Yazdırma hatası: %@";
+"printer_operation_success" = "Yazdırma başarılı";
+"printer_operation_failed_unknown" = "Bilinmeyen yazdırma hatası";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Nozul Bakımı";
+"Select Printer:" = "Yazıcı Seç:";
+"Printer" = "Yazıcı";
+"View Logs" = "Günlükleri Görüntüle";
+"Enable Auto Print" = "Otomatik Yazdırmayı Etkinleştir";
+"Disable Auto Print" = "Otomatik Yazdırmayı Devre Dışı Bırak";
+"(Enabled)" = "(Etkin)";
+"(Disabled)" = "(Devre Dışı)";
+"Next Print Time: %@" = "Sonraki Yazdırma Zamanı: %@";
+"Print Test Page Now" = "Şimdi Test Sayfası Yazdır";
+"Exit" = "Çıkış";
+"Language" = "Dil";
+"Select Language" = "Dil seçin";
+"Search" = "Ara";
+"Configure Schedule" = "Programı Yapılandır";
+"Print File:" = "Yazdırma Dosyası:";
+"Default Test Page" = "Varsayılan Test Sayfası";
+"Select..." = "Seç...";
+"Clear" = "Temizle";
+"Print Settings" = "Yazdırma Ayarları";
+"Preview" = "Önizleme";
+"Select PDF File" = "PDF Dosyası Seç";
+"Print Preview" = "Baskı Önizleme";
+"Save Settings" = "Ayarları Kaydet";
+"Cancel" = "İptal";
+"OK" = "Tamam";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Aşağıdaki iletişim kutusunda, gerçekten yazdırmadan ayarlarınızı kaydetmek için 'Yazdır' düğmesine tıklayın. Bu ayarlar gelecekteki yazdırma işlemleri için kullanılacaktır.";
+"Settings Saved" = "Ayarlar Kaydedildi";
+"Your print settings have been saved and will be used for future printing." = "Yazdırma ayarlarınız kaydedildi ve gelecekteki yazdırma işlemleri için kullanılacaktır.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Yazdırma Programını Yapılandır";
+"Schedule Type" = "Program Türü";
+"Daily" = "Günlük";
+"Weekly" = "Haftalık";
+"Monthly" = "Aylık";
+"Time" = "Zaman";
+"Hour" = "Saat";
+"Minute" = "Dakika";
+"Day of Week" = "Haftanın Günü";
+"Day of Month" = "Ayın Günü";
+"Sunday" = "Pazar";
+"Monday" = "Pazartesi";
+"Tuesday" = "Salı";
+"Wednesday" = "Çarşamba";
+"Thursday" = "Perşembe";
+"Friday" = "Cuma";
+"Saturday" = "Cumartesi";
+"Save" = "Kaydet";
+"Schedule Summary" = "Program Özeti";
+"Print test page every day at %@" = "Her gün %@ saatinde test sayfası yazdır";
+"Print test page every %@ at %@" = "Her %@ günü %@ saatinde test sayfası yazdır";
+"Print test page on day %d of each month at %@" = "Her ayın %d. gününde %@ saatinde test sayfası yazdır";
+
+// LogView
+"Print Logs" = "Yazdırma Günlükleri";
+"Close" = "Kapat";
+"No logs yet" = "Henüz günlük yok";
+"Click the button to generate test data" = "Test verisi oluşturmak için düğmeye tıklayın";
+"Total %d log entries" = "Toplam %d günlük girişi";
+"Print #%d" = "Yazdırma #%d";
+"Printed on %@" = "%@ tarihinde yazdırıldı";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Uyandırma programı iptal edilemiyor: %@";
+"Wake schedule cancelled" = "Uyandırma programı iptal edildi";
+"Unable to create AppleScript" = "AppleScript oluşturulamıyor";
+"Unable to set wake schedule: %@" = "Uyandırma programı ayarlanamıyor: %@";
+"Wake schedule set successfully" = "Uyandırma programı başarıyla ayarlandı";
+
+// LogManager
+"Unable to create application directory: %@" = "Uygulama dizini oluşturulamıyor: %@";
+"Read log data: %d bytes" = "Okunan günlük verisi: %d bayt";
+"Failed to load logs: %@" = "Günlükler yüklenemedi: %@";
+"Failed to save logs: %@" = "Günlükler kaydedilemedi: %@";
+"Logs saved successfully" = "Günlükler başarıyla kaydedildi";
+
+"Help Content" = "Uzun süre kullanılmama nedeniyle yazıcı kafasının tıkanmasını önlemek için, bu program düzenli aralıklarla otomatik olarak bir test sayfası yazdırır. Mürekkebin püskürtme uçlarından akışını sağlayarak, yazıcınızın optimal çalışma durumunda kalmasını sağlar—ihtiyacınız olduğunda yazdırmaya hazır.";
+"Help Title" = "Otomatik Yazıcı Kafası Bakımı";
+"About" = "Hakkında";

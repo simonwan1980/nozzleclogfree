@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Icelandic localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Engin prentari valinn";
+"printer_error_pdf_load_failed" = "Ekki tókst að hlaða PDF prófunarsíðu";
+"printer_error_print_operation_failed" = "Prentvilla: %@";
+"printer_operation_success" = "Prentun tókst";
+"printer_operation_failed_unknown" = "Óþekkt prentvilla";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Stúturviðhald";
+"Select Printer:" = "Veldu Prentara:";
+"Printer" = "Prentari";
+"View Logs" = "Skoða Annála";
+"Enable Auto Print" = "Virkja Sjálfvirka Prentun";
+"Disable Auto Print" = "Afvirkja Sjálfvirka Prentun";
+"(Enabled)" = "(Virkt)";
+"(Disabled)" = "(Óvirkt)";
+"Next Print Time: %@" = "Næsti Prentunartími: %@";
+"Print Test Page Now" = "Prenta Prófunarsíðu Núna";
+"Exit" = "Hætta";
+"Language" = "Tungumál";
+"Select Language" = "Veldu tungumál";
+"Search" = "Leita";
+"Configure Schedule" = "Stilla Tímaáætlun";
+"Print File:" = "Prentskrá:";
+"Default Test Page" = "Sjálfgefin Prófunarsíða";
+"Select..." = "Velja...";
+"Clear" = "Hreinsa";
+"Print Settings" = "Prentunarstiillingar";
+"Preview" = "Forskoðun";
+"Select PDF File" = "Veldu PDF Skrá";
+"Print Preview" = "Forskoðun Prentunar";
+"Save Settings" = "Vista Stillingar";
+"Cancel" = "Hætta við";
+"OK" = "Í lagi";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Í eftirfarandi glugga, smelltu á 'Prenta' hnappinn til að vista stillingarnar þínar án þess að prenta í raun. Þessar stillingar verða notaðar fyrir framtíðarprentun.";
+"Settings Saved" = "Stillingar Vistaðar";
+"Your print settings have been saved and will be used for future printing." = "Prentunarstiillingar þínar hafa verið vistaðar og verða notaðar fyrir framtíðarprentun.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Stilla Prentunartímaáætlun";
+"Schedule Type" = "Tegund Tímaáætlunar";
+"Daily" = "Daglega";
+"Weekly" = "Vikulega";
+"Monthly" = "Mánaðarlega";
+"Time" = "Tími";
+"Hour" = "Klukkustund";
+"Minute" = "Mínúta";
+"Day of Week" = "Vikudagur";
+"Day of Month" = "Dagur Mánaðar";
+"Sunday" = "Sunnudagur";
+"Monday" = "Mánudagur";
+"Tuesday" = "Þriðjudagur";
+"Wednesday" = "Miðvikudagur";
+"Thursday" = "Fimmtudagur";
+"Friday" = "Föstudagur";
+"Saturday" = "Laugardagur";
+"Save" = "Vista";
+"Schedule Summary" = "Yfirlit Tímaáætlunar";
+"Print test page every day at %@" = "Prenta prófunarsíðu á hverjum degi klukkan %@";
+"Print test page every %@ at %@" = "Prenta prófunarsíðu hvern %@ klukkan %@";
+"Print test page on day %d of each month at %@" = "Prenta prófunarsíðu á degi %d í hverjum mánuði klukkan %@";
+
+// LogView
+"Print Logs" = "Prentannálar";
+"Close" = "Loka";
+"No logs yet" = "Engir annálar enn";
+"Click the button to generate test data" = "Smelltu á hnappinn til að búa til prófunargögn";
+"Total %d log entries" = "Samtals %d annálsfærslur";
+"Print #%d" = "Prentun #%d";
+"Printed on %@" = "Prentað þann %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Ekki tókst að hætta við vökutímaáætlun: %@";
+"Wake schedule cancelled" = "Vökutímaáætlun hætt við";
+"Unable to create AppleScript" = "Ekki tókst að búa til AppleScript";
+"Unable to set wake schedule: %@" = "Ekki tókst að stilla vökutímaáætlun: %@";
+"Wake schedule set successfully" = "Vökutímaáætlun stillt með góðum árangri";
+
+// LogManager
+"Unable to create application directory: %@" = "Ekki tókst að búa til forritamöppu: %@";
+"Read log data: %d bytes" = "Lesa annálsgögn: %d bæti";
+"Failed to load logs: %@" = "Mistókst að hlaða annálum: %@";
+"Failed to save logs: %@" = "Mistókst að vista annála: %@";
+"Logs saved successfully" = "Annálar vistaðir með góðum árangri";
+
+"Help Content" = "Til að koma í veg fyrir stíflun í prenthöfði vegna langs tímabils óvirkni, prentar þetta forrit sjálfkrafa prófunarsíðu með reglulegu millibili. Með því að halda blekinu flæðandi í gegnum stútana, tryggir það að prentarinn þinn haldist í ákjósanlegu ástandi—tilbúinn til prentunar þegar þú þarft á því að halda.";
+"Help Title" = "Sjálfvirkt viðhald prenthöfuðs";
+"About" = "Um";

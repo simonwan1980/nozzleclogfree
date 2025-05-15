@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Greenlandic (Kalaallisut) localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Printeri toqqarneqanngilaq";
+"printer_error_pdf_load_failed" = "Testside-PDF-fili aajusaarsinnaanngilaq";
+"printer_error_print_operation_failed" = "Allatsitsineq iluatsinngilaq: %@";
+"printer_operation_success" = "Allatsitsineq iluatsippoq";
+"printer_operation_failed_unknown" = "Allatsitsineq iluatsinngitsoq ilisimaneqanngilaq";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Dysep Aserfallatsaaliornera";
+"Select Printer:" = "Naqiterisoq Toqqaruk:";
+"Printer" = "Naqiterisoq";
+"View Logs" = "Nalunaarsuutit Takukkit";
+"Enable Auto Print" = "Nammineq Naqitsineq Atuutilersiguk";
+"Disable Auto Print" = "Nammineq Naqitsineq Atorunnaaruk";
+"(Enabled)" = "(Atuuppoq)";
+"(Disabled)" = "(Atuutinngilaq)";
+"Next Print Time: %@" = "Tulliulluni Naqiterivik: %@";
+"Print Test Page Now" = "Misileraaffik Naqiguk Maanna";
+"Exit" = "Aniguk";
+"Language" = "Oqaatsit";
+"Select Language" = "Oqaatsit toqqaruk";
+"Search" = "Ujarlerit";
+"Configure Schedule" = "Piffissalersugaq Iluarsiguk";
+"Print File:" = "Naqitassaq:";
+"Default Test Page" = "Misileraaffik Nalinginnaasumik";
+"Select..." = "Toqqaruk...";
+"Clear" = "Piiaruk";
+"Print Settings" = "Naqitsinermi Aaqqissuussinerit";
+"Preview" = "Siulliullugu Takuuk";
+"Select PDF File" = "PDF Toqqaruk";
+"Print Preview" = "Naqitsineq Siulliullugu Takuuk";
+"Save Settings" = "Aaqqissuussinerit Toqqortiguk";
+"Cancel" = "Taamaatillugu";
+"OK" = "Aap";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Oqaloqatigiinnermi tulliuttumi, 'Naqiguk' tooruk aaqqissuussinerit toqqorniarlugit naqitsinngikkaluarluni. Aaqqissuussinerit uku siunissami naqitsinermi atorneqassapput.";
+"Settings Saved" = "Aaqqissuussinerit Toqqortikkat";
+"Your print settings have been saved and will be used for future printing." = "Naqitsinermi aaqqissuussinerit toqqortikkat siunissamilu naqitsinermi atorneqassapput.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Naqitsinermi Piffissalersugaq Iluarsiguk";
+"Schedule Type" = "Piffissalersugaq Suunera";
+"Daily" = "Ullut Tamaasa";
+"Weekly" = "Sap. Ak. Tamaasa";
+"Monthly" = "Qaammatit Tamaasa";
+"Time" = "Piffissaq";
+"Hour" = "Nalunaaqutaq";
+"Minute" = "Minutsi";
+"Day of Week" = "Sap. Ak. Ulluisa Ilaat";
+"Day of Month" = "Qaammatip Ulluisa Ilaat";
+"Sunday" = "Sapaat";
+"Monday" = "Ataasinngorneq";
+"Tuesday" = "Marlunngorneq";
+"Wednesday" = "Pingasunngorneq";
+"Thursday" = "Sisamanngorneq";
+"Friday" = "Tallimanngorneq";
+"Saturday" = "Arfininngorneq";
+"Save" = "Toqqortiguk";
+"Schedule Summary" = "Piffissalersugaq Eqikkaaneq";
+"Print test page every day at %@" = "Misileraaffik naqiguk ullut tamaasa %@-mi";
+"Print test page every %@ at %@" = "Misileraaffik naqiguk %@ tamaasa %@-mi";
+"Print test page on day %d of each month at %@" = "Misileraaffik naqiguk qaammatit tamaasa ullut %d-ani %@-mi";
+
+// LogView
+"Print Logs" = "Naqitsinerup Nalunaarsuutai";
+"Close" = "Matuguk";
+"No logs yet" = "Suli nalunaarsuuteqanngilaq";
+"Click the button to generate test data" = "Tooruk misileraanermi paasissutissat pilersikkumallugit";
+"Total %d log entries" = "Katillugit %d nalunaarsuutit";
+"Print #%d" = "Naqitsineq #%d";
+"Printed on %@" = "Naqinneqarpoq %@-mi";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Iterternerup piffissalersorneqarnera atorunnaarsinneqarsinnaanngilaq: %@";
+"Wake schedule cancelled" = "Iterternerup piffissalersorneqarnera atorunnaarsinneqarpoq";
+"Unable to create AppleScript" = "AppleScript pilersinneqarsinnaanngilaq";
+"Unable to set wake schedule: %@" = "Iterternerup piffissalersorneqarnera aaqqissuunneqarsinnaanngilaq: %@";
+"Wake schedule set successfully" = "Iterternerup piffissalersorneqarnera aaqqissuunneqarpoq";
+
+// LogManager
+"Unable to create application directory: %@" = "Atortuliap mappersua pilersinneqarsinnaanngilaq: %@";
+"Read log data: %d bytes" = "Nalunaarsuutit paasissutissaat atuarneqarput: %d bytes";
+"Failed to load logs: %@" = "Nalunaarsuutit ikkunneqarsinnaanngillat: %@";
+"Failed to save logs: %@" = "Nalunaarsuutit toqqorneqarsinnaanngillat: %@";
+"Logs saved successfully" = "Nalunaarsuutit toqqorneqarput";
+
+"Help Content" = "Naqinnermi niaqutsip milluunneranik pinaveersaartitsiniarluni sivisuumik atorneqannginnera pissutigalugu, programmi una misileraasumik qupperneq aalajangersimasumik piffissani naqittarpaa. Kusserngit aqqutigalugit qalipaatip ingerlaannarnissaa qulakkiissallugu, naqiterivit pitsaanerpaamik inissisimanissaa qulakkiissavaa - pisariaqartitsiguit naqiterisinnaasunngorlugu.";
+"Help Title" = "Naqinnermi niaqutsip isumagineqarnera";
+"About" = "Sumiiffik pillugu";
