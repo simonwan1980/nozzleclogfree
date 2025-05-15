@@ -78,39 +78,39 @@ func saveLogsToFile(_ logs: [PrintLog]) {
         
         // 验证写入的文件
         let readData = try Data(contentsOf: fileURL)
-        print("验证：文件大小为 \(readData.count) 字节")
+        print("Verification: file size is \(readData.count) bytes")
         
-        // 尝试解码验证
+        // Try decoding for verification
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         let testDecode = try decoder.decode([PrintLog].self, from: readData)
-        print("验证：成功解码 \(testDecode.count) 条日志")
+        print("Verification: successfully decoded \(testDecode.count) logs")
         
-        // 打印文件内容（仅用于调试）
+        // Print file content (for debugging only)
         if let jsonString = String(data: readData, encoding: .utf8) {
-            print("文件内容：\(jsonString)")
+            print("File content: \(jsonString)")
         }
     } catch {
-        print("保存日志失败: \(error.localizedDescription)")
+        print("Failed to save log: \(error.localizedDescription)")
     }
 }
 
-// 主函数
+// Main function
 func main() {
-    print("开始生成测试日志...")
+    print("Start generating test logs...")
     let logs = generateTestLogs()
     
-    // 打印生成的日志
+    // Print generated logs
     for (index, log) in logs.enumerated() {
-        print("日志 #\(index + 1):")
-        print("  编号: \(log.id)")
-        print("  时间: \(log.timestamp)")
+        print("Log #\(index + 1):")
+        print("ID: \(log.id)")
+        print("Time: \(log.timestamp)")
         print("")
     }
     
-    // 保存到文件
+    // Save to file
     saveLogsToFile(logs)
-    print("测试日志生成完成！")
+    print("Test log generation completed!")
 }
 
 // 运行主函数

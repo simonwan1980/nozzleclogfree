@@ -5,45 +5,45 @@ import AppKit
 
 @MainActor
 class LocationHumidityFetcher: NSObject, ObservableObject, CLLocationManagerDelegate {
-    /// 保存最近30天湿度数据（含今天）
+    /// Save humidity data for the last 30 days (including today)
     @Published var fullHumidity: [Double] = []
     @Published var totalHumidity: Double = 0
-    /// 保存当前城市位置信息
+    /// Save current city location information
     @Published var currentLocation: String = ""
-    /// 保存今天的湿度值
+    /// Save today's humidity value
     @Published var todayHumidity: Double = 0
-    @Published var nextPrintETA: Date?  // 下次打印的预期时间
+    @Published var nextPrintETA: Date?  // Expected time for next print
     @Published var nextPrintETAString: String = ""
     
     private let manager = CLLocationManager()
 
     override init() {
         super.init()
-        print("📍 初始化 LocationHumidityFetcher")
+        print("📍 Initializing LocationHumidityFetcher")
 
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyKilometer
 
         let status = manager.authorizationStatus
-        print("📍 当前定位权限状态：\(status.rawValue)")
+        print("📍 Current location authorization status: \(status.rawValue)")
 
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
-        print("📍 已调用 startUpdatingLocation()")
+        print("📍 Called startUpdatingLocation()")
     }
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print("✅ locationManager(_:didUpdateLocations:) 被调用")
+        print("✅ locationManager(_:didUpdateLocations:) called")
 
         guard let loc = locations.last else {
-            print("⚠️ 位置数组为空")
+            print("⚠️ Location array is empty")
             return
         }
 
         manager.stopUpdatingLocation()
         let lat = loc.coordinate.latitude
         let lon = loc.coordinate.longitude
-        print("✅ 当前地理位置：\(lat), \(lon)")
+        print("✅ Current location: \(lat), \(lon)")
 
         getCityFromLocation(lat: lat, lon: lon)
         fetchHumidityHistory(lat: lat, lon: lon)
@@ -104,7 +104,7 @@ class LocationHumidityFetcher: NSObject, ObservableObject, CLLocationManagerDele
     func fetchHumidityHistory(lat: Double, lon: Double) {
         fetchTodayHumidity(lat: lat, lon: lon) { todayHumidity in
             guard let todayHumidity = todayHumidity else {
-                print("❌ 无法获取今天湿度")
+                print("❌ Failed to get today's humidity")
                 return
             }
 
@@ -249,7 +249,7 @@ class LocationHumidityFetcher: NSObject, ObservableObject, CLLocationManagerDele
 
         private func fetchTodayHumidity(lat: Double, lon: Double, completion: @escaping (Double?) -> Void) {
             let urlStr = "https://api.open-meteo.com/v1/forecast?latitude=\(lat)&longitude=\(lon)&current=relative_humidity_2m&timezone=auto"
-            print("🌡️ 获取今天湿度 URL: \(urlStr)")
+            print("🌡️ Fetch today's humidity URL: \(urlStr)")
             
             guard let url = URL(string: urlStr) else {
                 print("❌ 今天湿度 URL 构建失败")
@@ -335,7 +335,7 @@ class LocationHumidityFetcher: NSObject, ObservableObject, CLLocationManagerDele
 
             URLSession.shared.dataTask(with: url) { data, response, error in
                 if let error = error {
-                    print("❌ 获取历史湿度失败: \(error.localizedDescription)")
+                    print("❌ Failed to fetch historical humidity: \(error.localizedDescription)")
                     completion(nil)
                     return
                 }
@@ -429,7 +429,7 @@ class LocationHumidityFetcher: NSObject, ObservableObject, CLLocationManagerDele
                     
                     completion(values)
                 } catch {
-                    print("❌ 历史湿度 JSON 解析错误: \(error)")
+                    print("❌ Historical humidity JSON parsing error: \(error)")
                     completion(nil)
                 }
             }.resume()
@@ -438,7 +438,7 @@ class LocationHumidityFetcher: NSObject, ObservableObject, CLLocationManagerDele
     private func fetchHumidity(lat: Double, lon: Double) {
         let urlStr = "https://api.open-meteo.com/v1/forecast?latitude=\(lat)&longitude=\(lon)&current=relative_humidity_2m"
         guard let url = URL(string: urlStr) else {
-            print("❌ URL 构建失败")
+            print("❌ Failed to construct URL")
             return
         }
 

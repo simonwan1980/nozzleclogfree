@@ -2,7 +2,7 @@
 
 import Foundation
 
-// 语言代码和对应的"Language"翻译
+// Language codes and their corresponding translations
 let languageTranslations: [(code: String, languageWord: String, selectLanguagePhrase: String, searchWord: String)] = [
     ("ar", "اللغة", "اختر اللغة", "بحث"),
     ("bg", "Език", "Избери език", "Търсене"),
@@ -61,35 +61,35 @@ let scriptURL = URL(fileURLWithPath: #file)
 let projectDir = scriptURL.deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().path
 let noClogDir = (projectDir as NSString).appendingPathComponent("NoClog")
 
-// 为每种语言更新本地化字符串
+// Update localization strings for each language
 for (code, languageWord, selectLanguagePhrase, searchWord) in languageTranslations {
     let lprojPath = (noClogDir as NSString).appendingPathComponent("\(code).lproj")
     let stringsPath = "\(lprojPath)/Localizable.strings"
     
-    // 检查目录是否存在
+    // Check if the directory exists
     let fileManager = FileManager.default
     if !fileManager.fileExists(atPath: lprojPath) {
-        print("目录不存在: \(lprojPath)")
+        print("Directory does not exist: \(lprojPath)")
         continue
     }
     
-    // 读取现有的本地化文件
+    // Read the existing localization file
     var content: String
     do {
         content = try String(contentsOfFile: stringsPath, encoding: .utf8)
     } catch {
-        print("无法读取文件 \(stringsPath): \(error)")
+        print("Cannot read file \(stringsPath): \(error)")
         continue
     }
     
-    // 检查是否已经包含 Language 和 Select Language 的翻译
+    // Check if translations for "Language" and "Select Language" already exist
     if !content.contains("\"Language\" = ") {
-        // 在 MenuBarView 部分添加 Language 翻译
+        // Add Language translation in the MenuBarView section
         if let range = content.range(of: "// MenuBarView") {
             var lines = content.components(separatedBy: .newlines)
             var insertIndex = -1
             
-            // 找到 MenuBarView 部分的结束位置
+            // Find the end position of the MenuBarView section
             for (index, line) in lines.enumerated() {
                 if line.contains("// MenuBarView") {
                     insertIndex = index
@@ -98,7 +98,7 @@ for (code, languageWord, selectLanguagePhrase, searchWord) in languageTranslatio
             }
             
             if insertIndex >= 0 {
-                // 查找合适的插入位置
+                // Find the appropriate insertion position
                 var insertPosition = insertIndex
                 while insertPosition < lines.count {
                     if lines[insertPosition].contains("\"Configure Schedule\"") || 
@@ -113,24 +113,24 @@ for (code, languageWord, selectLanguagePhrase, searchWord) in languageTranslatio
                     }
                 }
                 
-                // 插入翻译
+                // Insert translations
                 lines.insert("\"Language\" = \"\(languageWord)\";", at: insertPosition)
                 lines.insert("\"Select Language\" = \"\(selectLanguagePhrase)\";", at: insertPosition + 1)
                 lines.insert("\"Search\" = \"\(searchWord)\";", at: insertPosition + 2)
                 
-                // 保存更新后的内容
+                // Save the updated content
                 content = lines.joined(separator: "\n")
                 do {
                     try content.write(toFile: stringsPath, atomically: true, encoding: .utf8)
                     print("已更新 \(code) 的翻译")
                 } catch {
-                    print("无法写入文件 \(stringsPath): \(error)")
+                    print("Cannot write to file \(stringsPath): \(error)")
                 }
             }
         }
     } else {
-        print("\(code) 已包含 Language 翻译，跳过")
+        print("\(code) already contains Language translation, skipping")
     }
 }
 
-print("所有语言的本地化字符串更新完成！")
+print("All localization strings for all languages have been updated!")
