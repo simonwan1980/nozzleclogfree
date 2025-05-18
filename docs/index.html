@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NozzleClogFree</title>
+<style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-bottom: 30px;
+    }
+    .center-image {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .center-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      /*box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);*/
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background-color: #007aff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+    .download-btn:hover {
+      background-color: #005edb;
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+    }
+    .flex-image {
+      flex: 1 1 400px;
+      text-align: center;
+    }
+    .flex-text {
+      flex: 1 1 400px;
+      min-width: 300px;
+    }
+    .flex-image img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 80px;
+      padding-bottom: 40px;
+    }
+    a {
+      color: #00aaff;
+    }
+    @media (max-width: 768px) {
+      .title { font-size: 2rem; }
+      .flex-container { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+<section class="section">
+<div class="title">NozzleClogFree</div>
+<div class="subtitle">Keep It Flowing, Keep It Printing</div>
+<div class="center-image">
+<img alt="主截图" src="res/top-image.jpg"/>
+</div>
+<div style="text-align: center;">
+<a class="download-btn" href="https://github.com/simonwan1980/NozzleClogFree/releases/download/v1.2.0/NozzleClogFree_1.2.0.zip">Download</a>
+</div>
+</section>
+<section class="section">
+<div class="flex-container">
+<div class="flex-image reveal-left">
+<img alt="自带默认打印页" src="res/f1.jpg"/>
+</div>
+<div class="flex-text reveal-right">
+<h2>Built-in Printing page, Ready to Go</h2>
+<p>
+Minimal ink, maximum coverage. Every color gets flushed—no waste, no clogs.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="flex-container">
+<div class="flex-text reveal-left">
+<h2>Auto or Manual</h2>
+<p>Automatic printing has your back. Manual mode is always ready. You're in control.</p>
+</div>
+<div class="flex-image reveal-right">
+<img alt="想自动就自动，想手动就手动" src="res/f2.jpg"/>
+</div>
+
+</div>
+</section>
+<section class="section">
+<div class="flex-container">
+<div class="flex-image reveal-left">
+<img alt="任意配置打印周期" src="res/f3.jpg"/>
+</div>
+<div class="flex-text reveal-right">
+<h2>Fully Customizable Print Schedule</h2>
+<p>Whether it’s Epson or Canon, dry or humid—set your own print rhythm to match both your printer and your environment.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="flex-container">
+<div class="flex-text reveal-left">
+<h2>Smart Printing</h2>
+<p>Smartly adjusts the print cycle by analyzing 30-day humidity trends based on your current location.</p>
+</div>
+<div class="flex-image reveal-right">
+<img alt="Smart打印" src="res/f4.jpg"/>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="flex-container">
+<div class="flex-image reveal-left">
+<img alt="打印计划清晰呈现" src="res/f5.jpg"/>
+</div>
+<div class="flex-text reveal-right">
+<h2>Clear Print Schedule</h2>
+<p>See when it prints, know what’s coming. Clear plans, clear mind.</p>
+</div>
+
+
+</div>
+</section>
+<section class="section">
+<div class="flex-container">
+<div class="flex-text reveal-left">
+<h2>Printing Log</h2>
+<p>Logs every print, shows every detail—secure, complete, and always there.</p>
+</div>
+<div class="flex-image reveal-right">
+<img alt="打印日志" src="res/f6.jpg"/>
+</div>
+
+
+</div>
+</section>
+<div class="footer">
+    This page is hosted by GitHub Pages · © 2025 Simon Wan
+  </div>
+<!-- ScrollReveal 动画库 -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    ScrollReveal().reveal('.title', { delay: 100, origin: 'bottom', distance: '40px', duration: 600 });
+    ScrollReveal().reveal('.subtitle', { delay: 200, origin: 'bottom', distance: '40px', duration: 600 });
+    ScrollReveal().reveal('.center-image', { delay: 300, origin: 'bottom', distance: '60px', duration: 800 });
+    ScrollReveal().reveal('.download-btn', { delay: 400, origin: 'bottom', distance: '30px', duration: 500 });
+    ScrollReveal().reveal('.reveal-left', { delay: 200, origin: 'left', distance: '60px', duration: 700 });
+    ScrollReveal().reveal('.reveal-right', { delay: 200, origin: 'right', distance: '60px', duration: 700 });
+        </script>
+</body>
+</html>
