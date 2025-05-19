@@ -4,6 +4,10 @@
   <img src="https://github.com/simonwan1980/NozzleClogFree/blob/main/icon/icon.png" width="128" height="128" alt="NozzleClogFree Icon">
 </p>
 
+
+## Manufacturer says: print regularly to avoid clogs. But who remembers?
+
+
 > After every long business trip, I always return to find my Epson color inkjet printer clogged. The only option is to run the built-in cleaning program, which consumes a lot of ink — more ink goes into cleaning than actual printing.  
 > Living in Beijing probably doesn’t help — it's very dry here. Epson recommends printing regularly to keep the ink flowing, but I always forget.  
 > After my last trip to Italy, the printhead was clogged again. That was the final straw. I decided to solve the problem once and for all.  
