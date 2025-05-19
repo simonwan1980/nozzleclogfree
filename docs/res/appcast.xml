@@ -3,6 +3,14 @@
     <channel>
         <title>sparkleUpdate</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Mon, 19 May 2025 12:30:55 +0800</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://simonwan1980.github.io/NozzleClogFree/res/sparkleUpdate.zip" length="954870" type="application/octet-stream" sparkle:edSignature="71Q19CcgbnD2F/rRS2fhCERGIUiiFD//nEinUROWDJAFYdpDBiEXTifK9NW+7AwKVdb8cGipk/ssgk/MW5pNAQ=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Mon, 19 May 2025 12:12:35 +0800</pubDate>
             <sparkle:version>1</sparkle:version>
