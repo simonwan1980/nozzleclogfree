@@ -3,6 +3,14 @@
     <channel>
         <title>NozzleClogFree</title>
         <item>
+            <title>2.4.0</title>
+            <pubDate>Wed, 21 May 2025 19:14:01 +0800</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="3531405" type="application/octet-stream" sparkle:edSignature="1hAKM8y+QE6+vndXKkeoB20uxUDlLGDeqXGwT17u3Ahs8jumMOcs7avkqwn3/cfPAdCvyIHss28pP8LZIwSACg=="/>
+        </item>
+        <item>
             <title>2.2.1</title>
             <pubDate>Wed, 21 May 2025 18:47:17 +0800</pubDate>
             <sparkle:version>35</sparkle:version>
