@@ -3,6 +3,14 @@
     <channel>
         <title>NozzleClogFree</title>
         <item>
+            <title>2.8.0</title>
+            <pubDate>Sun, 25 May 2025 13:53:11 +0800</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4042484" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.7.0</title>
             <pubDate>Wed, 21 May 2025 20:23:12 +0800</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
             <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="3532540" type="application/octet-stream" sparkle:edSignature="qtceb74C6V6JdZVSl7zF+2t4n9mYD9gSfcEWN9S/JAuv6wanUgNFaPwTscfN56TG624ZfIApDH68r3bQcGphDw=="/>
-        </item>
-        <item>
-            <title>2.5.0</title>
-            <pubDate>Wed, 21 May 2025 20:04:00 +0800</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="3532504" type="application/octet-stream" sparkle:edSignature="TrufJ73HIvkYZJdDAt3gwVZXZfa2YYgTLPtuAELo00zNjjXpJxt+BbUGm5+mDCQ2QFexIkJNIAbjbS+HnmFvBA=="/>
         </item>
     </channel>
 </rss>
