@@ -5,7 +5,7 @@
 </p>
 
 
-## Manufacturer says: print regularly to avoid clogs. But who remembers?
+## Epson says: print regularly to avoid clogs. But who remembers?
 
 
 > After every long business trip, I always return to find my Epson color inkjet printer clogged. The only option is to run the built-in cleaning program, which consumes a lot of ink — more ink goes into cleaning than actual printing.  
@@ -46,7 +46,7 @@ When you first run **NozzleClogFree**, the system will request two permissions. 
 
 1. **Authorization to install a privileged helper tool**  
    - This allows the app to schedule and perform print jobs **even when your Mac is sleeping** (as long as it is plugged in and the printer is connected).
-   - The helper tool is installed using Apple's secure [SMJobBless](https://developer.apple.com/documentation/servicemanagement/1431078-smjobbless) mechanism and runs with system privileges.
+   - The helper tool is installed using Apple's secure SMJobBless mechanism and runs with system privileges.
 
 2. **Location access**  
    - This is used to **retrieve local humidity data** based on your geographical location. The app uses this data in **Smart Mode** to intelligently adjust the print schedule.
