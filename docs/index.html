@@ -78,14 +78,19 @@
     }
     .download-btn {
       display: inline-block;
-      padding: 14px 30px;
+      width: 250px;
+      height: 54px;
+      line-height: 54px;
+      padding: 0;
       background-color: #007aff;
       color: white;
       text-decoration: none;
       border-radius: 8px;
       font-size: 1.1rem;
-      margin-top: 20px;
+      margin: 0;
       transition: background-color 0.3s ease;
+      text-align: center;
+      vertical-align: middle;
     }
     .download-btn:hover {
       background-color: #005edb;
@@ -831,8 +836,11 @@
 <div class="center-image">
 <img alt="NozzleClogFree" src="res/f0.jpg"/>
 </div>
-<div style="text-align: center;">
-<a class="download-btn" href="https://github.com/simonwan1980/nozzleclogfree/releases/download/v2.9.1/NozzleClogFree.dmg">Download</a>
+<div style="text-align: center; margin-top: 20px;">
+<div style="display: inline-flex; align-items: center; justify-content: center; gap: 15px;">
+<a class="download-btn" href="https://github.com/simonwan1980/nozzleclogfree/releases/download/v2.9.1/NozzleClogFree.dmg" style="display: flex; align-items: center; justify-content: center;">Download</a>
+<a href="https://www.producthunt.com/posts/nozzleclogfree?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-nozzleclogfree" class="producthunt-btn" target="_blank" style="display: block; line-height: 0;"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=970905&theme=light&t=1748418763906" alt="NozzleClogFree - Prevent&#0032;clogs&#0032;with&#0032;regular&#0032;printing | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</div>
 </div>
 </section>
 <section class="section">
@@ -1615,6 +1623,7 @@ Minimal ink, maximum coverage. Every color gets flushed—no waste, no clogs.</p
     ScrollReveal().reveal('.subtitle', { delay: 200, origin: 'bottom', distance: '40px', duration: 600 });
     ScrollReveal().reveal('.center-image', { delay: 300, origin: 'bottom', distance: '60px', duration: 800 });
     ScrollReveal().reveal('.download-btn', { delay: 400, origin: 'bottom', distance: '30px', duration: 500 });
+    ScrollReveal().reveal('.producthunt-btn', { delay: 400, origin: 'bottom', distance: '30px', duration: 500 });
     ScrollReveal().reveal('.reveal-left', { delay: 200, origin: 'left', distance: '60px', duration: 700 });
     ScrollReveal().reveal('.reveal-right', { delay: 200, origin: 'right', distance: '60px', duration: 700 });
 </script>
