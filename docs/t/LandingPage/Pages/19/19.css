@@ -1,0 +1,293 @@
+/* PAGE_METADATA
+ * id: 19
+ * title: Wi-Fi/ Wi-Fi AP/ Wi-Fi Distance
+ */
+
+/* 隔离的CSS样式 - 使用作用域前缀和!important */
+
+/* 全局重置和基础样式 */
+.page19-scope {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 1.6 !important;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+/* 主容器样式 */
+.page19-scope.page-container {
+    width: 100% !important;
+    min-height: auto !important;
+    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    background-color: #000000 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+
+.page19-scope .content-wrapper {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+}
+
+/* 标题区域样式 */
+.page19-scope .header-section {
+    width: 100% !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.page19-scope .title-section {
+    position: relative !important;
+    display: flex !important;
+    align-items: stretch !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.page19-scope .red-rectangle {
+    width: 8px !important;
+    background-color: #ff0000 !important;
+    margin-right: 15px !important;
+    display: inline-block !important;
+}
+
+.page19-scope .title-texts {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+}
+
+.page19-scope .subtitle {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.page19-scope .main-title {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+/* 正文区域样式 */
+.page19-scope .content-area {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page19-scope .description-text {
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+    text-align: left !important;
+}
+
+.page19-scope .description-text p {
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+}
+
+.page19-scope .green-bold {
+    color: #4CAF50 !important;
+    font-weight: bold !important;
+}
+
+/* 产品比较区域样式 */
+.page19-scope .product-comparison {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-top: 1rem !important;
+}
+
+/* 比较区域网格样式 */
+.page19-scope .comparison-grid {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    margin-bottom: 2rem !important;
+}
+
+.page19-scope .empty-cell {
+    grid-column: 1 !important;
+}
+
+.page19-scope .product-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 0.5rem !important;
+}
+
+.page19-scope .product-header {
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin-bottom: 1rem !important;
+    width: 100% !important;
+}
+
+/* 产品图片样式 */
+.page19-scope .product-image-container {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 150px !important;
+    position: relative !important;
+}
+
+.page19-scope .wisun-badge {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 20% !important;
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: contain !important;
+    z-index: 1 !important;
+}
+
+.page19-scope .product-image {
+    max-width: 100% !important;
+    max-height: 150px !important;
+    object-fit: contain !important;
+}
+
+/* 功能比较表样式 */
+.page19-scope .feature-table {
+    width: 100% !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.page19-scope .feature-row {
+    display: contents !important;
+}
+
+.page19-scope .feature-name {
+    padding: 0.5rem !important;
+    text-align: left !important;
+    font-size: 1rem !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.page19-scope .feature-value {
+    padding: 0.5rem !important;
+    text-align: center !important;
+    font-size: 1rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.page19-scope .yes {
+    color: #4CAF50 !important; /* 绿色 */
+}
+
+.page19-scope .no {
+    color: #F44336 !important; /* 红色 */
+}
+
+.page19-scope .white {
+    color: #ffffff !important;
+}
+
+/* 中央图片区域样式 */
+.page19-scope .centered-image-container {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2rem 0 !important;
+}
+
+.page19-scope .centered-image {
+    max-width: 40% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+/* 语音控制图标样式 */
+.page19-scope .voice-control {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+}
+
+.page19-scope .voice-icon-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.page19-scope .voice-icon {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain !important;
+    border-radius: 50% !important;
+}
+
+/* 脚注样式 */
+.page19-scope .footnote {
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 0.8rem !important;
+    color: #aaaaaa !important;
+    margin-top: 1rem !important;
+    font-style: italic !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .page19-scope .product-images {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    .page19-scope .product-image-container {
+        max-width: 80% !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .page19-scope .feature-row {
+        flex-wrap: wrap !important;
+    }
+    
+    .page19-scope .feature-name {
+        flex: 0 0 100% !important;
+        text-align: center !important;
+        font-weight: bold !important;
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    .page19-scope .main-title {
+        font-size: 2rem !important;
+    }
+    
+    .page19-scope .subtitle {
+        font-size: 1.2rem !important;
+    }
+}

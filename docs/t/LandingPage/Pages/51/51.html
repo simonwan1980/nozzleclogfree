@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network security</title>
+    <link rel="stylesheet" href="51.css">
+</head>
+<body>
+    <div class="page-container page51-scope">
+        <div class="content-wrapper">
+            <!-- 标题区域 -->
+            <div class="header-section">
+                <div class="title-section">
+                    <div class="red-rectangle"></div>
+                    <div class="title-texts">
+                        <h2 class="subtitle">SAFETY</h2>
+                        <h1 class="main-title">Network security</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 正文区域 -->
+            <div class="content-area">
+                <div class="description-text">
+                    <p>ELECQ has not only passed the cybersecurity certifications of the global mainstream markets, but also embedded future-oriented security capabilities in its product architecture. We do not comply for the sake of compliance, but provide customers with continuously evolving, safe and controllable charging infrastructure.
+                    </p>
+                </div>
+                <!-- 并排显示区域 -->
+                <div class="side-by-side-container">
+                    <!-- 中央图片区域 -->
+                    <div class="centered-image-container">
+                        <img src="res/nistcsf.png" alt="Account Security" class="centered-image">
+                        <p class="image-caption">NIST CSF</p>
+                    </div>
+                    <div class="centered-image-container">
+                        <img src="res/cybersecuritycertificate.png" alt="Encrypted Communication" class="centered-image">
+                        <p class="image-caption">Cyber Security Certificate</p>
+                    </div>
+                    <div class="centered-image-container">
+                        <img src="res/evchargercompliancestatement.png" alt="Anti-theft Alarm" class="centered-image">
+                        <p class="image-caption">EV Charger Compliance Statement</p>
+                    </div>
+                    <div class="centered-image-container">
+                        <img src="res/sb327andhbno2395compliancesatement.png" alt="Anti-theft Alarm" class="centered-image">
+                        <p class="image-caption">SB-327 and HB No. 2395 Compliance Statement</p>
+                    </div>
+                </div>
+                <!-- add footnote -->
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        
+            function debounce(func, delay) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), delay);
+                };
+            }
+        
+            const images = document.querySelectorAll('.page51-scope .centered-image');
+            const pageContainer = document.querySelector('.page51-scope.page-container');
+            const contentWrapper = document.querySelector('.page51-scope .content-wrapper');
+        
+            if (!pageContainer || !contentWrapper) {
+                console.error('Zoom script: Required pageContainer or contentWrapper not found in .page51-scope.');
+                return;
+            }
+        
+            if (images.length === 0) {
+                console.error('Zoom script: No .centered-image elements found in .page36-scope.');
+                return;
+            }
+        
+            images.forEach(currentImage => {
+                let initialRenderedWidth = 0;
+                let initialRenderedHeight = 0;
+                let baseTransformValue = 'translateZ(0px)';
+        
+                function updateImageBaseStateForCurrentImage() {
+                    if (!currentImage) return; // Should not happen within forEach context
+                    const currentInlineTransform = currentImage.style.transform;
+                    currentImage.style.transform = ''; 
+        
+                    initialRenderedWidth = currentImage.offsetWidth;
+                    initialRenderedHeight = currentImage.offsetHeight;
+        
+                    baseTransformValue = getComputedStyle(currentImage).transform;
+                    if (baseTransformValue === 'none' || baseTransformValue === '') {
+                        baseTransformValue = 'translateZ(0px)';
+                    }
+                    currentImage.style.transform = baseTransformValue;
+                }
+        
+                updateImageBaseStateForCurrentImage(); // Initial setup for this image
+                window.addEventListener('resize', debounce(updateImageBaseStateForCurrentImage, 250));
+        
+                currentImage.addEventListener('mouseenter', function() {
+                    const pageContainerHeight = pageContainer.clientHeight;
+                    const contentWrapperWidth = contentWrapper.clientWidth;
+        
+                    const imageRect = currentImage.getBoundingClientRect();
+                    const pageContainerRect = pageContainer.getBoundingClientRect();
+                    
+                    const initialImageTopMargin = imageRect.top - pageContainerRect.top;
+        
+                    if (initialRenderedWidth === 0 || initialRenderedHeight === 0) {
+                        return;
+                    }
+        
+                    let scaleFactor = 1;
+                    const scaleToFitHeight = pageContainerHeight / initialRenderedHeight;
+                    const scaleToFitWidth = contentWrapperWidth / initialRenderedWidth;
+                    
+                    scaleFactor = Math.min(scaleToFitHeight, scaleToFitWidth);
+                    
+                    if (scaleFactor <= 0 || !isFinite(scaleFactor)) {
+                        scaleFactor = 1;
+                    }
+        
+                    const finalWidth = initialRenderedWidth * scaleFactor;
+                    const finalHeight = initialRenderedHeight * scaleFactor;
+                    
+                    const targetTopPositionInContainer = (pageContainerHeight - finalHeight) / 2;
+                    let translateYValue = targetTopPositionInContainer - initialImageTopMargin;
+        
+                    if (finalHeight >= pageContainerHeight) { 
+                        translateYValue = -initialImageTopMargin; 
+                    }
+        
+                    const newTransform = `translateY(${translateYValue.toFixed(2)}px) translateZ(0px) scale(${scaleFactor.toFixed(4)})`;
+                    currentImage.style.transform = newTransform;
+                });
+        
+                currentImage.addEventListener('mouseleave', function() {
+                    currentImage.style.transform = baseTransformValue;
+                });
+            });
+        });
+        </script>
+</body>
+</html>

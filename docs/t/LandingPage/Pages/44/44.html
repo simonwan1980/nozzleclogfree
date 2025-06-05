@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge protection level</title>
+    <link rel="stylesheet" href="44.css">
+</head>
+<body>
+    <div class="page-container page44-scope">
+        <div class="flash-overlay" id="flashOverlay"></div>
+        <div class="content-wrapper">
+            <!-- 标题区域 -->
+            <div class="header-section">
+                <div class="title-section">
+                    <div class="red-rectangle"></div>
+                    <div class="title-texts">
+                        <h2 class="subtitle">SAFETY</h2>
+                        <h1 class="main-title">Surge protection level</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 正文区域 -->
+            <div class="content-area">
+                <div class="description-text">
+                    <p>Elecq Home features industry-leading <span style="color: #00ff00;">10kV/5kA</span> surge protection, far surpassing competitors' standard <span style="color: #ff0000;">4kV/2kA</span> protection level, ensuring superior safety and reliability for your charging experience.</p>
+                </div>
+                
+                <!-- 产品比较区域 -->
+                <div class="product-comparison">
+                    <div class="comparison-grid">
+                        <!-- 空白单元格（左上角） -->
+                        <div class="empty-cell"></div>
+                        <!-- 产品容器区域 -->
+                        <div class="product-header">Elecq Home<br><span style="color: #00ff00; font-weight: normal;">10kV/5kA</span></div>
+                        <div class="product-header">Others<br><span style="color: #ff0000; font-weight: normal;">4kV/2kA</span></div>
+                    </div>
+                    
+                    <!-- 功能比较表 -->
+                    <div class="feature-table">
+                        <div class="feature-row">
+                            <div class="feature-name">Compliance with 
+                                <br>IEC 61000-4\IEC 61000-5
+                                </div>
+                            <div class="feature-value">Exceeds standard levels; 
+                                <br>Offers superior surge immunity
+                                </div>
+                           
+                            <div class="feature-value">Meets basic requirements; 
+                                <br>Aligns with Level 4 of the standard
+                                </div>
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-name">Implications</div>
+                            <div class="feature-value">- Enhanced protection against severe surge events <br>- Ideal for high-risk environments
+                            </div>
+                            <div class="feature-value">Basic protection suitable for typical conditions
+                                May offer less resilience against extreme surges
+                                </div>
+                            
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-name">Environmental Suitability
+                            </div>
+                            <div class="feature-value">Suitable for areas prone to frequent lightning or unstable power grids
+                            </div>
+                            <div class="feature-value">Adequate for standard residential or commercial environments with lower surge risk
+                            </div>
+                            
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-name">Equipment Safety and Longevity
+                            </div>
+                            <div class="feature-value">- Higher resilience leading to longer equipment lifespan<br>- Reduced maintenance
+                            </div>
+                            <div class="feature-value">- Adequate for standard use<br>- May be more susceptible to damage during severe surge events
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function createFlash() {
+            const flash = document.getElementById('flashOverlay');
+            
+            // 移除之前的动画类
+            flash.classList.remove('flash-active');
+            
+            // 强制重绘
+            flash.offsetHeight;
+            
+            // 添加闪烁动画
+            flash.classList.add('flash-active');
+            
+            // 动画结束后移除类
+            setTimeout(() => {
+                flash.classList.remove('flash-active');
+            }, 800);
+        }
+
+        function startAutoFlash() {
+            // 立即执行一次
+            createFlash();
+            
+            // 设置随机间隔的自动闪烁
+            function scheduleNext() {
+                const delay = Math.random() * 4000 + 1500; // 1.5-5.5秒随机间隔
+                setTimeout(() => {
+                    createFlash();
+                    scheduleNext(); // 递归调用以继续循环
+                }, delay);
+            }
+            
+            scheduleNext();
+        }
+
+        // 页面加载完成后开始自动闪烁
+        window.addEventListener('load', () => {
+            setTimeout(startAutoFlash, 1000);
+        });
+    </script>
+
+</body>
+</html>

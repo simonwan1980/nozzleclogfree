@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase Balancing</title>
+    <link rel="stylesheet" href="29.css">
+</head>
+<body>
+    <div class="page-container page29-scope">
+        <div class="content-wrapper">
+            <!-- 标题区域 -->
+            <div class="header-section">
+                <div class="title-section">
+                    <div class="red-rectangle"></div>
+                    <div class="title-texts">
+                        <h2 class="subtitle">Smart</h2>
+                        <h1 class="main-title">Phase Balancing</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 内容区域 -->
+            <div class="content-area">
+                <div class="description-text">
+                <p>Elecq’s Phase Balancing function optimizes power distribution across L1, L2, and L3 phases, ensuring even load sharing. This enhances overall energy efficiency and maximizes power utilization, resulting in improved system performance and reduced energy waste.</p>
+                </div>
+
+                <div class="comparison-container">
+                    <!-- 左侧容器 -->
+                    <div class="comparison-side">
+                        <h3 class="comparison-title">Elecq</h3>
+                        <div class="carousel-container">
+                            <img src="res/pbL0.png" alt="Phase Balancing Left 0" class="carousel-image active">
+                            <img src="res/pbL1.png" alt="Phase Balancing Left 1" class="carousel-image">
+                            <img src="res/pbL2.png" alt="Phase Balancing Left 2" class="carousel-image">
+                            <img src="res/pbL3.png" alt="Phase Balancing Left 3" class="carousel-image">
+                        </div>
+                        <p class="comparison-description">100% Balanced Power Utilization Across L1, L2, and L3</p>
+                    </div>
+
+                    <!-- 右侧容器 -->
+                    <div class="comparison-side">
+                        <h3 class="comparison-title">Others</h3>
+                        <div class="carousel-container">
+                            <img src="res/pbR0.png" alt="Phase Balancing Right 0" class="carousel-image active">
+                            <img src="res/pbR1.png" alt="Phase Balancing Right 1" class="carousel-image">
+                            <img src="res/pbR2.png" alt="Phase Balancing Right 2" class="carousel-image">
+                            <img src="res/pbR3.png" alt="Phase Balancing Right 3" class="carousel-image">
+                        </div>
+                        <p class="comparison-description">Power is only utilized on L1.</p>
+                    </div>
+                </div>
+
+                <script>
+                    // 轮播图动画
+                    function startCarousel(container) {
+                        const images = container.getElementsByClassName('carousel-image');
+                        let currentIndex = 0;
+
+                        setInterval(() => {
+                            // 隐藏当前图片
+                            images[currentIndex].classList.remove('active');
+                            // 计算下一张图片索引
+                            currentIndex = (currentIndex + 1) % images.length;
+                            // 显示下一张图片
+                            images[currentIndex].classList.add('active');
+                        }, 1000); // 每1秒切换一次
+                    }
+
+                    // 启动所有轮播图
+                    document.addEventListener('DOMContentLoaded', () => {
+                        const carousels = document.getElementsByClassName('carousel-container');
+                        Array.from(carousels).forEach(startCarousel);
+                    });
+                </script>
+            </div>
+
+            
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* PAGE_METADATA
+ * id: 38
+ * title: OTA updates
+ */
+
+/* 隔离的CSS样式 - 使用作用域前缀和!important */
+
+/* 全局重置和基础样式 */
+.page38-scope {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 1.6 !important;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+/* 主容器样式 */
+.page38-scope.page-container {
+    width: 100% !important;
+    min-height: auto !important;
+    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    background-color: #000000 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+
+.page38-scope .content-wrapper {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+}
+
+/* 标题区域样式 */
+.page38-scope .header-section {
+    width: 100% !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.page38-scope .title-section {
+    position: relative !important;
+    display: flex !important;
+    align-items: stretch !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.page38-scope .red-rectangle {
+    width: 8px !important;
+    background-color: #ff0000 !important;
+    margin-right: 15px !important;
+    display: inline-block !important;
+}
+
+.page38-scope .title-texts {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+}
+
+.page38-scope .subtitle {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.page38-scope .main-title {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+/* 正文区域样式 */
+.page38-scope .content-area {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page38-scope .description-text {
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+    text-align: left !important;
+}
+
+.page38-scope .description-text p {
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+}
+
+
+
+/* 中央图片区域样式 */
+.page38-scope .centered-image-container {
+    width: calc(100% / 1.5 - 1rem) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 1rem !important; /* Adds 0.25rem margin left/right, creating 0.5rem gap between containers */
+}
+
+.page38-scope .centered-image {
+    width: 30% !important; /* Adjusted to match page 33 for consistent zoom base */
+    height: auto !important;
+    object-fit: contain !important;
+    cursor: zoom-in !important;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out !important;
+    position: relative;
+    z-index: 10;
+    transform: translateZ(0); /* 硬件加速 */
+    backface-visibility: hidden;
+    will-change: transform, opacity;
+    transform-origin: top center !important; /* 从顶部中心缩放 */
+}
+
+.page38-scope .centered-image:hover {
+    /* transform 将由 JavaScript 控制 */
+    opacity: 1 !important; /* 确保悬停时不透明 */
+    z-index: 1000 !important; /* 保持在最上层 */
+}
+
+
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .page38-scope .main-title {
+        font-size: 2rem !important;
+    }
+    
+    .page38-scope .subtitle {
+        font-size: 1.2rem !important;
+    }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charging History</title>
+    <link rel="stylesheet" href="39.css">
+</head>
+<body>
+    <div class="page-container page39-scope">
+        <div class="content-wrapper">
+            <!-- 标题区域 -->
+            <div class="header-section">
+                <div class="title-section">
+                    <div class="red-rectangle"></div>
+                    <div class="title-texts">
+                        <h2 class="subtitle">User App</h2>
+                        <h1 class="main-title">Charging History</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 正文区域 -->
+            <div class="content-area">
+                <div class="description-text">
+                    <p>Charging history viewing and export.
+                    </p>
+                </div>
+                <!-- 中央图片区域 -->
+                <div class="centered-image-container">
+                    <img src="res/charging_history.png" alt="Edge Device" class="centered-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        
+            function debounce(func, delay) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), delay);
+                };
+            }
+        
+            const images = document.querySelectorAll('.page39-scope .centered-image');
+            const pageContainer = document.querySelector('.page39-scope.page-container');
+            const contentWrapper = document.querySelector('.page39-scope .content-wrapper');
+        
+            if (!pageContainer || !contentWrapper) {
+                console.error('Zoom script: Required pageContainer or contentWrapper not found in .page39-scope.');
+                return;
+            }
+        
+            if (images.length === 0) {
+                console.error('Zoom script: No .centered-image elements found in .page36-scope.');
+                return;
+            }
+        
+            images.forEach(currentImage => {
+                let initialRenderedWidth = 0;
+                let initialRenderedHeight = 0;
+                let baseTransformValue = 'translateZ(0px)';
+        
+                function updateImageBaseStateForCurrentImage() {
+                    if (!currentImage) return; // Should not happen within forEach context
+                    const currentInlineTransform = currentImage.style.transform;
+                    currentImage.style.transform = ''; 
+        
+                    initialRenderedWidth = currentImage.offsetWidth;
+                    initialRenderedHeight = currentImage.offsetHeight;
+        
+                    baseTransformValue = getComputedStyle(currentImage).transform;
+                    if (baseTransformValue === 'none' || baseTransformValue === '') {
+                        baseTransformValue = 'translateZ(0px)';
+                    }
+                    currentImage.style.transform = baseTransformValue;
+                }
+        
+                updateImageBaseStateForCurrentImage(); // Initial setup for this image
+                window.addEventListener('resize', debounce(updateImageBaseStateForCurrentImage, 250));
+        
+                currentImage.addEventListener('mouseenter', function() {
+                    const pageContainerHeight = pageContainer.clientHeight;
+                    const contentWrapperWidth = contentWrapper.clientWidth;
+        
+                    const imageRect = currentImage.getBoundingClientRect();
+                    const pageContainerRect = pageContainer.getBoundingClientRect();
+                    
+                    const initialImageTopMargin = imageRect.top - pageContainerRect.top;
+        
+                    if (initialRenderedWidth === 0 || initialRenderedHeight === 0) {
+                        return;
+                    }
+        
+                    let scaleFactor = 1;
+                    const scaleToFitHeight = pageContainerHeight / initialRenderedHeight;
+                    const scaleToFitWidth = contentWrapperWidth / initialRenderedWidth;
+                    
+                    scaleFactor = Math.min(scaleToFitHeight, scaleToFitWidth);
+                    
+                    if (scaleFactor <= 0 || !isFinite(scaleFactor)) {
+                        scaleFactor = 1;
+                    }
+        
+                    const finalWidth = initialRenderedWidth * scaleFactor;
+                    const finalHeight = initialRenderedHeight * scaleFactor;
+                    
+                    const targetTopPositionInContainer = (pageContainerHeight - finalHeight) / 2;
+                    let translateYValue = targetTopPositionInContainer - initialImageTopMargin;
+        
+                    if (finalHeight >= pageContainerHeight) { 
+                        translateYValue = -initialImageTopMargin; 
+                    }
+        
+                    const newTransform = `translateY(${translateYValue.toFixed(2)}px) translateZ(0px) scale(${scaleFactor.toFixed(4)})`;
+                    currentImage.style.transform = newTransform;
+                });
+        
+                currentImage.addEventListener('mouseleave', function() {
+                    currentImage.style.transform = baseTransformValue;
+                });
+            });
+        });
+        </script>
+
+</body>
+</html>

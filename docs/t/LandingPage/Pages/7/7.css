@@ -1,0 +1,364 @@
+/* PAGE_METADATA
+ * id: 7
+ * title: Full-rated operating temperature
+ */
+
+/* 隔离的CSS样式 - 使用作用域前缀和!important */
+
+/* 全局重置和基础样式 */
+.page7-scope {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 1.6 !important;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+/* 主容器样式 */
+.page7-scope.page-container {
+    width: 100% !important;
+    min-height: auto !important;
+    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    background-color: #000000 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+
+.page7-scope .content-wrapper {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 标题区域样式 */
+.page7-scope .header-section {
+    width: 100% !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.page7-scope .title-section {
+    position: relative !important;
+    display: flex !important;
+    align-items: stretch !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.page7-scope .red-rectangle {
+    width: 8px !important;
+    background-color: #ff0000 !important;
+    margin-right: 15px !important;
+    display: inline-block !important;
+}
+
+.page7-scope .title-texts {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+}
+
+.page7-scope .subtitle {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.page7-scope .main-title {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+/* 内容区域样式 */
+.page7-scope .content-area {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 2rem !important;
+}
+
+.page7-scope .description-text {
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+}
+
+.page7-scope .description-text p {
+    font-size: 1.2rem !important;
+    line-height: 1.6 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 产品比较区域样式 */
+.page7-scope .product-comparison {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 2rem !important;
+}
+
+.page7-scope .comparison-grid {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 2rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.page7-scope .product-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 300px !important;
+}
+
+.page7-scope .product-header {
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    margin-bottom: 0.5rem !important; /* 减少与产品图片的间距 */
+}
+
+.page7-scope .product-image-container {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important; /* 使内容均匀分布 */
+    height: 230px !important;
+    position: relative !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.page7-scope .product-image {
+    max-width: 100% !important;
+    max-height: 160px !important;
+    object-fit: contain !important;
+    margin-top: 10px !important; /* 增加与标题的间距 */
+    margin-bottom: 0 !important; /* 重置底部边距 */
+}
+
+.page7-scope .temperature-range {
+    position: relative !important; /* 改为相对定位 */
+    bottom: auto !important;
+    font-size: 1.2rem !important;
+    padding: 0.3rem 0.8rem !important;
+    border-radius: 4px !important;
+    margin-top: 10px !important; /* 增加与产品图片的间距 */
+}
+
+.page7-scope .temperature-range .white-text {
+    color: #ffffff !important;
+}
+
+.page7-scope .temperature-range .green-text {
+    color: #4CAF50 !important; /* 与 Page 4 的 yes 颜色一致 */
+}
+
+.page7-scope .temperature-range .red-text {
+    color: #F44336 !important; /* 与 Page 4 的 no 颜色一致 */
+}
+
+.page7-scope .temperature-range.red {
+    color: #F44336 !important; /* 与 Page 4 的 no 颜色一致 */
+}
+
+/* 温度范围比较图样式 */
+.page7-scope .temperature-comparison {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+    margin-top: 2rem !important;
+}
+
+.page7-scope .temp-range-row {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.page7-scope .temp-product-name {
+    width: 120px !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    text-align: right !important;
+    padding-right: 15px !important;
+}
+
+.page7-scope .temp-range-bar {
+    flex: 1 !important;
+    position: relative !important;
+    height: 30px !important;
+}
+
+.page7-scope .temp-scale {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+}
+
+.page7-scope .temp-min {
+    color: #00a2ff !important;
+}
+
+.page7-scope .temp-max {
+    color: #ff5e5e !important;
+    text-align: right !important;
+}
+
+.page7-scope .temp-bar {
+    height: 8px !important;
+    position: absolute !important;
+    top: 20px !important;
+    border-radius: 4px !important;
+}
+
+.page7-scope .others-bar {
+    background: linear-gradient(90deg, #00a2ff, #ff5e5e) !important;
+    width: 80% !important;
+    left: 10% !important;
+}
+
+.page7-scope .elecq-bar {
+    background: linear-gradient(90deg, #00a2ff, #ff5e5e) !important;
+    width: 95% !important;
+    left: 2.5% !important;
+}
+
+/* 调整温度比较图的比例关系 */
+.page7-scope .temp-scale {
+    display: flex !important;
+    justify-content: space-between !important;
+    position: absolute !important;
+    top: 0 !important;
+}
+
+/* 调整Others温度范围的文字位置 */
+.page7-scope .temp-range-row:nth-child(1) .temp-scale {
+    width: 30% !important; /* 与温度条相同宽度 */
+    left: 35% !important; /* 与温度条相同位置 */
+}
+
+/* 调整Elecq Home温度范围的文字位置 */
+.page7-scope .temp-range-row:nth-child(2) .temp-scale {
+    width: 60% !important; /* 与温度条相同宽度 */
+    left: 20% !important; /* 与温度条相同位置 */
+}
+
+/* 为了使温度范围的比例更准确 */
+.page7-scope .temp-range-bar {
+    flex: 1 !important;
+    position: relative !important;
+    height: 30px !important;
+    padding: 0 !important;
+}
+
+/* 根据手动调整的温度条长度进行居中对齐 */
+
+/* Others 的温度范围是 -30~50°C */
+.page7-scope .others-bar {
+    width: 30% !important; /* 手动调整的宽度 */
+    left: 35% !important; /* 居中对齐：(100% - 30%) / 2 */
+}
+
+/* Elecq Home 的温度范围是 -40~55°C */
+.page7-scope .elecq-bar {
+    width: 60% !important; /* 手动调整的宽度 */
+    left: 20% !important; /* 居中对齐：(100% - 60%) / 2 */
+}
+
+/* 脚注样式 */
+.page7-scope .footnote {
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 0.8rem !important;
+    color: #aaaaaa !important;
+    margin-top: 1rem !important;
+    font-style: italic !important;
+}
+
+.page7-scope .footnote-small {
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 0.7rem !important;
+    color: #aaaaaa !important;
+    margin-top: 0.3rem !important;
+    font-style: italic !important;
+}
+
+/* 横向并排图片样式 */
+.page7-scope .additional-images {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 30px !important;
+    width: 100% !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.page7-scope .image-container {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 50% !important;
+}
+
+.page7-scope .additional-image {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .page7-scope .title-section {
+        margin-bottom: 1rem !important;
+    }
+    
+    .page7-scope .main-title {
+        font-size: 2rem !important;
+    }
+    
+    .page7-scope .content-area {
+        padding: 0 1rem !important;
+    }
+    
+    .page7-scope .comparison-grid {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1rem !important;
+    }
+    
+    .page7-scope .temp-product-name {
+        width: 80px !important;
+        font-size: 1rem !important;
+    }
+}
