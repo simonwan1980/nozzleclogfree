@@ -34,3 +34,6 @@ GoogleService-Info.plist
 # Personal files
 **/xcuserdata/
 **/simon.xcuserdatad/
+
+# Temporary files
+docs/t/
