@@ -1,0 +1,117 @@
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    border-right: 1px solid #333;
+    backdrop-filter: blur(10px);
+    scrollbar-width: thin;
+    scrollbar-color: #ff0000 #000;
+    box-sizing: border-box;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-sidebar.collapsed {
+    transform: translateX(-280px);
+}
+
+body.nav-collapsed .nav-toggle {
+    left: 0;
+}
+
+.nav-toggle {
+    position: fixed;
+    left: 240px;
+    top: 10px;
+    z-index: 1001;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.nav-toggle:hover {
+    color: #ff0000;
+}
+
+
+
+.nav-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav-sidebar::-webkit-scrollbar-track {
+    background: #000;
+}
+
+.nav-sidebar::-webkit-scrollbar-thumb {
+    background-color: #ff0000;
+    border-radius: 3px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav-list {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.nav-list li {
+    border-bottom: 1px solid #333;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.nav-list a:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: #ff3333;
+}
+
+.nav-list a.active {
+    color: #ff3333;
+    background-color: rgba(255, 0, 0, 0.25);
+    font-weight: bold;
+    text-shadow: 0 0 1px rgba(255, 51, 51, 0.3);
+}
+
+/* 主内容区域的调整 */
+.main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.main-content.nav-open {
+    margin-left: 280px;
+}
