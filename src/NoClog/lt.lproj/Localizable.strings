@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Lithuanian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nėra pasirinkto spausdintuvo";
+"printer_error_pdf_load_failed" = "Nepavyko įkelti bandomojo puslapio PDF failo";
+"printer_error_print_operation_failed" = "Spausdinimo klaida: %@";
+"printer_operation_success" = "Spausdinimas sėkmingas";
+"printer_operation_failed_unknown" = "Nežinoma spausdinimo klaida";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Purkštukų Priežiūra";
+"Select Printer:" = "Pasirinkti Spausdintuvą:";
+"Printer" = "Spausdintuvas";
+"View Logs" = "Peržiūrėti Žurnalus";
+"Enable Auto Print" = "Įjungti Automatinį Spausdinimą";
+"Disable Auto Print" = "Išjungti Automatinį Spausdinimą";
+"(Enabled)" = "(Įjungta)";
+"(Disabled)" = "(Išjungta)";
+"Next Print Time: %@" = "Kitas Spausdinimo Laikas: %@";
+"Print Test Page Now" = "Spausdinti Bandomąjį Puslapį Dabar";
+"Exit" = "Išeiti";
+"Language" = "Kalba";
+"Select Language" = "Pasirinkti kalbą";
+"Search" = "Paieška";
+"Configure Schedule" = "Konfigūruoti Tvarkaraštį";
+"Print File:" = "Spausdinimo Failas:";
+"Default Test Page" = "Numatytasis Bandomasis Puslapis";
+"Select..." = "Pasirinkti...";
+"Clear" = "Išvalyti";
+"Print Settings" = "Spausdinimo Nustatymai";
+"Preview" = "Peržiūra";
+"Select PDF File" = "Pasirinkti PDF Failą";
+"Print Preview" = "Spausdinimo Peržiūra";
+"Save Settings" = "Išsaugoti Nustatymus";
+"Cancel" = "Atšaukti";
+"OK" = "Gerai";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Kitame dialogo lange spustelėkite mygtuką 'Spausdinti', kad išsaugotumėte nustatymus iš tikrųjų nespausdinant. Šie nustatymai bus naudojami ateities spausdinimui.";
+"Settings Saved" = "Nustatymai Išsaugoti";
+"Your print settings have been saved and will be used for future printing." = "Jūsų spausdinimo nustatymai buvo išsaugoti ir bus naudojami ateities spausdinimui.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigūruoti Spausdinimo Tvarkaraštį";
+"Schedule Type" = "Tvarkaraščio Tipas";
+"Daily" = "Kasdien";
+"Weekly" = "Kas savaitę";
+"Monthly" = "Kas mėnesį";
+"Auto" = "Automatinis";
+"Time" = "Laikas";
+"Hour" = "Valanda";
+"Minute" = "Minutė";
+"Day of Week" = "Savaitės Diena";
+"Day of Month" = "Mėnesio Diena";
+"Sunday" = "Sekmadienis";
+"Monday" = "Pirmadienis";
+"Tuesday" = "Antradienis";
+"Wednesday" = "Trečiadienis";
+"Thursday" = "Ketvirtadienis";
+"Friday" = "Penktadienis";
+"Saturday" = "Šeštadienis";
+"Save" = "Išsaugoti";
+"Schedule Summary" = "Tvarkaraščio Santrauka";
+"Print test page every day at %@" = "Spausdinti bandomąjį puslapį kasdien %@";
+"Print test page every %@ at %@" = "Spausdinti bandomąjį puslapį kas %@ %@";
+"Print test page on day %d of each month at %@" = "Spausdinti bandomąjį puslapį kiekvieno mėnesio %d dieną %@";
+
+// LogView
+"Print Logs" = "Spausdinimo Žurnalai";
+"Close" = "Uždaryti";
+"No logs yet" = "Dar nėra žurnalų";
+"Click the button to generate test data" = "Spustelėkite mygtuką, kad sugeneruotumėte bandomuosius duomenis";
+"Total %d log entries" = "Iš viso %d žurnalo įrašų";
+"Print #%d" = "Spausdinimas #%d";
+"Printed on %@" = "Spausdinta %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nepavyko atšaukti pažadinimo tvarkaraščio: %@";
+"Wake schedule cancelled" = "Pažadinimo tvarkaraštis atšauktas";
+"Unable to create AppleScript" = "Nepavyko sukurti AppleScript";
+"Unable to set wake schedule: %@" = "Nepavyko nustatyti pažadinimo tvarkaraščio: %@";
+"Wake schedule set successfully" = "Pažadinimo tvarkaraštis sėkmingai nustatytas";
+
+// LogManager
+"Unable to create application directory: %@" = "Nepavyko sukurti programos katalogo: %@";
+"Read log data: %d bytes" = "Nuskaityti žurnalo duomenys: %d baitų";
+"Failed to load logs: %@" = "Nepavyko įkelti žurnalų: %@";
+"Failed to save logs: %@" = "Nepavyko išsaugoti žurnalų: %@";
+"Logs saved successfully" = "Žurnalai sėkmingai išsaugoti";
+
+"Help Content" = "Siekiant išvengti spausdinimo galvutės užsikimšimo dėl ilgų neaktyvumo laikotarpių, ši programa automatiškai spausdina bandomąjį puslapį reguliariais intervalais. Palaikydama rašalo tekėjimą per purkštukus, ji užtikrina, kad jūsų spausdintuvas išliktų optimalios darbo būklės – pasiruošęs spausdinti, kai jums to reikia.";
+"Help Title" = "Automatinė spausdinimo galvutės priežiūra";
+"About" = "Apie";

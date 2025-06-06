@@ -1,0 +1,100 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Chinese (Simplified) localization
+*/
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree 喷嘴维护";
+"Select Printer:" = "选择打印机：";
+"Printer" = "打印机";
+"View Logs" = "查看日志";
+"Enable Auto Print" = "启用自动打印";
+"Disable Auto Print" = "禁用自动打印";
+"(Enabled)" = "(已启用)";
+"(Disabled)" = "(已禁用)";
+"Next Print Time: %@" = "下次打印时间：%@";
+"Print Test Page Now" = "立即打印测试页";
+"Exit" = "退出应用";
+"Configure Schedule" = "配置打印计划";
+"Language" = "语言";
+"Select Language" = "选择语言";
+"Search" = "搜索";
+"About" = "关于";
+"About_Version" = "版本号：%@";
+"Help Title" = "自动打印头维护";
+"Help Content" = "为了防止打印头因长时间不活动而堵塞，此程序会定期自动打印测试页。通过保持墨水在喷嘴中流动，它确保您的打印机保持最佳工作状态——随时可以在您需要时打印。";
+"Print File:" = "打印文件：";
+"Default Test Page" = "默认测试页";
+"Select..." = "选择...";
+"Clear" = "清除";
+"Print Settings" = "打印设置";
+"Preview" = "预览";
+"Select PDF File" = "选择PDF文件";
+"Print Preview" = "打印预览";
+"Save Settings" = "保存设置";
+"Cancel" = "取消";
+"OK" = "确定";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "在接下来的对话框中，点击\"打印\"按钮将保存您的设置而不会实际打印。这些设置将用于将来的打印操作。";
+"Settings Saved" = "设置已保存";
+"Your print settings have been saved and will be used for future printing." = "您的打印设置已保存，将用于将来的打印操作。";
+"printer_error_no_printer_selected" = "未选择打印机";
+"printer_operation_success" = "打印成功";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "配置打印计划";
+"Schedule Type" = "计划类型";
+"Daily" = "每天";
+"Weekly" = "每周";
+"Monthly" = "每月";
+"Auto" = "自动";
+"Time" = "时间";
+"Hour" = "小时";
+"Minute" = "分钟";
+"Day of Week" = "星期几";
+"Day of Month" = "每月几号";
+"Sunday" = "星期日";
+"Monday" = "星期一";
+"Tuesday" = "星期二";
+"Wednesday" = "星期三";
+"Thursday" = "星期四";
+"Friday" = "星期五";
+"Saturday" = "星期六";
+"Save" = "保存";
+"Schedule Summary" = "计划摘要";
+"Print test page every day at %@" = "每天 %@ 打印测试页";
+"Print test page every %@ at %@" = "每周%@的 %@ 打印测试页";
+"Print test page on day %d of each month at %@" = "每月%d号的 %@ 打印测试页";
+
+// LogView
+"Print Logs" = "打印日志";
+"Close" = "关闭";
+"No logs yet" = "暂无日志记录";
+"Click the button to generate test data" = "点击添加测试日志按钮生成测试数据";
+"Total %d log entries" = "共有 %d 条日志记录";
+"Print #%d" = "打印 #%d";
+"Printed on %@" = "打印于 %@";
+"Search Logs" = "搜索日志";
+"Search Results" = "搜索结果";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "无法取消唤醒计划：%@";
+"Wake schedule cancelled" = "唤醒计划已取消";
+"Unable to create AppleScript" = "无法创建 AppleScript";
+"Unable to set wake schedule: %@" = "无法设置唤醒计划：%@";
+"Wake schedule set successfully" = "唤醒计划设置成功";
+
+// LogManager
+"Unable to create application directory: %@" = "无法创建应用程序目录：%@";
+"Read log data: %d bytes" = "读取到日志数据：%d 字节";
+"Failed to load logs: %@" = "加载日志失败：%@";
+"Failed to save logs: %@" = "保存日志失败：%@";
+"Logs saved successfully" = "日志保存成功";
+"printer_error_print_operation_failed" = "打印失败: %@";
+"printer_error_pdf_load_failed" = "无法加载测试页 PDF 文件";
+"English" = "英语";
+"Chinese (Simplified)" = "简体中文";
+"Chinese (Traditional)" = "繁体中文";
+"Japanese" = "日语";
+"Korean" = "韩语";

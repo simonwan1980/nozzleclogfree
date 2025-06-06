@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Catalan localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "No s'ha seleccionat cap impressora";
+"printer_error_pdf_load_failed" = "No s'ha pogut carregar el fitxer PDF de la pàgina de prova";
+"printer_error_print_operation_failed" = "Error d'impressió: %@";
+"printer_operation_success" = "Impressió realitzada amb èxit";
+"printer_operation_failed_unknown" = "Error d'impressió desconegut";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Manteniment de Broquet";
+"Select Printer:" = "Seleccionar Impressora:";
+"Printer" = "Impressora";
+"View Logs" = "Veure Registres";
+"Enable Auto Print" = "Activar Impressió Automàtica";
+"Disable Auto Print" = "Desactivar Impressió Automàtica";
+"(Enabled)" = "(Activat)";
+"(Disabled)" = "(Desactivat)";
+"Next Print Time: %@" = "Propera Hora d'Impressió: %@";
+"Print Test Page Now" = "Imprimir Pàgina de Prova Ara";
+"Exit" = "Sortir";
+"Language" = "Idioma";
+"Select Language" = "Seleccionar idioma";
+"Search" = "Cerca";
+"Configure Schedule" = "Configurar Programació";
+"Print File:" = "Arxiu d'Impressió:";
+"Default Test Page" = "Pàgina de Prova Predeterminada";
+"Select..." = "Seleccionar...";
+"Clear" = "Esborrar";
+"Print Settings" = "Configuració d'Impressió";
+"Preview" = "Vista Prèvia";
+"Select PDF File" = "Seleccionar Arxiu PDF";
+"Print Preview" = "Vista Prèvia d'Impressió";
+"Save Settings" = "Desar Configuració";
+"Cancel" = "Cancel·lar";
+"OK" = "D'acord";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "En el següent diàleg, feu clic al botó 'Imprimir' per desar la configuració sense imprimir realment. Aquesta configuració s'utilitzarà per a impressions futures.";
+"Settings Saved" = "Configuració Desada";
+"Your print settings have been saved and will be used for future printing." = "La configuració d'impressió s'ha desat i s'utilitzarà per a impressions futures.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Configurar Programació d'Impressió";
+"Schedule Type" = "Tipus de Programació";
+"Daily" = "Diàriament";
+"Weekly" = "Setmanalment";
+"Monthly" = "Mensualment";
+"Time" = "Hora";
+"Hour" = "Hora";
+"Minute" = "Minut";
+"Day of Week" = "Dia de la Setmana";
+"Day of Month" = "Dia del Mes";
+"Sunday" = "Diumenge";
+"Monday" = "Dilluns";
+"Tuesday" = "Dimarts";
+"Wednesday" = "Dimecres";
+"Thursday" = "Dijous";
+"Friday" = "Divendres";
+"Saturday" = "Dissabte";
+"Save" = "Desar";
+"Schedule Summary" = "Resum de Programació";
+"Print test page every day at %@" = "Imprimir pàgina de prova cada dia a les %@";
+"Print test page every %@ at %@" = "Imprimir pàgina de prova cada %@ a les %@";
+"Print test page on day %d of each month at %@" = "Imprimir pàgina de prova el dia %d de cada mes a les %@";
+
+// LogView
+"Print Logs" = "Registres d'Impressió";
+"Close" = "Tancar";
+"No logs yet" = "Encara no hi ha registres";
+"Click the button to generate test data" = "Feu clic al botó per generar dades de prova";
+"Total %d log entries" = "Total %d entrades de registre";
+"Print #%d" = "Impressió #%d";
+"Printed on %@" = "Imprès el %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "No es pot cancel·lar la programació d'activació: %@";
+"Wake schedule cancelled" = "Programació d'activació cancel·lada";
+"Unable to create AppleScript" = "No es pot crear AppleScript";
+"Unable to set wake schedule: %@" = "No es pot establir la programació d'activació: %@";
+"Wake schedule set successfully" = "Programació d'activació establerta correctament";
+
+// LogManager
+"Unable to create application directory: %@" = "No es pot crear el directori de l'aplicació: %@";
+"Read log data: %d bytes" = "Dades de registre llegides: %d bytes";
+"Failed to load logs: %@" = "No s'han pogut carregar els registres: %@";
+"Failed to save logs: %@" = "No s'han pogut desar els registres: %@";
+"Logs saved successfully" = "Registres desats correctament";
+
+"Help Content" = "Per evitar l'obstrucció del capçal d'impressió a causa de llargs períodes d'inactivitat, aquest programa imprimeix automàticament una pàgina de prova a intervals regulars. Mantenint el flux de tinta a través dels injectors, assegura que la impressora es mantingui en òptimes condicions de funcionament, preparada per imprimir quan la necessitis.";
+"Help Title" = "Manteniment automàtic del capçal d'impressió";
+"About" = "Quant a";

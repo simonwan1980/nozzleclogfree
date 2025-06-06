@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Korean localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "프린터가 선택되지 않았습니다";
+"printer_error_pdf_load_failed" = "테스트 페이지 PDF 파일을 불러올 수 없습니다";
+"printer_error_print_operation_failed" = "인쇄 오류: %@";
+"printer_operation_success" = "인쇄 성공";
+"printer_operation_failed_unknown" = "알 수 없는 인쇄 오류";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree 노즐 유지보수";
+"Select Printer:" = "프린터 선택:";
+"Printer" = "프린터";
+"View Logs" = "로그 보기";
+"Enable Auto Print" = "자동 인쇄 활성화";
+"Disable Auto Print" = "자동 인쇄 비활성화";
+"(Enabled)" = "(활성화됨)";
+"(Disabled)" = "(비활성화됨)";
+"Next Print Time: %@" = "다음 인쇄 시간: %@";
+"Print Test Page Now" = "지금 테스트 페이지 인쇄";
+"Exit" = "종료";
+"Language" = "언어";
+"Select Language" = "언어 선택";
+"Search" = "검색";
+"Configure Schedule" = "일정 구성";
+"Print File:" = "인쇄 파일:";
+"Default Test Page" = "기본 테스트 페이지";
+"Select..." = "선택...";
+"Clear" = "지우기";
+"Print Settings" = "인쇄 설정";
+"Preview" = "미리보기";
+"Select PDF File" = "PDF 파일 선택";
+"Print Preview" = "인쇄 미리보기";
+"Save Settings" = "설정 저장";
+"Cancel" = "취소";
+"OK" = "확인";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "다음 대화 상자에서 실제로 인쇄하지 않고 설정을 저장하려면 '인쇄' 버튼을 클릭하세요. 이 설정은 향후 인쇄에 사용됩니다.";
+"Settings Saved" = "설정 저장됨";
+"Your print settings have been saved and will be used for future printing." = "인쇄 설정이 저장되었으며 향후 인쇄에 사용됩니다.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "인쇄 일정 구성";
+"Schedule Type" = "일정 유형";
+"Daily" = "매일";
+"Weekly" = "매주";
+"Monthly" = "매월";
+"Time" = "시간";
+"Hour" = "시";
+"Minute" = "분";
+"Day of Week" = "요일";
+"Day of Month" = "월의 날짜";
+"Sunday" = "일요일";
+"Monday" = "월요일";
+"Tuesday" = "화요일";
+"Wednesday" = "수요일";
+"Thursday" = "목요일";
+"Friday" = "금요일";
+"Saturday" = "토요일";
+"Save" = "저장";
+"Schedule Summary" = "일정 요약";
+"Print test page every day at %@" = "매일 %@에 테스트 페이지 인쇄";
+"Print test page every %@ at %@" = "매주 %@의 %@에 테스트 페이지 인쇄";
+"Print test page on day %d of each month at %@" = "매월 %d일 %@에 테스트 페이지 인쇄";
+
+// LogView
+"Print Logs" = "인쇄 로그";
+"Close" = "닫기";
+"No logs yet" = "아직 로그 없음";
+"Click the button to generate test data" = "테스트 데이터를 생성하려면 버튼을 클릭하세요";
+"Total %d log entries" = "총 %d개의 로그 항목";
+"Print #%d" = "인쇄 #%d";
+"Printed on %@" = "%@에 인쇄됨";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "깨우기 일정을 취소할 수 없음: %@";
+"Wake schedule cancelled" = "깨우기 일정이 취소됨";
+"Unable to create AppleScript" = "AppleScript를 생성할 수 없음";
+"Unable to set wake schedule: %@" = "깨우기 일정을 설정할 수 없음: %@";
+"Wake schedule set successfully" = "깨우기 일정이 성공적으로 설정됨";
+
+// LogManager
+"Unable to create application directory: %@" = "애플리케이션 디렉토리를 생성할 수 없음: %@";
+"Read log data: %d bytes" = "로그 데이터 읽음: %d 바이트";
+"Failed to load logs: %@" = "로그 로드 실패: %@";
+"Failed to save logs: %@" = "로그 저장 실패: %@";
+"Logs saved successfully" = "로그가 성공적으로 저장됨";
+
+"Help Content" = "장기간 비활성 상태로 인한 프린트헤드 막힘을 방지하기 위해 이 프로그램은 정기적으로 테스트 페이지를 자동으로 인쇄합니다. 노즐을 통해 잉크가 계속 흐르도록 유지함으로써 프린터가 최적의 작동 상태를 유지하도록 보장합니다—필요할 때 인쇄할 준비가 되어 있습니다.";
+"Help Title" = "자동 프린트헤드 유지 관리";
+"About" = "정보";

@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Chinese (Traditional) localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "未選擇印表機";
+"printer_error_pdf_load_failed" = "無法載入測試頁 PDF 檔案";
+"printer_error_print_operation_failed" = "列印錯誤: %@";
+"printer_operation_success" = "列印成功";
+"printer_operation_failed_unknown" = "未知列印錯誤";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree 噴嘴維護";
+"Select Printer:" = "選擇印表機：";
+"Printer" = "印表機";
+"View Logs" = "查看日誌";
+"Enable Auto Print" = "啟用自動列印";
+"Disable Auto Print" = "禁用自動列印";
+"(Enabled)" = "(已啟用)";
+"(Disabled)" = "(已禁用)";
+"Next Print Time: %@" = "下次列印時間：%@";
+"Print Test Page Now" = "立即列印測試頁";
+"Exit" = "退出應用";
+"Language" = "語言";
+"Select Language" = "選擇語言";
+"Search" = "搜尋";
+"Configure Schedule" = "配置列印計劃";
+"Print File:" = "列印檔案：";
+"Default Test Page" = "預設測試頁";
+"Select..." = "選擇...";
+"Clear" = "清除";
+"Print Settings" = "列印設定";
+"Preview" = "預覽";
+"Select PDF File" = "選擇PDF檔案";
+"Print Preview" = "列印預覽";
+"Save Settings" = "儲存設定";
+"Cancel" = "取消";
+"OK" = "確定";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "在接下來的對話框中，點擊\"列印\"按鈕將儲存您的設定而不會實際列印。這些設定將用於將來的列印操作。";
+"Settings Saved" = "設定已儲存";
+"Your print settings have been saved and will be used for future printing." = "您的列印設定已儲存，將用於將來的列印操作。";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "配置列印計劃";
+"Schedule Type" = "計劃類型";
+"Daily" = "每天";
+"Weekly" = "每週";
+"Monthly" = "每月";
+"Time" = "時間";
+"Hour" = "小時";
+"Minute" = "分鐘";
+"Day of Week" = "星期幾";
+"Day of Month" = "每月幾號";
+"Sunday" = "星期日";
+"Monday" = "星期一";
+"Tuesday" = "星期二";
+"Wednesday" = "星期三";
+"Thursday" = "星期四";
+"Friday" = "星期五";
+"Saturday" = "星期六";
+"Save" = "儲存";
+"Schedule Summary" = "計劃摘要";
+"Print test page every day at %@" = "每天 %@ 列印測試頁";
+"Print test page every %@ at %@" = "每週%@的 %@ 列印測試頁";
+"Print test page on day %d of each month at %@" = "每月%d號的 %@ 列印測試頁";
+
+// LogView
+"Print Logs" = "列印日誌";
+"Close" = "關閉";
+"No logs yet" = "暫無日誌記錄";
+"Click the button to generate test data" = "點擊添加測試日誌按鈕生成測試數據";
+"Total %d log entries" = "共有 %d 條日誌記錄";
+"Print #%d" = "列印 #%d";
+"Printed on %@" = "列印於 %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "無法取消喚醒計劃：%@";
+"Wake schedule cancelled" = "喚醒計劃已取消";
+"Unable to create AppleScript" = "無法創建 AppleScript";
+"Unable to set wake schedule: %@" = "無法設置喚醒計劃：%@";
+"Wake schedule set successfully" = "喚醒計劃設置成功";
+
+// LogManager
+"Unable to create application directory: %@" = "無法創建應用程序目錄：%@";
+"Read log data: %d bytes" = "讀取到日誌數據：%d 字節";
+"Failed to load logs: %@" = "加載日誌失敗：%@";
+"Failed to save logs: %@" = "保存日誌失敗：%@";
+"Logs saved successfully" = "日誌保存成功";
+
+"Help Content" = "為了防止列印頭因長時間不活動而堵塞，此程式會定期自動列印測試頁。透過保持墨水在噴嘴中流動，它確保您的印表機保持最佳工作狀態——隨時可以在您需要時列印。";
+"Help Title" = "自動列印頭維護";
+"About" = "關於";

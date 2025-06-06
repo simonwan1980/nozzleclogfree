@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Greek localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Δεν επιλέχθηκε εκτυπωτής";
+"printer_error_pdf_load_failed" = "Αποτυχία φόρτωσης του PDF της δοκιμαστικής σελίδας";
+"printer_error_print_operation_failed" = "Αποτυχία εκτύπωσης: %@";
+"printer_operation_success" = "Η εκτύπωση ήταν επιτυχής";
+"printer_operation_failed_unknown" = "Άγνωστο σφάλμα εκτύπωσης";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Συντήρηση Ακροφυσίων";
+"Select Printer:" = "Επιλογή Εκτυπωτή:";
+"Printer" = "Εκτυπωτής";
+"View Logs" = "Προβολή Αρχείων Καταγραφής";
+"Enable Auto Print" = "Ενεργοποίηση Αυτόματης Εκτύπωσης";
+"Disable Auto Print" = "Απενεργοποίηση Αυτόματης Εκτύπωσης";
+"(Enabled)" = "(Ενεργοποιημένο)";
+"(Disabled)" = "(Απενεργοποιημένο)";
+"Next Print Time: %@" = "Επόμενη Ώρα Εκτύπωσης: %@";
+"Print Test Page Now" = "Εκτύπωση Δοκιμαστικής Σελίδας Τώρα";
+"Exit" = "Έξοδος";
+"Language" = "Γλώσσα";
+"Select Language" = "Επιλογή γλώσσας";
+"Search" = "Αναζήτηση";
+"Configure Schedule" = "Ρύθμιση Προγράμματος";
+"Print File:" = "Αρχείο Εκτύπωσης:";
+"Default Test Page" = "Προεπιλεγμένη Δοκιμαστική Σελίδα";
+"Select..." = "Επιλογή...";
+"Clear" = "Καθαρισμός";
+"Print Settings" = "Ρυθμίσεις Εκτύπωσης";
+"Preview" = "Προεπισκόπηση";
+"Select PDF File" = "Επιλογή Αρχείου PDF";
+"Print Preview" = "Προεπισκόπηση Εκτύπωσης";
+"Save Settings" = "Αποθήκευση Ρυθμίσεων";
+"Cancel" = "Ακύρωση";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Στο παρακάτω παράθυρο διαλόγου, κάντε κλικ στο κουμπί 'Εκτύπωση' για να αποθηκεύσετε τις ρυθμίσεις σας χωρίς να εκτυπώσετε στην πραγματικότητα. Αυτές οι ρυθμίσεις θα χρησιμοποιηθούν για μελλοντικές εκτυπώσεις.";
+"Settings Saved" = "Οι Ρυθμίσεις Αποθηκεύτηκαν";
+"Your print settings have been saved and will be used for future printing." = "Οι ρυθμίσεις εκτύπωσής σας έχουν αποθηκευτεί και θα χρησιμοποιηθούν για μελλοντικές εκτυπώσεις.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Ρύθμιση Προγράμματος Εκτύπωσης";
+"Schedule Type" = "Τύπος Προγράμματος";
+"Daily" = "Καθημερινά";
+"Weekly" = "Εβδομαδιαία";
+"Monthly" = "Μηνιαία";
+"Time" = "Ώρα";
+"Hour" = "Ώρα";
+"Minute" = "Λεπτό";
+"Day of Week" = "Ημέρα της Εβδομάδας";
+"Day of Month" = "Ημέρα του Μήνα";
+"Sunday" = "Κυριακή";
+"Monday" = "Δευτέρα";
+"Tuesday" = "Τρίτη";
+"Wednesday" = "Τετάρτη";
+"Thursday" = "Πέμπτη";
+"Friday" = "Παρασκευή";
+"Saturday" = "Σάββατο";
+"Save" = "Αποθήκευση";
+"Schedule Summary" = "Σύνοψη Προγράμματος";
+"Print test page every day at %@" = "Εκτύπωση δοκιμαστικής σελίδας κάθε μέρα στις %@";
+"Print test page every %@ at %@" = "Εκτύπωση δοκιμαστικής σελίδας κάθε %@ στις %@";
+"Print test page on day %d of each month at %@" = "Εκτύπωση δοκιμαστικής σελίδας την ημέρα %d κάθε μήνα στις %@";
+
+// LogView
+"Print Logs" = "Αρχεία Καταγραφής Εκτύπωσης";
+"Close" = "Κλείσιμο";
+"No logs yet" = "Δεν υπάρχουν ακόμα αρχεία καταγραφής";
+"Click the button to generate test data" = "Κάντε κλικ στο κουμπί για να δημιουργήσετε δοκιμαστικά δεδομένα";
+"Total %d log entries" = "Συνολικά %d καταχωρήσεις αρχείων καταγραφής";
+"Print #%d" = "Εκτύπωση #%d";
+"Printed on %@" = "Εκτυπώθηκε στις %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Αδυναμία ακύρωσης προγράμματος αφύπνισης: %@";
+"Wake schedule cancelled" = "Το πρόγραμμα αφύπνισης ακυρώθηκε";
+"Unable to create AppleScript" = "Αδυναμία δημιουργίας AppleScript";
+"Unable to set wake schedule: %@" = "Αδυναμία ρύθμισης προγράμματος αφύπνισης: %@";
+"Wake schedule set successfully" = "Το πρόγραμμα αφύπνισης ρυθμίστηκε με επιτυχία";
+
+// LogManager
+"Unable to create application directory: %@" = "Αδυναμία δημιουργίας καταλόγου εφαρμογής: %@";
+"Read log data: %d bytes" = "Ανάγνωση δεδομένων καταγραφής: %d bytes";
+"Failed to load logs: %@" = "Αποτυχία φόρτωσης αρχείων καταγραφής: %@";
+"Failed to save logs: %@" = "Αποτυχία αποθήκευσης αρχείων καταγραφής: %@";
+"Logs saved successfully" = "Τα αρχεία καταγραφής αποθηκεύτηκαν με επιτυχία";
+
+"Help Content" = "Για την αποφυγή απόφραξης της κεφαλής εκτύπωσης λόγω μεγάλων περιόδων αδράνειας, αυτό το πρόγραμμα εκτυπώνει αυτόματα μια δοκιμαστική σελίδα σε τακτά χρονικά διαστήματα. Διατηρώντας τη ροή του μελανιού μέσω των ακροφυσίων, εξασφαλίζει ότι ο εκτυπωτής σας παραμένει σε βέλτιστη κατάσταση λειτουργίας—έτοιμος για εκτύπωση όταν τον χρειάζεστε.";
+"Help Title" = "Αυτόματη συντήρηση κεφαλής εκτύπωσης";
+"About" = "Σχετικά";

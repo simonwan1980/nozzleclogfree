@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Marathi localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "कोणताही प्रिंटर निवडलेला नाही";
+"printer_error_pdf_load_failed" = "चाचणी पृष्ठ PDF फाइल लोड करण्यात अयशस्वी";
+"printer_error_print_operation_failed" = "प्रिंटिंग त्रुटी: %@";
+"printer_operation_success" = "प्रिंटिंग यशस्वी";
+"printer_operation_failed_unknown" = "अज्ञात प्रिंटिंग त्रुटी";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree नोझल देखभाल";
+"Select Printer:" = "प्रिंटर निवडा:";
+"Printer" = "प्रिंटर";
+"View Logs" = "लॉग पहा";
+"Enable Auto Print" = "स्वयंचलित प्रिंट सक्षम करा";
+"Disable Auto Print" = "स्वयंचलित प्रिंट अक्षम करा";
+"(Enabled)" = "(सक्षम)";
+"(Disabled)" = "(अक्षम)";
+"Next Print Time: %@" = "पुढील प्रिंट वेळ: %@";
+"Print Test Page Now" = "आता चाचणी पृष्ठ प्रिंट करा";
+"Exit" = "बाहेर पडा";
+"Language" = "भाषा";
+"Select Language" = "भाषा निवडा";
+"Search" = "शोध";
+"Configure Schedule" = "वेळापत्रक कॉन्फिगर करा";
+"Print File:" = "प्रिंट फाइल:";
+"Default Test Page" = "डीफॉल्ट चाचणी पृष्ठ";
+"Select..." = "निवडा...";
+"Clear" = "साफ करा";
+"Print Settings" = "प्रिंट सेटिंग्ज";
+"Preview" = "पूर्वावलोकन";
+"Select PDF File" = "PDF फाइल निवडा";
+"Print Preview" = "प्रिंट पूर्वावलोकन";
+"Save Settings" = "सेटिंग्ज जतन करा";
+"Cancel" = "रद्द करा";
+"OK" = "ठीक आहे";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "पुढील संवादात, प्रत्यक्षात प्रिंट न करता आपल्या सेटिंग्ज जतन करण्यासाठी 'प्रिंट' बटणावर क्लिक करा. या सेटिंग्ज भविष्यातील प्रिंटिंगसाठी वापरल्या जातील.";
+"Settings Saved" = "सेटिंग्ज जतन केल्या";
+"Your print settings have been saved and will be used for future printing." = "आपल्या प्रिंट सेटिंग्ज जतन केल्या गेल्या आहेत आणि भविष्यातील प्रिंटिंगसाठी वापरल्या जातील.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "प्रिंट वेळापत्रक कॉन्फिगर करा";
+"Schedule Type" = "वेळापत्रक प्रकार";
+"Daily" = "दैनिक";
+"Weekly" = "साप्ताहिक";
+"Monthly" = "मासिक";
+"Time" = "वेळ";
+"Hour" = "तास";
+"Minute" = "मिनिट";
+"Day of Week" = "आठवड्याचा दिवस";
+"Day of Month" = "महिन्याचा दिवस";
+"Sunday" = "रविवार";
+"Monday" = "सोमवार";
+"Tuesday" = "मंगळवार";
+"Wednesday" = "बुधवार";
+"Thursday" = "गुरुवार";
+"Friday" = "शुक्रवार";
+"Saturday" = "शनिवार";
+"Save" = "जतन करा";
+"Schedule Summary" = "वेळापत्रक सारांश";
+"Print test page every day at %@" = "दररोज %@ वाजता चाचणी पृष्ठ प्रिंट करा";
+"Print test page every %@ at %@" = "प्रत्येक %@ रोजी %@ वाजता चाचणी पृष्ठ प्रिंट करा";
+"Print test page on day %d of each month at %@" = "प्रत्येक महिन्याच्या %d तारखेला %@ वाजता चाचणी पृष्ठ प्रिंट करा";
+
+// LogView
+"Print Logs" = "प्रिंट लॉग";
+"Close" = "बंद करा";
+"No logs yet" = "अद्याप कोणतेही लॉग नाहीत";
+"Click the button to generate test data" = "चाचणी डेटा तयार करण्यासाठी बटणावर क्लिक करा";
+"Total %d log entries" = "एकूण %d लॉग नोंदी";
+"Print #%d" = "प्रिंट #%d";
+"Printed on %@" = "%@ रोजी प्रिंट केले";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "जागे होण्याचे वेळापत्रक रद्द करण्यात अक्षम: %@";
+"Wake schedule cancelled" = "जागे होण्याचे वेळापत्रक रद्द केले";
+"Unable to create AppleScript" = "AppleScript तयार करण्यात अक्षम";
+"Unable to set wake schedule: %@" = "जागे होण्याचे वेळापत्रक सेट करण्यात अक्षम: %@";
+"Wake schedule set successfully" = "जागे होण्याचे वेळापत्रक यशस्वीरित्या सेट केले";
+
+// LogManager
+"Unable to create application directory: %@" = "अॅप्लिकेशन डिरेक्टरी तयार करण्यात अक्षम: %@";
+"Read log data: %d bytes" = "लॉग डेटा वाचले: %d बाइट्स";
+"Failed to load logs: %@" = "लॉग लोड करण्यात अयशस्वी: %@";
+"Failed to save logs: %@" = "लॉग जतन करण्यात अयशस्वी: %@";
+"Logs saved successfully" = "लॉग यशस्वीरित्या जतन केले";
+
+"Help Content" = "दीर्घ कालावधीच्या निष्क्रियतेमुळे प्रिंटहेड चोंदणे टाळण्यासाठी, हा प्रोग्राम नियमित अंतराने स्वयंचलितपणे चाचणी पृष्ठ प्रिंट करतो. नोझल्सद्वारे शाई प्रवाहित ठेवून, हे सुनिश्चित करते की तुमचा प्रिंटर सर्वोत्तम कार्यरत स्थितीत राहतो—तुम्हाला आवश्यकता असेल तेव्हा प्रिंट करण्यासाठी तयार.";
+"Help Title" = "स्वयंचलित प्रिंटहेड देखभाल";
+"About" = "बद्दल";

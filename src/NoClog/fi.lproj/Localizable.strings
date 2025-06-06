@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Finnish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Tulostinta ei ole valittu";
+"printer_error_pdf_load_failed" = "Testisivun PDF-tiedoston lataus epäonnistui";
+"printer_error_print_operation_failed" = "Tulostus epäonnistui: %@";
+"printer_operation_success" = "Tulostus onnistui";
+"printer_operation_failed_unknown" = "Tuntematon tulostusvirhe";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Suuttimen Huolto";
+"Select Printer:" = "Valitse Tulostin:";
+"Printer" = "Tulostin";
+"View Logs" = "Näytä Lokit";
+"Enable Auto Print" = "Ota Automaattinen Tulostus Käyttöön";
+"Disable Auto Print" = "Poista Automaattinen Tulostus Käytöstä";
+"(Enabled)" = "(Käytössä)";
+"(Disabled)" = "(Ei käytössä)";
+"Next Print Time: %@" = "Seuraava Tulostusaika: %@";
+"Print Test Page Now" = "Tulosta Testisivu Nyt";
+"Exit" = "Poistu";
+"Language" = "Kieli";
+"Select Language" = "Valitse kieli";
+"Search" = "Haku";
+"Configure Schedule" = "Määritä Aikataulu";
+"Print File:" = "Tulostustiedosto:";
+"Default Test Page" = "Oletustestisivu";
+"Select..." = "Valitse...";
+"Clear" = "Tyhjennä";
+"Print Settings" = "Tulostusasetukset";
+"Preview" = "Esikatselu";
+"Select PDF File" = "Valitse PDF-tiedosto";
+"Print Preview" = "Tulostuksen Esikatselu";
+"Save Settings" = "Tallenna Asetukset";
+"Cancel" = "Peruuta";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Napsauta seuraavassa valintaikkunassa 'Tulosta'-painiketta tallentaaksesi asetukset tulostamatta. Näitä asetuksia käytetään tulevissa tulostuksissa.";
+"Settings Saved" = "Asetukset Tallennettu";
+"Your print settings have been saved and will be used for future printing." = "Tulostusasetuksesi on tallennettu ja niitä käytetään tulevissa tulostuksissa.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Määritä Tulostusaikataulu";
+"Schedule Type" = "Aikataulun Tyyppi";
+"Daily" = "Päivittäin";
+"Weekly" = "Viikoittain";
+"Monthly" = "Kuukausittain";
+"Time" = "Aika";
+"Hour" = "Tunti";
+"Minute" = "Minuutti";
+"Day of Week" = "Viikonpäivä";
+"Day of Month" = "Kuukauden Päivä";
+"Sunday" = "Sunnuntai";
+"Monday" = "Maanantai";
+"Tuesday" = "Tiistai";
+"Wednesday" = "Keskiviikko";
+"Thursday" = "Torstai";
+"Friday" = "Perjantai";
+"Saturday" = "Lauantai";
+"Save" = "Tallenna";
+"Schedule Summary" = "Aikataulun Yhteenveto";
+"Print test page every day at %@" = "Tulosta testisivu joka päivä kello %@";
+"Print test page every %@ at %@" = "Tulosta testisivu joka %@ kello %@";
+"Print test page on day %d of each month at %@" = "Tulosta testisivu kuukauden %d. päivänä kello %@";
+
+// LogView
+"Print Logs" = "Tulostuslokit";
+"Close" = "Sulje";
+"No logs yet" = "Ei vielä lokeja";
+"Click the button to generate test data" = "Napsauta painiketta luodaksesi testitietoja";
+"Total %d log entries" = "Yhteensä %d lokimerkintää";
+"Print #%d" = "Tulostus #%d";
+"Printed on %@" = "Tulostettu %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Herätysaikataulun peruuttaminen epäonnistui: %@";
+"Wake schedule cancelled" = "Herätysaikataulu peruutettu";
+"Unable to create AppleScript" = "AppleScriptin luominen epäonnistui";
+"Unable to set wake schedule: %@" = "Herätysaikataulun asettaminen epäonnistui: %@";
+"Wake schedule set successfully" = "Herätysaikataulu asetettu onnistuneesti";
+
+// LogManager
+"Unable to create application directory: %@" = "Sovellushakemiston luominen epäonnistui: %@";
+"Read log data: %d bytes" = "Luettu lokitietoja: %d tavua";
+"Failed to load logs: %@" = "Lokien lataaminen epäonnistui: %@";
+"Failed to save logs: %@" = "Lokien tallentaminen epäonnistui: %@";
+"Logs saved successfully" = "Lokit tallennettu onnistuneesti";
+
+"Help Content" = "Estääkseen tulostuspään tukkeutumisen pitkien käyttämättömien jaksojen aikana, tämä ohjelma tulostaa automaattisesti testisivun säännöllisin väliajoin. Pitämällä musteen virtaamassa suuttimien läpi, se varmistaa että tulostimesi pysyy optimaalisessa toimintakunnossa - valmiina tulostamaan kun tarvitset sitä.";
+"Help Title" = "Automaattinen tulostuspään huolto";
+"About" = "Tietoja";

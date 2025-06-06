@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Dutch localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Geen printer geselecteerd";
+"printer_error_pdf_load_failed" = "Kan PDF-bestand van testpagina niet laden";
+"printer_error_print_operation_failed" = "Afdrukfout: %@";
+"printer_operation_success" = "Afdrukken gelukt";
+"printer_operation_failed_unknown" = "Onbekende afdrukfout";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Spuitkopbeheer";
+"Select Printer:" = "Selecteer Printer:";
+"Printer" = "Printer";
+"View Logs" = "Logboeken Bekijken";
+"Enable Auto Print" = "Automatisch Afdrukken Inschakelen";
+"Disable Auto Print" = "Automatisch Afdrukken Uitschakelen";
+"(Enabled)" = "(Ingeschakeld)";
+"(Disabled)" = "(Uitgeschakeld)";
+"Next Print Time: %@" = "Volgende Afdruktijd: %@";
+"Print Test Page Now" = "Testpagina Nu Afdrukken";
+"Exit" = "Afsluiten";
+"Language" = "Taal";
+"Select Language" = "Taal selecteren";
+"Search" = "Zoeken";
+"Configure Schedule" = "Schema Configureren";
+"Print File:" = "Afdrukbestand:";
+"Default Test Page" = "Standaard Testpagina";
+"Select..." = "Selecteren...";
+"Clear" = "Wissen";
+"Print Settings" = "Afdrukinstellingen";
+"Preview" = "Voorbeeld";
+"Select PDF File" = "PDF-bestand Selecteren";
+"Print Preview" = "Afdrukvoorbeeld";
+"Save Settings" = "Instellingen Opslaan";
+"Cancel" = "Annuleren";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Klik in het volgende dialoogvenster op de knop 'Afdrukken' om uw instellingen op te slaan zonder daadwerkelijk af te drukken. Deze instellingen worden gebruikt voor toekomstige afdruktaken.";
+"Settings Saved" = "Instellingen Opgeslagen";
+"Your print settings have been saved and will be used for future printing." = "Uw afdrukinstellingen zijn opgeslagen en worden gebruikt voor toekomstige afdruktaken.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Afdrukschema Configureren";
+"Schedule Type" = "Schematype";
+"Daily" = "Dagelijks";
+"Weekly" = "Wekelijks";
+"Monthly" = "Maandelijks";
+"Time" = "Tijd";
+"Hour" = "Uur";
+"Minute" = "Minuut";
+"Day of Week" = "Dag van de Week";
+"Day of Month" = "Dag van de Maand";
+"Sunday" = "Zondag";
+"Monday" = "Maandag";
+"Tuesday" = "Dinsdag";
+"Wednesday" = "Woensdag";
+"Thursday" = "Donderdag";
+"Friday" = "Vrijdag";
+"Saturday" = "Zaterdag";
+"Save" = "Opslaan";
+"Schedule Summary" = "Schema Samenvatting";
+"Print test page every day at %@" = "Testpagina elke dag afdrukken om %@";
+"Print test page every %@ at %@" = "Testpagina elke %@ afdrukken om %@";
+"Print test page on day %d of each month at %@" = "Testpagina afdrukken op dag %d van elke maand om %@";
+
+// LogView
+"Print Logs" = "Afdruklogboeken";
+"Close" = "Sluiten";
+"No logs yet" = "Nog geen logboeken";
+"Click the button to generate test data" = "Klik op de knop om testgegevens te genereren";
+"Total %d log entries" = "Totaal %d logboekitems";
+"Print #%d" = "Afdruk #%d";
+"Printed on %@" = "Afgedrukt op %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Kan wekschema niet annuleren: %@";
+"Wake schedule cancelled" = "Wekschema geannuleerd";
+"Unable to create AppleScript" = "Kan AppleScript niet maken";
+"Unable to set wake schedule: %@" = "Kan wekschema niet instellen: %@";
+"Wake schedule set successfully" = "Wekschema succesvol ingesteld";
+
+// LogManager
+"Unable to create application directory: %@" = "Kan toepassingsmap niet maken: %@";
+"Read log data: %d bytes" = "Loggegevens gelezen: %d bytes";
+"Failed to load logs: %@" = "Kan logboeken niet laden: %@";
+"Failed to save logs: %@" = "Kan logboeken niet opslaan: %@";
+"Logs saved successfully" = "Logboeken succesvol opgeslagen";
+
+"Help Content" = "Om verstopping van de printkop door lange periodes van inactiviteit te voorkomen, print dit programma automatisch een testpagina op regelmatige intervallen. Door de inkt door de spuitmonden te laten stromen, zorgt het ervoor dat uw printer in optimale werkconditie blijft—klaar om te printen wanneer u het nodig heeft.";
+"Help Title" = "Automatisch printkopbeheer";
+"About" = "Over";

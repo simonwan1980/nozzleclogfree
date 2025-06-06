@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Malay localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Tiada pencetak dipilih";
+"printer_error_pdf_load_failed" = "Gagal memuat fail PDF halaman ujian";
+"printer_error_print_operation_failed" = "Ralat pencetakan: %@";
+"printer_operation_success" = "Pencetakan berjaya";
+"printer_operation_failed_unknown" = "Ralat pencetakan tidak diketahui";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Penyelenggaraan Muncung";
+"Select Printer:" = "Pilih Pencetak:";
+"Printer" = "Pencetak";
+"View Logs" = "Lihat Log";
+"Enable Auto Print" = "Aktifkan Cetakan Automatik";
+"Disable Auto Print" = "Nyahaktifkan Cetakan Automatik";
+"(Enabled)" = "(Diaktifkan)";
+"(Disabled)" = "(Dinyahaktifkan)";
+"Next Print Time: %@" = "Masa Cetakan Seterusnya: %@";
+"Print Test Page Now" = "Cetak Halaman Ujian Sekarang";
+"Exit" = "Keluar";
+"Language" = "Bahasa";
+"Select Language" = "Pilih Bahasa";
+"Search" = "Cari";
+"Configure Schedule" = "Konfigurasi Jadual";
+"Print File:" = "Fail Cetakan:";
+"Default Test Page" = "Halaman Ujian Lalai";
+"Select..." = "Pilih...";
+"Clear" = "Kosongkan";
+"Print Settings" = "Tetapan Cetakan";
+"Preview" = "Pratonton";
+"Select PDF File" = "Pilih Fail PDF";
+"Print Preview" = "Pratonton Cetakan";
+"Save Settings" = "Simpan Tetapan";
+"Cancel" = "Batal";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Dalam dialog berikut, klik butang 'Cetak' untuk menyimpan tetapan anda tanpa mencetak sebenarnya. Tetapan ini akan digunakan untuk pencetakan masa hadapan.";
+"Settings Saved" = "Tetapan Disimpan";
+"Your print settings have been saved and will be used for future printing." = "Tetapan cetakan anda telah disimpan dan akan digunakan untuk pencetakan masa hadapan.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigurasi Jadual Cetakan";
+"Schedule Type" = "Jenis Jadual";
+"Daily" = "Harian";
+"Weekly" = "Mingguan";
+"Monthly" = "Bulanan";
+"Time" = "Masa";
+"Hour" = "Jam";
+"Minute" = "Minit";
+"Day of Week" = "Hari Minggu";
+"Day of Month" = "Hari Bulan";
+"Sunday" = "Ahad";
+"Monday" = "Isnin";
+"Tuesday" = "Selasa";
+"Wednesday" = "Rabu";
+"Thursday" = "Khamis";
+"Friday" = "Jumaat";
+"Saturday" = "Sabtu";
+"Save" = "Simpan";
+"Schedule Summary" = "Ringkasan Jadual";
+"Print test page every day at %@" = "Cetak halaman ujian setiap hari pada %@";
+"Print test page every %@ at %@" = "Cetak halaman ujian setiap %@ pada %@";
+"Print test page on day %d of each month at %@" = "Cetak halaman ujian pada hari %d setiap bulan pada %@";
+
+// LogView
+"Print Logs" = "Log Cetakan";
+"Close" = "Tutup";
+"No logs yet" = "Tiada log lagi";
+"Click the button to generate test data" = "Klik butang untuk menjana data ujian";
+"Total %d log entries" = "Jumlah %d entri log";
+"Print #%d" = "Cetakan #%d";
+"Printed on %@" = "Dicetak pada %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Tidak dapat membatalkan jadual bangun: %@";
+"Wake schedule cancelled" = "Jadual bangun dibatalkan";
+"Unable to create AppleScript" = "Tidak dapat mencipta AppleScript";
+"Unable to set wake schedule: %@" = "Tidak dapat menetapkan jadual bangun: %@";
+"Wake schedule set successfully" = "Jadual bangun berjaya ditetapkan";
+
+// LogManager
+"Unable to create application directory: %@" = "Tidak dapat mencipta direktori aplikasi: %@";
+"Read log data: %d bytes" = "Baca data log: %d bait";
+"Failed to load logs: %@" = "Gagal memuatkan log: %@";
+"Failed to save logs: %@" = "Gagal menyimpan log: %@";
+"Logs saved successfully" = "Log berjaya disimpan";
+
+"Help Content" = "Untuk mengelakkan tersumbatnya kepala cetak akibat tempoh tidak aktif yang lama, program ini secara automatik mencetak halaman ujian pada selang masa yang tetap. Dengan memastikan dakwat mengalir melalui muncung, ia memastikan pencetak anda kekal dalam keadaan kerja yang optimum—sedia untuk mencetak apabila anda memerlukannya.";
+"Help Title" = "Penyelenggaraan Kepala Cetak Automatik";
+"About" = "Perihal";

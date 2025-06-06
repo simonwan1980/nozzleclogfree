@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Faroese localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Ongin prentari er valdur";
+"printer_error_pdf_load_failed" = "Kundi ikki lata PDF-fílu fyri royndarsíðu";
+"printer_error_print_operation_failed" = "Prentvilla: %@";
+"printer_operation_success" = "Prentið eydnaðist";
+"printer_operation_failed_unknown" = "Ókend prentvilla";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Dysuviðlíkahald";
+"Select Printer:" = "Vel Prentara:";
+"Printer" = "Prentari";
+"View Logs" = "Síggj Loggfílur";
+"Enable Auto Print" = "Virkja Sjálvvirkan Prent";
+"Disable Auto Print" = "Óvirkja Sjálvvirkan Prent";
+"(Enabled)" = "(Virkjað)";
+"(Disabled)" = "(Óvirkjað)";
+"Next Print Time: %@" = "Næsta Prenttíð: %@";
+"Print Test Page Now" = "Prenta Royndarsíðu Nú";
+"Exit" = "Enda";
+"Language" = "Mál";
+"Select Language" = "Vel mál";
+"Search" = "Leita";
+"Configure Schedule" = "Stilla Tíðarætlan";
+"Print File:" = "Prentfíla:";
+"Default Test Page" = "Sjálvsett Royndarsíða";
+"Select..." = "Vel...";
+"Clear" = "Rudda";
+"Print Settings" = "Prentinnstillingar";
+"Preview" = "Forskoðan";
+"Select PDF File" = "Vel PDF Fílu";
+"Print Preview" = "Prentforskoðan";
+"Save Settings" = "Goym Innstillingar";
+"Cancel" = "Ógilda";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Í fylgjandi samrøðu, trýst á 'Prenta' knøttin fyri at goyma tínar innstillingar uttan veruliga at prenta. Hesar innstillingar verða brúktar til framtíðar prent.";
+"Settings Saved" = "Innstillingar Goymdar";
+"Your print settings have been saved and will be used for future printing." = "Tínar prentinnstillingar eru goymdar og verða brúktar til framtíðar prent.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Stilla Prenttíðarætlan";
+"Schedule Type" = "Slag av Tíðarætlan";
+"Daily" = "Dagliga";
+"Weekly" = "Vikliga";
+"Monthly" = "Mánaðarliga";
+"Time" = "Tíð";
+"Hour" = "Tími";
+"Minute" = "Minuttur";
+"Day of Week" = "Vikudagur";
+"Day of Month" = "Dagur í Mánaðinum";
+"Sunday" = "Sunnudagur";
+"Monday" = "Mánadagur";
+"Tuesday" = "Týsdagur";
+"Wednesday" = "Mikudagur";
+"Thursday" = "Hósdagur";
+"Friday" = "Fríggjadagur";
+"Saturday" = "Leygardagur";
+"Save" = "Goym";
+"Schedule Summary" = "Samandráttur av Tíðarætlan";
+"Print test page every day at %@" = "Prenta royndarsíðu hvønn dag kl. %@";
+"Print test page every %@ at %@" = "Prenta royndarsíðu hvønn %@ kl. %@";
+"Print test page on day %d of each month at %@" = "Prenta royndarsíðu tann %d. í hvørjum mánaði kl. %@";
+
+// LogView
+"Print Logs" = "Prentloggfílur";
+"Close" = "Lat aftur";
+"No logs yet" = "Ongar loggfílur enn";
+"Click the button to generate test data" = "Trýst á knøttin fyri at framleiða royndardáta";
+"Total %d log entries" = "Tilsamans %d loggfílupostar";
+"Print #%d" = "Prent #%d";
+"Printed on %@" = "Prentað tann %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Kann ikki ógilda vekjartíðarætlan: %@";
+"Wake schedule cancelled" = "Vekjartíðarætlan ógildiggjørd";
+"Unable to create AppleScript" = "Kann ikki skapa AppleScript";
+"Unable to set wake schedule: %@" = "Kann ikki seta vekjartíðarætlan: %@";
+"Wake schedule set successfully" = "Vekjartíðarætlan sett við góðum úrsliti";
+
+// LogManager
+"Unable to create application directory: %@" = "Kann ikki skapa forritsmapu: %@";
+"Read log data: %d bytes" = "Lesið loggfíludáta: %d bytes";
+"Failed to load logs: %@" = "Miseydnaðist at lesa loggfílur: %@";
+"Failed to save logs: %@" = "Miseydnaðist at goyma loggfílur: %@";
+"Logs saved successfully" = "Loggfílur goymdar við góðum úrsliti";
+
+"Help Content" = "Fyri at forða fyri, at prentihøvdið stoppast orsakað av longum tíðarskeiðum av óvirkni, prentar hetta forritið sjálvvirkandi eina royndarsíðu við jøvnum millumbilum. Við at halda blekinum rennandi gjøgnum dysurnar, tryggjar tað, at prentarin hjá tær verður í optimalan stand - klárur at prenta, tá tú hevur tørv á tí.";
+"Help Title" = "Sjálvvirkandi viðlíkahald av prentihøvdi";
+"Help" = "Hjálp";

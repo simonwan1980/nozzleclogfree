@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Swedish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Ingen skrivare vald";
+"printer_error_pdf_load_failed" = "Det gick inte att ladda testsidans PDF-fil";
+"printer_error_print_operation_failed" = "Utskriftsfel: %@";
+"printer_operation_success" = "Utskriften lyckades";
+"printer_operation_failed_unknown" = "Okänt utskriftsfel";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Munstycksunderhåll";
+"Select Printer:" = "Välj Skrivare:";
+"Printer" = "Skrivare";
+"View Logs" = "Visa Loggar";
+"Enable Auto Print" = "Aktivera Automatisk Utskrift";
+"Disable Auto Print" = "Inaktivera Automatisk Utskrift";
+"(Enabled)" = "(Aktiverad)";
+"(Disabled)" = "(Inaktiverad)";
+"Next Print Time: %@" = "Nästa Utskriftstid: %@";
+"Print Test Page Now" = "Skriv ut Testsida Nu";
+"Exit" = "Avsluta";
+"Language" = "Språk";
+"Select Language" = "Välj språk";
+"Search" = "Sök";
+"Configure Schedule" = "Konfigurera Schema";
+"Print File:" = "Utskriftsfil:";
+"Default Test Page" = "Standard Testsida";
+"Select..." = "Välj...";
+"Clear" = "Rensa";
+"Print Settings" = "Utskriftsinställningar";
+"Preview" = "Förhandsgranska";
+"Select PDF File" = "Välj PDF-fil";
+"Print Preview" = "Förhandsgranskning";
+"Save Settings" = "Spara Inställningar";
+"Cancel" = "Avbryt";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "I följande dialogruta, klicka på knappen 'Skriv ut' för att spara dina inställningar utan att faktiskt skriva ut. Dessa inställningar kommer att användas för framtida utskrifter.";
+"Settings Saved" = "Inställningar Sparade";
+"Your print settings have been saved and will be used for future printing." = "Dina utskriftsinställningar har sparats och kommer att användas för framtida utskrifter.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigurera Utskriftsschema";
+"Schedule Type" = "Schematyp";
+"Daily" = "Dagligen";
+"Weekly" = "Veckovis";
+"Monthly" = "Månadsvis";
+"Auto" = "Auto";
+"Time" = "Tid";
+"Hour" = "Timme";
+"Minute" = "Minut";
+"Day of Week" = "Veckodag";
+"Day of Month" = "Dag i Månaden";
+"Sunday" = "Söndag";
+"Monday" = "Måndag";
+"Tuesday" = "Tisdag";
+"Wednesday" = "Onsdag";
+"Thursday" = "Torsdag";
+"Friday" = "Fredag";
+"Saturday" = "Lördag";
+"Save" = "Spara";
+"Schedule Summary" = "Schemaöversikt";
+"Print test page every day at %@" = "Skriv ut testsida varje dag kl %@";
+"Print test page every %@ at %@" = "Skriv ut testsida varje %@ kl %@";
+"Print test page on day %d of each month at %@" = "Skriv ut testsida den %d varje månad kl %@";
+
+// LogView
+"Print Logs" = "Utskriftsloggar";
+"Close" = "Stäng";
+"No logs yet" = "Inga loggar ännu";
+"Click the button to generate test data" = "Klicka på knappen för att generera testdata";
+"Total %d log entries" = "Totalt %d loggposter";
+"Print #%d" = "Utskrift #%d";
+"Printed on %@" = "Utskriven den %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Kan inte avbryta uppvakningsschema: %@";
+"Wake schedule cancelled" = "Uppvakningsschema avbrutet";
+"Unable to create AppleScript" = "Kan inte skapa AppleScript";
+"Unable to set wake schedule: %@" = "Kan inte ställa in uppvakningsschema: %@";
+"Wake schedule set successfully" = "Uppvakningsschema inställt";
+
+// LogManager
+"Unable to create application directory: %@" = "Kan inte skapa programmapp: %@";
+"Read log data: %d bytes" = "Läst loggdata: %d byte";
+"Failed to load logs: %@" = "Misslyckades med att ladda loggar: %@";
+"Failed to save logs: %@" = "Misslyckades med att spara loggar: %@";
+"Logs saved successfully" = "Loggar sparade";
+
+"Help Content" = "För att förhindra att skrivarhuvudet täpps till på grund av långa perioder av inaktivitet, skriver detta program automatiskt ut en testsida med jämna mellanrum. Genom att hålla bläcket flytande genom munstyckena säkerställer det att din skrivare förblir i optimalt skick – redo att skriva ut när du behöver det.";
+"Help Title" = "Automatiskt underhåll av skrivarhuvud";
+"About" = "Om";

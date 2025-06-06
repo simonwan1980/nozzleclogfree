@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Telugu localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "ప్రింటర్ ఎంచుకోలేదు";
+"printer_error_pdf_load_failed" = "టెస్ట్ పేజీ PDF ఫైల్ లోడ్ చేయడం విఫలమైంది";
+"printer_error_print_operation_failed" = "ప్రింట్ లోపం: %@";
+"printer_operation_success" = "ప్రింట్ విజయవంతం";
+"printer_operation_failed_unknown" = "తెలియని ప్రింట్ లోపం";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree నోజిల్ నిర్వహణ";
+"Select Printer:" = "ప్రింటర్ ఎంచుకోండి:";
+"Printer" = "ప్రింటర్";
+"View Logs" = "లాగ్‌లను చూడండి";
+"Enable Auto Print" = "స్వయంచాలక ముద్రణను ప్రారంభించండి";
+"Disable Auto Print" = "స్వయంచాలక ముద్రణను నిలిపివేయండి";
+"(Enabled)" = "(ప్రారంభించబడింది)";
+"(Disabled)" = "(నిలిపివేయబడింది)";
+"Next Print Time: %@" = "తదుపరి ముద్రణ సమయం: %@";
+"Print Test Page Now" = "ఇప్పుడు పరీక్ష పేజీని ముద్రించండి";
+"Exit" = "నిష్క్రమించు";
+"Language" = "భాష";
+"Select Language" = "భాషను ఎంచుకోండి";
+"Search" = "శోధన";
+"Configure Schedule" = "షెడ్యూల్‌ను కాన్ఫిగర్ చేయండి";
+"Print File:" = "ముద్రణ ఫైల్:";
+"Default Test Page" = "డిఫాల్ట్ పరీక్ష పేజీ";
+"Select..." = "ఎంచుకోండి...";
+"Clear" = "క్లియర్";
+"Print Settings" = "ముద్రణ సెట్టింగ్‌లు";
+"Preview" = "ప్రివ్యూ";
+"Select PDF File" = "PDF ఫైల్‌ను ఎంచుకోండి";
+"Print Preview" = "ముద్రణ ప్రివ్యూ";
+"Save Settings" = "సెట్టింగ్‌లను సేవ్ చేయండి";
+"Cancel" = "రద్దు చేయండి";
+"OK" = "సరే";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "కింది డైలాగ్‌లో, వాస్తవానికి ముద్రించకుండానే మీ సెట్టింగ్‌లను సేవ్ చేయడానికి 'ముద్రణ' బటన్‌ను క్లిక్ చేయండి. ఈ సెట్టింగ్‌లు భవిష్యత్తు ముద్రణ కోసం ఉపయోగించబడతాయి.";
+"Settings Saved" = "సెట్టింగ్‌లు సేవ్ చేయబడ్డాయి";
+"Your print settings have been saved and will be used for future printing." = "మీ ముద్రణ సెట్టింగ్‌లు సేవ్ చేయబడ్డాయి మరియు భవిష్యత్తు ముద్రణ కోసం ఉపయోగించబడతాయి.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "ముద్రణ షెడ్యూల్‌ను కాన్ఫిగర్ చేయండి";
+"Schedule Type" = "షెడ్యూల్ రకం";
+"Daily" = "రోజువారీ";
+"Weekly" = "వారపు";
+"Monthly" = "నెలవారీ";
+"Time" = "సమయం";
+"Hour" = "గంట";
+"Minute" = "నిమిషం";
+"Day of Week" = "వారంలోని రోజు";
+"Day of Month" = "నెలలోని రోజు";
+"Sunday" = "ఆదివారం";
+"Monday" = "సోమవారం";
+"Tuesday" = "మంగళవారం";
+"Wednesday" = "బుధవారం";
+"Thursday" = "గురువారం";
+"Friday" = "శుక్రవారం";
+"Saturday" = "శనివారం";
+"Save" = "సేవ్ చేయండి";
+"Schedule Summary" = "షెడ్యూల్ సారాంశం";
+"Print test page every day at %@" = "ప్రతి రోజు %@ వద్ద పరీక్ష పేజీని ముద్రించండి";
+"Print test page every %@ at %@" = "ప్రతి %@ రోజున %@ వద్ద పరీక్ష పేజీని ముద్రించండి";
+"Print test page on day %d of each month at %@" = "ప్రతి నెల %d వ రోజున %@ వద్ద పరీక్ష పేజీని ముద్రించండి";
+
+// LogView
+"Print Logs" = "ముద్రణ లాగ్‌లు";
+"Close" = "మూసివేయండి";
+"No logs yet" = "ఇంకా లాగ్‌లు లేవు";
+"Click the button to generate test data" = "పరీక్ష డేటాను రూపొందించడానికి బటన్‌ను క్లిక్ చేయండి";
+"Total %d log entries" = "మొత్తం %d లాగ్ ఎంట్రీలు";
+"Print #%d" = "ముద్రణ #%d";
+"Printed on %@" = "%@ న ముద్రించబడింది";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "వేక్ షెడ్యూల్‌ను రద్దు చేయలేకపోయాము: %@";
+"Wake schedule cancelled" = "వేక్ షెడ్యూల్ రద్దు చేయబడింది";
+"Unable to create AppleScript" = "AppleScript ని సృష్టించలేకపోయాము";
+"Unable to set wake schedule: %@" = "వేక్ షెడ్యూల్‌ను సెట్ చేయలేకపోయాము: %@";
+"Wake schedule set successfully" = "వేక్ షెడ్యూల్ విజయవంతంగా సెట్ చేయబడింది";
+
+// LogManager
+"Unable to create application directory: %@" = "అప్లికేషన్ డైరెక్టరీని సృష్టించలేకపోయాము: %@";
+"Read log data: %d bytes" = "లాగ్ డేటా చదవబడింది: %d బైట్లు";
+"Failed to load logs: %@" = "లాగ్‌లను లోడ్ చేయడంలో విఫలమైంది: %@";
+"Failed to save logs: %@" = "లాగ్‌లను సేవ్ చేయడంలో విఫలమైంది: %@";
+"Logs saved successfully" = "లాగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి";
+
+"Help Content" = "దీర్ఘకాలిక నిష్క్రియాత్మక కాలాల కారణంగా ప్రింట్‌హెడ్ అడ్డుకోవడాన్ని నివారించడానికి, ఈ ప్రోగ్రామ్ క్రమం తప్పకుండా స్వయంచాలకంగా టెస్ట్ పేజీని ముద్రిస్తుంది. నోజిల్స్ ద్వారా సిరా ప్రవాహాన్ని కొనసాగించడం ద్వారా, మీ ప్రింటర్ అత్యుత్తమ పని స్థితిలో ఉంటుందని నిర్ధారిస్తుంది—మీకు అవసరమైనప్పుడు ముద్రించడానికి సిద్ధంగా ఉంటుంది.";
+"Help Title" = "స్వయంచాలక ప్రింట్‌హెడ్ నిర్వహణ";
+"About" = "గురించి";

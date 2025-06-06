@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Georgian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "პრინტერი არჩეული არ არის";
+"printer_error_pdf_load_failed" = "ტესტის გვერდის PDF ფაილის ჩატვირთვა ვერ მოხერხდა";
+"printer_error_print_operation_failed" = "ბეჭდვის შეცდომა: %@";
+"printer_operation_success" = "ბეჭდვა წარმატებით დასრულდა";
+"printer_operation_failed_unknown" = "უცნობი ბეჭდვის შეცდომა";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree საქშენის მოვლა";
+"Select Printer:" = "პრინტერის არჩევა:";
+"Printer" = "პრინტერი";
+"View Logs" = "ჟურნალის ნახვა";
+"Enable Auto Print" = "ავტომატური ბეჭდვის ჩართვა";
+"Disable Auto Print" = "ავტომატური ბეჭდვის გამორთვა";
+"(Enabled)" = "(ჩართულია)";
+"(Disabled)" = "(გამორთულია)";
+"Next Print Time: %@" = "შემდეგი ბეჭდვის დრო: %@";
+"Print Test Page Now" = "სატესტო გვერდის დაბეჭდვა ახლავე";
+"Exit" = "გასვლა";
+"Language" = "ენა";
+"Select Language" = "აირჩიეთ ენა";
+"Search" = "ძიება";
+"Configure Schedule" = "განრიგის კონფიგურაცია";
+"Print File:" = "ფაილის ბეჭდვა:";
+"Default Test Page" = "ნაგულისხმევი სატესტო გვერდი";
+"Select..." = "არჩევა...";
+"Clear" = "გასუფთავება";
+"Print Settings" = "ბეჭდვის პარამეტრები";
+"Preview" = "გადახედვა";
+"Select PDF File" = "PDF ფაილის არჩევა";
+"Print Preview" = "ბეჭდვის გადახედვა";
+"Save Settings" = "პარამეტრების შენახვა";
+"Cancel" = "გაუქმება";
+"OK" = "კარგი";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "შემდეგ დიალოგში, დააჭირეთ ღილაკს 'ბეჭდვა' თქვენი პარამეტრების შესანახად რეალური ბეჭდვის გარეშე. ეს პარამეტრები გამოყენებული იქნება მომავალი ბეჭდვისთვის.";
+"Settings Saved" = "პარამეტრები შენახულია";
+"Your print settings have been saved and will be used for future printing." = "თქვენი ბეჭდვის პარამეტრები შენახულია და გამოყენებული იქნება მომავალი ბეჭდვისთვის.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "ბეჭდვის განრიგის კონფიგურაცია";
+"Schedule Type" = "განრიგის ტიპი";
+"Daily" = "ყოველდღიური";
+"Weekly" = "ყოველკვირეული";
+"Monthly" = "ყოველთვიური";
+"Time" = "დრო";
+"Hour" = "საათი";
+"Minute" = "წუთი";
+"Day of Week" = "კვირის დღე";
+"Day of Month" = "თვის დღე";
+"Sunday" = "კვირა";
+"Monday" = "ორშაბათი";
+"Tuesday" = "სამშაბათი";
+"Wednesday" = "ოთხშაბათი";
+"Thursday" = "ხუთშაბათი";
+"Friday" = "პარასკევი";
+"Saturday" = "შაბათი";
+"Save" = "შენახვა";
+"Schedule Summary" = "განრიგის შეჯამება";
+"Print test page every day at %@" = "სატესტო გვერდის დაბეჭდვა ყოველდღე %@-ზე";
+"Print test page every %@ at %@" = "სატესტო გვერდის დაბეჭდვა ყოველ %@-ს %@-ზე";
+"Print test page on day %d of each month at %@" = "სატესტო გვერდის დაბეჭდვა ყოველი თვის %d-ში %@-ზე";
+
+// LogView
+"Print Logs" = "ბეჭდვის ჟურნალები";
+"Close" = "დახურვა";
+"No logs yet" = "ჯერ ჟურნალები არ არის";
+"Click the button to generate test data" = "დააჭირეთ ღილაკს სატესტო მონაცემების შესაქმნელად";
+"Total %d log entries" = "სულ %d ჟურნალის ჩანაწერი";
+"Print #%d" = "ბეჭდვა #%d";
+"Printed on %@" = "დაბეჭდილია %@-ზე";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "გაღვიძების განრიგის გაუქმება ვერ ხერხდება: %@";
+"Wake schedule cancelled" = "გაღვიძების განრიგი გაუქმებულია";
+"Unable to create AppleScript" = "AppleScript-ის შექმნა ვერ ხერხდება";
+"Unable to set wake schedule: %@" = "გაღვიძების განრიგის დაყენება ვერ ხერხდება: %@";
+"Wake schedule set successfully" = "გაღვიძების განრიგი წარმატებით დაყენდა";
+
+// LogManager
+"Unable to create application directory: %@" = "აპლიკაციის დირექტორიის შექმნა ვერ ხერხდება: %@";
+"Read log data: %d bytes" = "ჟურნალის მონაცემების წაკითხვა: %d ბაიტი";
+"Failed to load logs: %@" = "ჟურნალების ჩატვირთვა ვერ მოხერხდა: %@";
+"Failed to save logs: %@" = "ჟურნალების შენახვა ვერ მოხერხდა: %@";
+"Logs saved successfully" = "ჟურნალები წარმატებით შენახულია";
+
+"Help Content" = "პრინტერის თავის გაჭედვის თავიდან ასაცილებლად, რომელიც გამოწვეულია ხანგრძლივი უმოქმედობით, ეს პროგრამა ავტომატურად ბეჭდავს სატესტო გვერდს რეგულარული ინტერვალებით. მელნის ნაკადის შენარჩუნებით საქშენების გავლით, ის უზრუნველყოფს, რომ თქვენი პრინტერი რჩება ოპტიმალურ სამუშაო მდგომარეობაში - მზად საბეჭდად, როცა ეს გჭირდებათ.";
+"Help Title" = "საბეჭდი თავის ავტომატური მოვლა";
+"About" = "შესახებ";

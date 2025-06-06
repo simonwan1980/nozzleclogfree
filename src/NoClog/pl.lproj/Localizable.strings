@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Polish localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nie wybrano drukarki";
+"printer_error_pdf_load_failed" = "Nie udało się załadować pliku PDF strony testowej";
+"printer_error_print_operation_failed" = "Błąd drukowania: %@";
+"printer_operation_success" = "Drukowanie zakończone sukcesem";
+"printer_operation_failed_unknown" = "Nieznany błąd drukowania";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Konserwacja Dysz";
+"Select Printer:" = "Wybierz Drukarkę:";
+"Printer" = "Drukarka";
+"View Logs" = "Pokaż Dzienniki";
+"Enable Auto Print" = "Włącz Automatyczne Drukowanie";
+"Disable Auto Print" = "Wyłącz Automatyczne Drukowanie";
+"(Enabled)" = "(Włączone)";
+"(Disabled)" = "(Wyłączone)";
+"Next Print Time: %@" = "Następny Czas Drukowania: %@";
+"Print Test Page Now" = "Wydrukuj Stronę Testową Teraz";
+"Exit" = "Wyjście";
+"Language" = "Język";
+"Select Language" = "Wybierz język";
+"Search" = "Szukaj";
+"Configure Schedule" = "Konfiguruj Harmonogram";
+"Print File:" = "Plik do Druku:";
+"Default Test Page" = "Domyślna Strona Testowa";
+"Select..." = "Wybierz...";
+"Clear" = "Wyczyść";
+"Print Settings" = "Ustawienia Drukowania";
+"Preview" = "Podgląd";
+"Select PDF File" = "Wybierz Plik PDF";
+"Print Preview" = "Podgląd Wydruku";
+"Save Settings" = "Zapisz Ustawienia";
+"Cancel" = "Anuluj";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "W następnym oknie dialogowym kliknij przycisk 'Drukuj', aby zapisać ustawienia bez faktycznego drukowania. Te ustawienia będą używane do przyszłego drukowania.";
+"Settings Saved" = "Ustawienia Zapisane";
+"Your print settings have been saved and will be used for future printing." = "Twoje ustawienia drukowania zostały zapisane i będą używane do przyszłego drukowania.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfiguruj Harmonogram Drukowania";
+"Schedule Type" = "Typ Harmonogramu";
+"Daily" = "Codziennie";
+"Weekly" = "Co tydzień";
+"Monthly" = "Co miesiąc";
+"Time" = "Czas";
+"Hour" = "Godzina";
+"Minute" = "Minuta";
+"Day of Week" = "Dzień Tygodnia";
+"Day of Month" = "Dzień Miesiąca";
+"Sunday" = "Niedziela";
+"Monday" = "Poniedziałek";
+"Tuesday" = "Wtorek";
+"Wednesday" = "Środa";
+"Thursday" = "Czwartek";
+"Friday" = "Piątek";
+"Saturday" = "Sobota";
+"Save" = "Zapisz";
+"Schedule Summary" = "Podsumowanie Harmonogramu";
+"Print test page every day at %@" = "Drukuj stronę testową codziennie o %@";
+"Print test page every %@ at %@" = "Drukuj stronę testową w każdy %@ o %@";
+"Print test page on day %d of each month at %@" = "Drukuj stronę testową %d dnia każdego miesiąca o %@";
+
+// LogView
+"Print Logs" = "Dzienniki Drukowania";
+"Close" = "Zamknij";
+"No logs yet" = "Brak dzienników";
+"Click the button to generate test data" = "Kliknij przycisk, aby wygenerować dane testowe";
+"Total %d log entries" = "Łącznie %d wpisów w dzienniku";
+"Print #%d" = "Wydruk #%d";
+"Printed on %@" = "Wydrukowano %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nie można anulować harmonogramu budzenia: %@";
+"Wake schedule cancelled" = "Harmonogram budzenia anulowany";
+"Unable to create AppleScript" = "Nie można utworzyć AppleScript";
+"Unable to set wake schedule: %@" = "Nie można ustawić harmonogramu budzenia: %@";
+"Wake schedule set successfully" = "Harmonogram budzenia ustawiony pomyślnie";
+
+// LogManager
+"Unable to create application directory: %@" = "Nie można utworzyć katalogu aplikacji: %@";
+"Read log data: %d bytes" = "Odczytano dane dziennika: %d bajtów";
+"Failed to load logs: %@" = "Nie udało się załadować dzienników: %@";
+"Failed to save logs: %@" = "Nie udało się zapisać dzienników: %@";
+"Logs saved successfully" = "Dzienniki zapisane pomyślnie";
+
+"Help Content" = "Aby zapobiec zatykaniu się głowicy drukującej z powodu długich okresów bezczynności, program ten automatycznie drukuje stronę testową w regularnych odstępach czasu. Utrzymując przepływ atramentu przez dysze, zapewnia, że drukarka pozostaje w optymalnym stanie technicznym - gotowa do drukowania, gdy jej potrzebujesz.";
+"Help Title" = "Automatyczna konserwacja głowicy drukującej";
+"About" = "O";

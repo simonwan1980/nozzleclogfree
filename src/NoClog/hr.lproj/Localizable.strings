@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Croatian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nije odabran pisač";
+"printer_error_pdf_load_failed" = "Neuspjelo učitavanje PDF datoteke testne stranice";
+"printer_error_print_operation_failed" = "Pogreška pri ispisu: %@";
+"printer_operation_success" = "Ispis je bio uspješan";
+"printer_operation_failed_unknown" = "Nepoznata pogreška pri ispisu";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Održavanje Mlaznica";
+"Select Printer:" = "Odaberi Pisač:";
+"Printer" = "Pisač";
+"View Logs" = "Pregledaj Zapise";
+"Enable Auto Print" = "Omogući Automatski Ispis";
+"Disable Auto Print" = "Onemogući Automatski Ispis";
+"(Enabled)" = "(Omogućeno)";
+"(Disabled)" = "(Onemogućeno)";
+"Next Print Time: %@" = "Sljedeće Vrijeme Ispisa: %@";
+"Print Test Page Now" = "Ispiši Testnu Stranicu Sada";
+"Exit" = "Izlaz";
+"Language" = "Jezik";
+"Select Language" = "Odaberi jezik";
+"Search" = "Pretraži";
+"Configure Schedule" = "Konfiguriraj Raspored";
+"Print File:" = "Datoteka za Ispis:";
+"Default Test Page" = "Zadana Testna Stranica";
+"Select..." = "Odaberi...";
+"Clear" = "Očisti";
+"Print Settings" = "Postavke Ispisa";
+"Preview" = "Pregled";
+"Select PDF File" = "Odaberi PDF Datoteku";
+"Print Preview" = "Pregled Ispisa";
+"Save Settings" = "Spremi Postavke";
+"Cancel" = "Odustani";
+"OK" = "U redu";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "U sljedećem dijalogu, kliknite gumb 'Ispis' za spremanje postavki bez stvarnog ispisivanja. Ove postavke će se koristiti za buduće ispisivanje.";
+"Settings Saved" = "Postavke Spremljene";
+"Your print settings have been saved and will be used for future printing." = "Vaše postavke ispisa su spremljene i koristit će se za buduće ispisivanje.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfiguriraj Raspored Ispisa";
+"Schedule Type" = "Vrsta Rasporeda";
+"Daily" = "Dnevno";
+"Weekly" = "Tjedno";
+"Monthly" = "Mjesečno";
+"Time" = "Vrijeme";
+"Hour" = "Sat";
+"Minute" = "Minuta";
+"Day of Week" = "Dan u Tjednu";
+"Day of Month" = "Dan u Mjesecu";
+"Sunday" = "Nedjelja";
+"Monday" = "Ponedjeljak";
+"Tuesday" = "Utorak";
+"Wednesday" = "Srijeda";
+"Thursday" = "Četvrtak";
+"Friday" = "Petak";
+"Saturday" = "Subota";
+"Save" = "Spremi";
+"Schedule Summary" = "Sažetak Rasporeda";
+"Print test page every day at %@" = "Ispiši testnu stranicu svaki dan u %@";
+"Print test page every %@ at %@" = "Ispiši testnu stranicu svaki %@ u %@";
+"Print test page on day %d of each month at %@" = "Ispiši testnu stranicu %d. dan svakog mjeseca u %@";
+
+// LogView
+"Print Logs" = "Zapisi Ispisa";
+"Close" = "Zatvori";
+"No logs yet" = "Još nema zapisa";
+"Click the button to generate test data" = "Kliknite gumb za generiranje testnih podataka";
+"Total %d log entries" = "Ukupno %d zapisa";
+"Print #%d" = "Ispis #%d";
+"Printed on %@" = "Ispisano %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nije moguće otkazati raspored buđenja: %@";
+"Wake schedule cancelled" = "Raspored buđenja otkazan";
+"Unable to create AppleScript" = "Nije moguće stvoriti AppleScript";
+"Unable to set wake schedule: %@" = "Nije moguće postaviti raspored buđenja: %@";
+"Wake schedule set successfully" = "Raspored buđenja uspješno postavljen";
+
+// LogManager
+"Unable to create application directory: %@" = "Nije moguće stvoriti direktorij aplikacije: %@";
+"Read log data: %d bytes" = "Pročitani podaci zapisa: %d bajtova";
+"Failed to load logs: %@" = "Neuspjelo učitavanje zapisa: %@";
+"Failed to save logs: %@" = "Neuspjelo spremanje zapisa: %@";
+"Logs saved successfully" = "Zapisi uspješno spremljeni";
+
+"Help Content" = "Kako bi se spriječilo začepljenje ispisne glave zbog dugih razdoblja neaktivnosti, ovaj program automatski ispisuje testnu stranicu u redovitim intervalima. Održavanjem protoka tinte kroz mlaznice, osigurava da vaš pisač ostane u optimalnom radnom stanju—spreman za ispis kada vam je potreban.";
+"Help Title" = "Automatsko održavanje ispisne glave";
+"About" = "O programu";

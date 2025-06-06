@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Thai localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "ไม่ได้เลือกเครื่องพิมพ์";
+"printer_error_pdf_load_failed" = "ไม่สามารถโหลดไฟล์ PDF ของหน้าทดสอบได้";
+"printer_error_print_operation_failed" = "ข้อผิดพลาดในการพิมพ์: %@";
+"printer_operation_success" = "พิมพ์สำเร็จ";
+"printer_operation_failed_unknown" = "ข้อผิดพลาดในการพิมพ์ที่ไม่รู้จัก";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree การดูแลหัวฉีด";
+"Select Printer:" = "เลือกเครื่องพิมพ์:";
+"Printer" = "เครื่องพิมพ์";
+"View Logs" = "ดูบันทึก";
+"Enable Auto Print" = "เปิดใช้งานการพิมพ์อัตโนมัติ";
+"Disable Auto Print" = "ปิดใช้งานการพิมพ์อัตโนมัติ";
+"(Enabled)" = "(เปิดใช้งาน)";
+"(Disabled)" = "(ปิดใช้งาน)";
+"Next Print Time: %@" = "เวลาพิมพ์ครั้งถัดไป: %@";
+"Print Test Page Now" = "พิมพ์หน้าทดสอบตอนนี้";
+"Exit" = "ออก";
+"Language" = "ภาษา";
+"Select Language" = "เลือกภาษา";
+"Search" = "ค้นหา";
+"Configure Schedule" = "กำหนดตารางเวลา";
+"Print File:" = "ไฟล์พิมพ์:";
+"Default Test Page" = "หน้าทดสอบเริ่มต้น";
+"Select..." = "เลือก...";
+"Clear" = "ล้าง";
+"Print Settings" = "การตั้งค่าการพิมพ์";
+"Preview" = "ดูตัวอย่าง";
+"Select PDF File" = "เลือกไฟล์ PDF";
+"Print Preview" = "ดูตัวอย่างการพิมพ์";
+"Save Settings" = "บันทึกการตั้งค่า";
+"Cancel" = "ยกเลิก";
+"OK" = "ตกลง";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "ในกล่องโต้ตอบต่อไปนี้ คลิกปุ่ม 'พิมพ์' เพื่อบันทึกการตั้งค่าของคุณโดยไม่ต้องพิมพ์จริง การตั้งค่าเหล่านี้จะถูกใช้สำหรับการพิมพ์ในอนาคต";
+"Settings Saved" = "บันทึกการตั้งค่าแล้ว";
+"Your print settings have been saved and will be used for future printing." = "การตั้งค่าการพิมพ์ของคุณได้รับการบันทึกแล้วและจะถูกใช้สำหรับการพิมพ์ในอนาคต";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "กำหนดตารางเวลาการพิมพ์";
+"Schedule Type" = "ประเภทตารางเวลา";
+"Daily" = "รายวัน";
+"Weekly" = "รายสัปดาห์";
+"Monthly" = "รายเดือน";
+"Time" = "เวลา";
+"Hour" = "ชั่วโมง";
+"Minute" = "นาที";
+"Day of Week" = "วันในสัปดาห์";
+"Day of Month" = "วันในเดือน";
+"Sunday" = "วันอาทิตย์";
+"Monday" = "วันจันทร์";
+"Tuesday" = "วันอังคาร";
+"Wednesday" = "วันพุธ";
+"Thursday" = "วันพฤหัสบดี";
+"Friday" = "วันศุกร์";
+"Saturday" = "วันเสาร์";
+"Save" = "บันทึก";
+"Schedule Summary" = "สรุปตารางเวลา";
+"Print test page every day at %@" = "พิมพ์หน้าทดสอบทุกวันเวลา %@";
+"Print test page every %@ at %@" = "พิมพ์หน้าทดสอบทุก %@ เวลา %@";
+"Print test page on day %d of each month at %@" = "พิมพ์หน้าทดสอบในวันที่ %d ของทุกเดือนเวลา %@";
+
+// LogView
+"Print Logs" = "บันทึกการพิมพ์";
+"Close" = "ปิด";
+"No logs yet" = "ยังไม่มีบันทึก";
+"Click the button to generate test data" = "คลิกปุ่มเพื่อสร้างข้อมูลทดสอบ";
+"Total %d log entries" = "รวม %d รายการบันทึก";
+"Print #%d" = "พิมพ์ #%d";
+"Printed on %@" = "พิมพ์เมื่อ %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "ไม่สามารถยกเลิกตารางเวลาการปลุก: %@";
+"Wake schedule cancelled" = "ยกเลิกตารางเวลาการปลุกแล้ว";
+"Unable to create AppleScript" = "ไม่สามารถสร้าง AppleScript";
+"Unable to set wake schedule: %@" = "ไม่สามารถตั้งค่าตารางเวลาการปลุก: %@";
+"Wake schedule set successfully" = "ตั้งค่าตารางเวลาการปลุกสำเร็จ";
+
+// LogManager
+"Unable to create application directory: %@" = "ไม่สามารถสร้างไดเรกทอรีแอปพลิเคชัน: %@";
+"Read log data: %d bytes" = "อ่านข้อมูลบันทึก: %d ไบต์";
+"Failed to load logs: %@" = "ไม่สามารถโหลดบันทึก: %@";
+"Failed to save logs: %@" = "ไม่สามารถบันทึกข้อมูล: %@";
+"Logs saved successfully" = "บันทึกข้อมูลสำเร็จ";
+
+"Help Content" = "เพื่อป้องกันการอุดตันของหัวพิมพ์เนื่องจากช่วงเวลาที่ไม่มีการใช้งานเป็นเวลานาน โปรแกรมนี้จะพิมพ์หน้าทดสอบโดยอัตโนมัติเป็นระยะๆ การรักษาให้หมึกไหลผ่านหัวฉีดอย่างต่อเนื่อง ช่วยให้มั่นใจได้ว่าเครื่องพิมพ์ของคุณอยู่ในสภาพการทำงานที่เหมาะสมที่สุด—พร้อมพิมพ์เมื่อคุณต้องการ";
+"Help Title" = "การบำรุงรักษาหัวพิมพ์อัตโนมัติ";
+"About" = "เกี่ยวกับ";

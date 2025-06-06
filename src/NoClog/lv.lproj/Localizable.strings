@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Latvian localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Nav izvēlēts neviens printeris";
+"printer_error_pdf_load_failed" = "Neizdevās ielādēt testa lapas PDF failu";
+"printer_error_print_operation_failed" = "Drukas kļūda: %@";
+"printer_operation_success" = "Druka veiksmīga";
+"printer_operation_failed_unknown" = "Nezināma drukas kļūda";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Sprauslu Apkope";
+"Select Printer:" = "Izvēlēties Printeri:";
+"Printer" = "Printeris";
+"View Logs" = "Skatīt Žurnālus";
+"Enable Auto Print" = "Ieslēgt Automātisko Drukāšanu";
+"Disable Auto Print" = "Izslēgt Automātisko Drukāšanu";
+"(Enabled)" = "(Ieslēgts)";
+"(Disabled)" = "(Izslēgts)";
+"Next Print Time: %@" = "Nākamais Drukāšanas Laiks: %@";
+"Print Test Page Now" = "Drukāt Testa Lapu Tagad";
+"Exit" = "Iziet";
+"Language" = "Valoda";
+"Select Language" = "Izvēlēties valodu";
+"Search" = "Meklēt";
+"Configure Schedule" = "Konfigurēt Grafiku";
+"Print File:" = "Drukāšanas Fails:";
+"Default Test Page" = "Noklusējuma Testa Lapa";
+"Select..." = "Izvēlēties...";
+"Clear" = "Notīrīt";
+"Print Settings" = "Drukāšanas Iestatījumi";
+"Preview" = "Priekšskatījums";
+"Select PDF File" = "Izvēlēties PDF Failu";
+"Print Preview" = "Drukāšanas Priekšskatījums";
+"Save Settings" = "Saglabāt Iestatījumus";
+"Cancel" = "Atcelt";
+"OK" = "Labi";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Sekojošajā dialogā noklikšķiniet uz pogas 'Drukāt', lai saglabātu iestatījumus, faktiski nedrukājot. Šie iestatījumi tiks izmantoti turpmākajai drukāšanai.";
+"Settings Saved" = "Iestatījumi Saglabāti";
+"Your print settings have been saved and will be used for future printing." = "Jūsu drukāšanas iestatījumi ir saglabāti un tiks izmantoti turpmākajai drukāšanai.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Konfigurēt Drukāšanas Grafiku";
+"Schedule Type" = "Grafika Veids";
+"Daily" = "Ikdienas";
+"Weekly" = "Iknedēļas";
+"Monthly" = "Ikmēneša";
+"Time" = "Laiks";
+"Hour" = "Stunda";
+"Minute" = "Minūte";
+"Day of Week" = "Nedēļas Diena";
+"Day of Month" = "Mēneša Diena";
+"Sunday" = "Svētdiena";
+"Monday" = "Pirmdiena";
+"Tuesday" = "Otrdiena";
+"Wednesday" = "Trešdiena";
+"Thursday" = "Ceturtdiena";
+"Friday" = "Piektdiena";
+"Saturday" = "Sestdiena";
+"Save" = "Saglabāt";
+"Schedule Summary" = "Grafika Kopsavilkums";
+"Print test page every day at %@" = "Drukāt testa lapu katru dienu plkst. %@";
+"Print test page every %@ at %@" = "Drukāt testa lapu katru %@ plkst. %@";
+"Print test page on day %d of each month at %@" = "Drukāt testa lapu katra mēneša %d. dienā plkst. %@";
+
+// LogView
+"Print Logs" = "Drukāšanas Žurnāli";
+"Close" = "Aizvērt";
+"No logs yet" = "Vēl nav žurnālu";
+"Click the button to generate test data" = "Noklikšķiniet uz pogas, lai ģenerētu testa datus";
+"Total %d log entries" = "Kopā %d žurnāla ieraksti";
+"Print #%d" = "Drukāšana #%d";
+"Printed on %@" = "Izdrukāts %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Nevar atcelt pamošanās grafiku: %@";
+"Wake schedule cancelled" = "Pamošanās grafiks atcelts";
+"Unable to create AppleScript" = "Nevar izveidot AppleScript";
+"Unable to set wake schedule: %@" = "Nevar iestatīt pamošanās grafiku: %@";
+"Wake schedule set successfully" = "Pamošanās grafiks veiksmīgi iestatīts";
+
+// LogManager
+"Unable to create application directory: %@" = "Nevar izveidot lietojumprogrammas direktoriju: %@";
+"Read log data: %d bytes" = "Nolasīti žurnāla dati: %d baiti";
+"Failed to load logs: %@" = "Neizdevās ielādēt žurnālus: %@";
+"Failed to save logs: %@" = "Neizdevās saglabāt žurnālus: %@";
+"Logs saved successfully" = "Žurnāli veiksmīgi saglabāti";
+
+"Help Content" = "Lai novērstu drukas galviņas aizsērēšanu ilgu dīkstāves periodu dēļ, šī programma automātiski drukā testa lapu regulāros intervālos. Uzturot tintes plūsmu caur sprauslām, tā nodrošina, ka jūsu printeris saglabājas optimālā darba stāvoklī — gatavs drukāt, kad jums tas ir nepieciešams.";
+"Help Title" = "Automātiska drukas galviņas apkope";
+"About" = "Par";

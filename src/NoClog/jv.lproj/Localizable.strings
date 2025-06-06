@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Javanese localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "Ora ana printer sing dipilih";
+"printer_error_pdf_load_failed" = "Gagal ngunggah file PDF kaca tes";
+"printer_error_print_operation_failed" = "Kesalahan nyetak: %@";
+"printer_operation_success" = "Nyetak sukses";
+"printer_operation_failed_unknown" = "Kesalahan nyetak ora dingerteni";
+
+// MenuBarView
+"NozzleClogFree" = "NozzleClogFree Perawatan Nozzle";
+"Select Printer:" = "Pilih Printer:";
+"Printer" = "Printer";
+"View Logs" = "Deleng Catetan";
+"Enable Auto Print" = "Aktifake Cetak Otomatis";
+"Disable Auto Print" = "Pateni Cetak Otomatis";
+"(Enabled)" = "(Aktif)";
+"(Disabled)" = "(Ora Aktif)";
+"Next Print Time: %@" = "Wektu Cetak Sabanjure: %@";
+"Print Test Page Now" = "Cetak Kaca Uji Saiki";
+"Exit" = "Metu";
+"Language" = "Basa";
+"Select Language" = "Pilih Basa";
+"Search" = "Golèk";
+"Configure Schedule" = "Ngatur Jadwal";
+"Print File:" = "Berkas Cetak:";
+"Default Test Page" = "Kaca Uji Gawan";
+"Select..." = "Pilih...";
+"Clear" = "Resiki";
+"Print Settings" = "Setelan Cetak";
+"Preview" = "Pratayang";
+"Select PDF File" = "Pilih Berkas PDF";
+"Print Preview" = "Pratayang Cetak";
+"Save Settings" = "Simpen Setelan";
+"Cancel" = "Batal";
+"OK" = "OK";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "Ing dialog sabanjure, klik tombol 'Cetak' kanggo nyimpen setelan tanpa nyetak beneran. Setelan iki bakal digunakake kanggo nyetak ing mangsa ngarep.";
+"Settings Saved" = "Setelan Kasimpen";
+"Your print settings have been saved and will be used for future printing." = "Setelan cetak sampeyan wis kasimpen lan bakal digunakake kanggo nyetak ing mangsa ngarep.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "Ngatur Jadwal Cetak";
+"Schedule Type" = "Jinis Jadwal";
+"Daily" = "Saben Dina";
+"Weekly" = "Saben Minggu";
+"Monthly" = "Saben Sasi";
+"Time" = "Wektu";
+"Hour" = "Jam";
+"Minute" = "Menit";
+"Day of Week" = "Dina ing Minggu";
+"Day of Month" = "Tanggal ing Sasi";
+"Sunday" = "Minggu";
+"Monday" = "Senin";
+"Tuesday" = "Selasa";
+"Wednesday" = "Rebo";
+"Thursday" = "Kemis";
+"Friday" = "Jumat";
+"Saturday" = "Setu";
+"Save" = "Simpen";
+"Schedule Summary" = "Ringkesan Jadwal";
+"Print test page every day at %@" = "Cetak kaca uji saben dina ing %@";
+"Print test page every %@ at %@" = "Cetak kaca uji saben %@ ing %@";
+"Print test page on day %d of each month at %@" = "Cetak kaca uji ing tanggal %d saben sasi ing %@";
+
+// LogView
+"Print Logs" = "Catetan Cetak";
+"Close" = "Tutup";
+"No logs yet" = "Durung ana catetan";
+"Click the button to generate test data" = "Klik tombol kanggo nggawe data uji";
+"Total %d log entries" = "Total %d entri catetan";
+"Print #%d" = "Cetak #%d";
+"Printed on %@" = "Dicetak ing %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "Ora bisa mbatalake jadwal tangi: %@";
+"Wake schedule cancelled" = "Jadwal tangi dibatalake";
+"Unable to create AppleScript" = "Ora bisa nggawe AppleScript";
+"Unable to set wake schedule: %@" = "Ora bisa ngatur jadwal tangi: %@";
+"Wake schedule set successfully" = "Jadwal tangi kasil diatur";
+
+// LogManager
+"Unable to create application directory: %@" = "Ora bisa nggawe direktori aplikasi: %@";
+"Read log data: %d bytes" = "Maca data catetan: %d bita";
+"Failed to load logs: %@" = "Gagal ngemot catetan: %@";
+"Failed to save logs: %@" = "Gagal nyimpen catetan: %@";
+"Logs saved successfully" = "Catetan kasil kasimpen";
+
+"Help Content" = "Kanggo nyegah kesumbatan printhead amarga periode ora aktif sing suwe, program iki otomatis nyetak kaca tes ing interval reguler. Kanthi njaga tinta tetep mili liwat nozzle, iki mastekake printer sampeyan tetep ing kondisi kerja sing optimal—siap nyetak nalika sampeyan butuhake.";
+"Help Title" = "Perawatan Printhead Otomatis";
+"About" = "Babagan";

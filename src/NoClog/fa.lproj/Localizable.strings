@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  NozzleClogFree
+
+  Persian (Farsi) localization
+*/
+
+// Printer Errors
+"printer_error_no_printer_selected" = "هیچ چاپگری انتخاب نشده است";
+"printer_error_pdf_load_failed" = "بارگذاری فایل PDF صفحه تست انجام نشد";
+"printer_error_print_operation_failed" = "خطا در چاپ: %@";
+"printer_operation_success" = "چاپ با موفقیت انجام شد";
+"printer_operation_failed_unknown" = "خطای ناشناخته چاپ";
+
+// MenuBarView
+"NozzleClogFree" = "نگهداری نازل NozzleClogFree";
+"Select Printer:" = "انتخاب چاپگر:";
+"Printer" = "چاپگر";
+"View Logs" = "مشاهده گزارش‌ها";
+"Enable Auto Print" = "فعال‌سازی چاپ خودکار";
+"Disable Auto Print" = "غیرفعال‌سازی چاپ خودکار";
+"(Enabled)" = "(فعال)";
+"(Disabled)" = "(غیرفعال)";
+"Next Print Time: %@" = "زمان چاپ بعدی: %@";
+"Print Test Page Now" = "چاپ صفحه آزمایشی اکنون";
+"Exit" = "خروج";
+"Language" = "زبان";
+"Select Language" = "انتخاب زبان";
+"Search" = "جستجو";
+"Configure Schedule" = "تنظیم برنامه زمانی";
+"Print File:" = "فایل چاپ:";
+"Default Test Page" = "صفحه آزمایشی پیش‌فرض";
+"Select..." = "انتخاب...";
+"Clear" = "پاک کردن";
+"Print Settings" = "تنظیمات چاپ";
+"Preview" = "پیش‌نمایش";
+"Select PDF File" = "انتخاب فایل PDF";
+"Print Preview" = "پیش‌نمایش چاپ";
+"Save Settings" = "ذخیره تنظیمات";
+"Cancel" = "لغو";
+"OK" = "تأیید";
+"In the following dialog, click the 'Print' button to save your settings without actually printing. These settings will be used for future printing." = "در پنجره بعدی، روی دکمه 'چاپ' کلیک کنید تا تنظیمات شما بدون انجام چاپ واقعی ذخیره شود. این تنظیمات برای چاپ‌های آینده استفاده خواهد شد.";
+"Settings Saved" = "تنظیمات ذخیره شد";
+"Your print settings have been saved and will be used for future printing." = "تنظیمات چاپ شما ذخیره شده و برای چاپ‌های آینده استفاده خواهد شد.";
+
+// ScheduleConfigView
+"Configure Print Schedule" = "تنظیم برنامه زمانی چاپ";
+"Schedule Type" = "نوع برنامه زمانی";
+"Daily" = "روزانه";
+"Weekly" = "هفتگی";
+"Monthly" = "ماهانه";
+"Time" = "زمان";
+"Hour" = "ساعت";
+"About" = "درباره";
+"Minute" = "دقیقه";
+"Day of Week" = "روز هفته";
+"Day of Month" = "روز ماه";
+"Sunday" = "یکشنبه";
+"Monday" = "دوشنبه";
+"Tuesday" = "سه‌شنبه";
+"Wednesday" = "چهارشنبه";
+"Thursday" = "پنج‌شنبه";
+"Friday" = "جمعه";
+"Saturday" = "شنبه";
+"Save" = "ذخیره";
+"Schedule Summary" = "خلاصه برنامه زمانی";
+"Print test page every day at %@" = "چاپ صفحه آزمایشی هر روز در ساعت %@";
+"Print test page every %@ at %@" = "چاپ صفحه آزمایشی هر %@ در ساعت %@";
+"Print test page on day %d of each month at %@" = "چاپ صفحه آزمایشی در روز %d هر ماه در ساعت %@";
+
+// LogView
+"Print Logs" = "گزارش‌های چاپ";
+"Close" = "بستن";
+"No logs yet" = "هنوز گزارشی وجود ندارد";
+"Click the button to generate test data" = "برای تولید داده آزمایشی روی دکمه کلیک کنید";
+"Total %d log entries" = "مجموعاً %d مورد گزارش";
+"Print #%d" = "چاپ #%d";
+"Printed on %@" = "چاپ شده در %@";
+
+// ScheduleManager
+"Unable to cancel wake schedule: %@" = "لغو برنامه بیدارسازی ممکن نیست: %@";
+"Wake schedule cancelled" = "برنامه بیدارسازی لغو شد";
+"Unable to create AppleScript" = "ایجاد AppleScript ممکن نیست";
+"Unable to set wake schedule: %@" = "تنظیم برنامه بیدارسازی ممکن نیست: %@";
+"Wake schedule set successfully" = "برنامه بیدارسازی با موفقیت تنظیم شد";
+
+// LogManager
+"Unable to create application directory: %@" = "ایجاد پوشه برنامه ممکن نیست: %@";
+"Read log data: %d bytes" = "خواندن داده‌های گزارش: %d بایت";
+"Failed to load logs: %@" = "بارگذاری گزارش‌ها ناموفق بود: %@";
+"Failed to save logs: %@" = "ذخیره گزارش‌ها ناموفق بود: %@";
+"Logs saved successfully" = "گزارش‌ها با موفقیت ذخیره شدند";
+
+"Help Content" = "برای جلوگیری از گرفتگی هد چاپگر به دلیل دوره‌های طولانی عدم فعالیت، این برنامه به طور خودکار در فواصل منظم یک صفحه آزمایشی چاپ می‌کند. با حفظ جریان جوهر از طریق نازل‌ها، اطمینان حاصل می‌کند که چاپگر شما در شرایط کاری بهینه باقی می‌ماند - آماده چاپ هنگامی که به آن نیاز دارید.";
+"Help Title" = "نگهداری خودکار هد چاپگر";
+"Help" = "راهنما";
