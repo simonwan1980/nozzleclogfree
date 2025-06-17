@@ -55,6 +55,8 @@
       padding: 60px 20px;
       max-width: 1100px;
       margin: 0 auto;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
     .title {
       text-align: center;
@@ -97,20 +99,34 @@
     .download-btn:hover {
       background-color: #005edb;
     }
+    .switch-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      justify-content: center;
+      width: 100%;
+      box-sizing: border-box;
+    }
     .flex-container {
       display: flex;
       flex-wrap: wrap;
       gap: 40px;
       align-items: center;
       justify-content: center;
+      width: 100%;
+      box-sizing: border-box;
     }
     .flex-image {
       flex: 1 1 400px;
       text-align: center;
+      overflow: hidden;
+      box-sizing: border-box;
     }
     .flex-text {
       flex: 1 1 400px;
       min-width: 300px;
+      box-sizing: border-box;
     }
     .flex-image img {
       max-width: 100%;
@@ -127,19 +143,46 @@
       color: #00aaff;
     }
     @media (max-width: 768px) {
-      .section { padding: 40px 15px; }
+      .section { padding: 30px 12px; }
       .title { font-size: 1.8rem; }
       .subtitle { font-size: 1rem; }
-      .flex-container { flex-direction: column; gap: 25px; }
+      .flex-container { flex-direction: column; gap: 15px; }
       .download-btn { width: 100%; max-width: 280px; }
-      .flex-text { min-width: 100%; }
-      .flex-image { min-width: 100%; }
-      .chart-container { height: 250px; }
-      .auto-manual-container { min-height: 380px; }
-      .mode-section { padding: 20px 15px; }
+      .flex-text { min-width: 100%; padding: 0 5px; }
+      .flex-image { min-width: 100%; max-width: 100%; overflow: hidden; }
+      .chart-container { height: 200px; width: 100%; }
+      .auto-manual-container { min-height: 380px; width: 100%; margin: 0 auto; }
+      .mode-section { padding: 15px 10px; }
       .mode-title { font-size: 1.5em; }
       .feature-item { padding: 10px; font-size: 0.9em; }
-      .vs-divider { width: 50px; height: 50px; font-size: 1.5em; }
+      .vs-divider { width: 40px; height: 40px; font-size: 1.3em; }
+      /* 确保所有动画元素在移动设备上完全显示 */
+      .floating-elements, .chart, .humidity-line, .print-schedule-promo, .printing-log-promo {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+      }
+      /* 调整动画尺寸以适应移动屏幕 */
+      .floating-dot, .print-icon, .log-entry {
+        transform: scale(0.8);
+      }
+      /* 减少动画移动范围，确保在小屏幕上可见 */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      /* 确保内容居中且不溢出 */
+      .content-wrapper, .promo-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      /* 减少内边距，消除不必要的空白 */
+      .promo-container, .auto-manual-container, .print-schedule-promo, .printing-log-promo {
+        padding: 15px 10px;
+        margin-bottom: 15px;
+      }
     }
     
     /* Chart Section Styles */
@@ -886,12 +929,50 @@
       body {
         -webkit-overflow-scrolling: touch;
         overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
       }
       
       /* 优化图片加载 */
       img {
         max-width: 100%;
         height: auto;
+      }
+      
+      /* 修复布局问题，避免空白区域 */
+      .section {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+      
+      /* 确保所有容器适应屏幕宽度 */
+      .flex-container, .flex-text, .flex-image {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+      
+      /* 调整动画容器 */
+      .floating-elements, .print-icon-container, .log-container {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      
+      /* 确保动画元素不会导致水平滚动 */
+      .floating-dot, .print-icon, .log-entry, .chart-container, .humidity-line {
+        position: relative;
+        max-width: 100%;
+      }
+      
+      /* 减少动画幅度 */
+      @keyframes ps-fadeInUp {
+        from { opacity: 0; transform: translateY(15px); }
+        to { opacity: 1; transform: translateY(0); }
       }
     }
     </style>
