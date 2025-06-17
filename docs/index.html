@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMEN3B0DQQ"></script>
 <script>
@@ -91,6 +91,8 @@
       transition: background-color 0.3s ease;
       text-align: center;
       vertical-align: middle;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
     }
     .download-btn:hover {
       background-color: #005edb;
@@ -125,8 +127,19 @@
       color: #00aaff;
     }
     @media (max-width: 768px) {
-      .title { font-size: 2rem; }
-      .flex-container { flex-direction: column; }
+      .section { padding: 40px 15px; }
+      .title { font-size: 1.8rem; }
+      .subtitle { font-size: 1rem; }
+      .flex-container { flex-direction: column; gap: 25px; }
+      .download-btn { width: 100%; max-width: 280px; }
+      .flex-text { min-width: 100%; }
+      .flex-image { min-width: 100%; }
+      .chart-container { height: 250px; }
+      .auto-manual-container { min-height: 380px; }
+      .mode-section { padding: 20px 15px; }
+      .mode-title { font-size: 1.5em; }
+      .feature-item { padding: 10px; font-size: 0.9em; }
+      .vs-divider { width: 50px; height: 50px; font-size: 1.5em; }
     }
     
     /* Chart Section Styles */
@@ -394,6 +407,8 @@
       display: flex;
       align-items: center;
       gap: 12px; /* 减少图标和文字之间的间距 */
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
     }
     
     .feature-item:hover {
@@ -828,6 +843,58 @@
       to { box-shadow: 0 8px 25px rgba(0,0,0,0.3), 0 0 20px rgba(78, 205, 196, 0.6); }
     }
   </style>
+    <!-- Fast click for mobile devices -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // 处理移动设备上的点击延迟
+      document.addEventListener('touchstart', function() {}, {passive: true});
+      
+      // 检测移动设备并添加类
+      function isMobileDevice() {
+        return (window.innerWidth <= 768) || 
+               (navigator.userAgent.match(/Android/i) ||
+                navigator.userAgent.match(/webOS/i) ||
+                navigator.userAgent.match(/iPhone/i) ||
+                navigator.userAgent.match(/iPad/i) ||
+                navigator.userAgent.match(/iPod/i) ||
+                navigator.userAgent.match(/BlackBerry/i) ||
+                navigator.userAgent.match(/Windows Phone/i));
+      }
+      
+      if (isMobileDevice()) {
+        document.body.classList.add('mobile-device');
+      }
+    });
+    </script>
+    <style>
+    /* 移动设备特定样式 */
+    .mobile-device .feature-item,
+    .mobile-device .download-btn,
+    .mobile-device .mode-section,
+    .mobile-device .switch-container {
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* 确保触摸目标足够大 */
+    @media (max-width: 768px) {
+      button, .download-btn, .feature-item, .switch-container {
+        min-height: 44px;
+      }
+      
+      /* 改善滚动体验 */
+      body {
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden;
+      }
+      
+      /* 优化图片加载 */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    </style>
 </head>
 <body>
 <section class="section">
