@@ -3,6 +3,14 @@
     <channel>
         <title>NozzleClogFree</title>
         <item>
+            <title>2.9.4</title>
+            <pubDate>Sat, 19 Jul 2025 23:48:35 +0800</pubDate>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>2.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4048139" type="application/octet-stream" sparkle:edSignature="WXLtdmpz8EZ3DFpR83FtlfNr8V64QXPk7qDUAekhJyGZvaK0hn4hO9zfnnat6HYZxr4+szxwd3lzJ0kdDOcKCA=="/>
+        </item>
+        <item>
             <title>2.9.3</title>
             <pubDate>Sat, 19 Jul 2025 23:16:59 +0800</pubDate>
             <sparkle:version>93</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>2.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
             <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4046750" type="application/octet-stream" sparkle:edSignature="4QjMnHiigkDZbzcDmNRB8vsGuT3EIyG0n4KXdmPV1S12WOsYuvBKEQgzOR27WNt+tJ3SN232x5bDfKFdFrJ9Ag=="/>
-        </item>
-        <item>
-            <title>2.9.0</title>
-            <pubDate>Mon, 26 May 2025 21:39:01 +0800</pubDate>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4047648" type="application/octet-stream" sparkle:edSignature="zzvkBruLWiorYSmDp3e0s7iBpx9rn0esZIkJucm+pyjA44KdXzuSQuyhOwn4a0dylpHZF25Iys0uZcN/LtCTCA=="/>
         </item>
     </channel>
 </rss>
