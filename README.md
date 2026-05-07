@@ -60,4 +60,4 @@ You can choose to deny either permission, but certain features — like Smart Mo
 
 You can download the latest version of **NozzleClogFree** from the link below:
 
-👉 [NozzleClogFree (.dmg)](https://github.com/simonwan1980/nozzleclogfree/releases/download/v2.9.4/NozzleClogFree.dmg)
+👉 [NozzleClogFree (.dmg)](https://github.com/simonwan1980/nozzleclogfree/releases/download/v2.9.6/NozzleClogFree.dmg)
