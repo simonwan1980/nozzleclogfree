@@ -3,28 +3,28 @@
     <channel>
         <title>NozzleClogFree</title>
         <item>
+            <title>2.9.8</title>
+            <pubDate>Fri, 08 May 2026 14:50:47 +0800</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>2.9.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.dmg" length="4302431" type="application/octet-stream" sparkle:edSignature="2uDH7vOwRX2MCu9/00AxpkWhyNqZNPf58hh9W44IkyQHDvX1z5riuqGUCuS4JXSiciFnNPgtv4ULy6bTvnoHDA=="/>
+        </item>
+        <item>
+            <title>2.9.7</title>
+            <pubDate>Thu, 07 May 2026 17:28:22 +0800</pubDate>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>2.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.dmg" length="4302849" type="application/octet-stream" sparkle:edSignature="qjmjQOz+U7Wc7ZTO399H7A3HIRmERh+K4LG6GNNyjjDEwgrcU9xq06UPxcUzzq8BKUqhXIuHfhJKHgn4Bd42CA=="/>
+        </item>
+        <item>
             <title>2.9.6</title>
             <pubDate>Thu, 07 May 2026 16:56:50 +0800</pubDate>
             <sparkle:version>97</sparkle:version>
             <sparkle:shortVersionString>2.9.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
             <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4182014" type="application/octet-stream" sparkle:edSignature="F6v75yz9KO8ABTjQTfl2n9FUB6q88bFVWmHvjlJrMvO6348sbqLRngybSYjDgGgmdl3R2CKzdh152Prb5ylgCA=="/>
-        </item>
-        <item>
-            <title>2.9.5</title>
-            <pubDate>Thu, 07 May 2026 16:44:48 +0800</pubDate>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>2.9.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4182012" type="application/octet-stream" sparkle:edSignature="JH+pV2+9HtltzZwpx/ylb1lhHWnoSHuY+a87H6a5lBBuafzZnU3cyZl9IrQi6VlzHgM2t/Y2WibvY1Ops6GADg=="/>
-        </item>
-        <item>
-            <title>2.9.5</title>
-            <pubDate>Tue, 22 Jul 2025 22:16:27 +0800</pubDate>
-            <sparkle:version>95</sparkle:version>
-            <sparkle:shortVersionString>2.9.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-            <enclosure url="https://simonwan1980.github.io/nozzleclogfree/res/NozzleClogFree.zip" length="4047954" type="application/octet-stream" sparkle:edSignature="RXMRF41C72VCaeNNxFcKQuVXgvD6/tivmfrZxUCjy7XzbjyVTm9UqRz/rUJaE9Dl19u+iSgtXVW4jAK45tWgAA=="/>
         </item>
     </channel>
 </rss>
